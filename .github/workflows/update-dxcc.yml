@@ -4,8 +4,8 @@ permissions:
   contents: write
 
 on:
-  #  schedule:
-  #  - cron: '0 2 * * *' # Execute daily at UTC 02:00 AM
+  schedule:
+   - cron: '0 2 * * *' # Execute daily at UTC 02:00 AM
   workflow_dispatch: # Support manual trigger
     inputs:
       full_update:
