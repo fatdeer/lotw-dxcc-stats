@@ -19,13 +19,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout main branch
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           path: main
 
       - name: Checkout stats branch for data
         id: sync_data
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           ref: stats
           path: main/local-data
