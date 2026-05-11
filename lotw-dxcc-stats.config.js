@@ -9,6 +9,16 @@ export default {
   queryTimeout: 60000,
   queryInterval: 0, // 改为 1 表示1小时间隔
 
+  // LoTW 查询参数开关 - 设为 false 可减小 ADIF 文件体积
+  // 注意：qsoQslDetail 需要保持为 true，项目依赖其返回的 APP_LoTW_RXQSL / APP_LoTW_QSL_RCVD 字段
+  qsoQslDetail: true, // 是否请求 QSL 详细信息（含 QSL 接收时间等，统计增量更新必需）
+  qsoMyDetail: false, // 是否请求己方详细信息（含 MY_GRIDSQUARE / MY_CQ_ZONE 等，默认关闭以减小文件）
+
+  // 在保存 ADIF 文件前剥离这些字段，进一步减小文件体积（字段名不区分大小写）
+  // 注意：不要把增量更新依赖的字段放入此列表，例如：
+  //   APP_LoTW_QSO_TIMESTAMP / APP_LoTW_RXQSL / APP_LoTW_QSL_RCVD / QSL_RCVD / DXCC
+  excludeADIFFields: ["APP_LoTW_CQZ", "APP_LoTW_ITUZ"],
+
   // 新增超时重试配置
   retryConfig: {
     maxRetries: 3, // 最大重试次数

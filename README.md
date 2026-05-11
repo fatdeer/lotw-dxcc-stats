@@ -18,6 +18,7 @@ This is an amateur radio LoTW DXCC statistics tool that automatically fetches an
 - 🔒 **Private Data Protection**: Support private repository deployment to protect personal LoTW credentials
 - 📈 **Badge Support**: Generate data interfaces compatible with shields.io
 - 🚀 **High Performance Processing**: Optimized ADIF parsing algorithms supporting large file processing
+- 📉 **Configurable ADIF Slimming**: Disable optional LoTW detail flags and strip unused fields (e.g. `APP_LoTW_CQZ`, `APP_LoTW_ITUZ`) to significantly reduce the size of `lotwQso.adif`
 
 ## How to Use?
 
@@ -50,6 +51,16 @@ export default {
   qsoBeginDate: "2018-01-01",
   queryTimeout: 60000,
   queryInterval: 0,
+
+  // LoTW query detail switches - set to false to reduce ADIF file size
+  // Note: qsoQslDetail MUST remain true, the project depends on APP_LoTW_RXQSL / APP_LoTW_QSL_RCVD
+  qsoQslDetail: true,  // Request QSL detail fields (required for incremental updates)
+  qsoMyDetail: false,  // Request your own station detail fields (MY_GRIDSQUARE / MY_CQ_ZONE etc.), off by default to shrink the file
+
+  // Strip these ADIF fields before saving to reduce file size (case-insensitive)
+  // Do NOT include fields required by incremental updates, e.g.:
+  //   APP_LoTW_QSO_TIMESTAMP / APP_LoTW_RXQSL / APP_LoTW_QSL_RCVD / QSL_RCVD / DXCC
+  excludeADIFFields: ["APP_LoTW_CQZ", "APP_LoTW_ITUZ"],
 
   // Retry configuration for LoTW request timeout handling
   retryConfig: {
