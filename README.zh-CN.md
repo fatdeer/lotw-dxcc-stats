@@ -18,6 +18,7 @@
 - 🔒 **私密数据保护**：支持私有仓库部署，保护个人 LoTW 凭据安全
 - 📈 **徽章支持**：生成可用于 shields.io 的数据接口
 - 🚀 **高性能处理**：优化的 ADIF 解析算法，支持大文件处理
+- 📉 **ADIF 文件瘦身**：可配置关闭不必要的 LoTW detail 开关，并在保存前剥离无用字段（如 `APP_LoTW_CQZ`、`APP_LoTW_ITUZ`），显著减小 `lotwQso.adif` 体积
 
 ## 如何使用？
 
@@ -50,6 +51,16 @@ export default {
   qsoBeginDate: "2018-01-01", // 所有通联记录的起始日期
   queryTimeout: 60000, // 查询LoTW的超时设置
   queryInterval: 0, // 查询LoTW的间隔小时，0表示不设置间隔
+
+  // LoTW 查询 detail 开关 - 设为 false 可减小 ADIF 文件体积
+  // 注意：qsoQslDetail 必须保持为 true，项目依赖 APP_LoTW_RXQSL / APP_LoTW_QSL_RCVD 字段
+  qsoQslDetail: true,  // 是否请求 QSL 详细信息（增量更新必需）
+  qsoMyDetail: false,  // 是否请求己方详细信息（MY_GRIDSQUARE / MY_CQ_ZONE 等），默认关闭以减小文件体积
+
+  // 在保存 ADIF 文件前剥离这些字段，进一步减小文件体积（字段名不区分大小写）
+  // 注意：不要把增量更新依赖的字段放入此列表，例如：
+  //   APP_LoTW_QSO_TIMESTAMP / APP_LoTW_RXQSL / APP_LoTW_QSL_RCVD / QSL_RCVD / DXCC
+  excludeADIFFields: ["APP_LoTW_CQZ", "APP_LoTW_ITUZ"],
 
   // 对LoTW请求的超时重试配置
   retryConfig: {
