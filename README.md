@@ -137,6 +137,8 @@ local-data/
 
 Each callsign maintains its own incremental-update timestamps, so QSO/QSL counts and DXCC totals are tracked independently. Failures on one callsign do not block updates for the others.
 
+> **Path-unsafe characters in callsigns**: callsigns containing `/`, `\`, `:`, `*`, `?`, `"`, `<`, `>`, or `|` (e.g. `BD4VOJ/QRP`) are still queried verbatim from LoTW, but the directory name is sanitized by replacing those characters with `_`. So `BD4VOJ/QRP` lives under `local-data/BD4VOJ_QRP/`.
+
 You can also restrict a single run to one callsign with the CLI flag:
 
 ```bash

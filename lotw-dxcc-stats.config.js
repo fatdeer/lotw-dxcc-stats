@@ -13,8 +13,9 @@ export default {
   //   local-data/<CALLSIGN>/lotwDxcc.json
   //   local-data/<CALLSIGN>/lotwQso.adif
   // 留空（[]）或不设置时，按 LOTW_USERNAME 单呼号模式工作（向后兼容）
-  // 例如：callsigns: ["BG6LH", "BD6KU"]
-  callsigns: [],
+  // 含路径不安全字符（如 '/'）的呼号会被映射为安全的目录名（'/' -> '_'）：
+  //   BD4VOJ/QRP -> 子目录 BD4VOJ_QRP/
+  callsigns: ["BD4VOJ", "BD4VOJ/QRP"],
 
   // LoTW 查询参数开关 - 设为 false 可减小 ADIF 文件体积
   // 注意：qsoQslDetail 需要保持为 true，项目依赖其返回的 APP_LoTW_RXQSL / APP_LoTW_QSL_RCVD 字段
