@@ -59,7 +59,7 @@ jobs:
         run: |
           cd main/local-data
           # 多呼号场景下数据存放在 <callsign>/ 子目录里，因此递归搜索数据文件
-          if [ ! "$(find . -type f \( -name '*.json' -o -name '*.adif' -o -name '*.adi' -o -name '*.txt' -o -name '*.md' \) ! -path './.git/*' 2>/dev/null)" ]; then
+          if [ ! "$(find . -type f \( -name '*.json' -o -name '*.adif' -o -name '*.adi' -o -name '*.txt' -o -name '*.md' -o -name '*.svg' \) ! -path './.git/*' 2>/dev/null)" ]; then
             echo "No data files to deploy."
             exit 0
           fi
@@ -78,12 +78,15 @@ jobs:
           find . -maxdepth 2 -type f ! -name 'README.md' ! -path './.git/*' \
             | sed 's|^\./|- |' >> README.md 2>/dev/null || true
           echo "" >> README.md
-          # 嵌入每个呼号的 DXCC 增长图（如果存在）
-          for chart in $(find . -maxdepth 2 -name 'lotwDxccGrowth.md' | sort); do
+          # 嵌入每个呼号的 DXCC 增长图（SVG 图片引用）
+          for chart in $(find . -maxdepth 2 -name 'lotwDxccGrowth.svg' | sort); do
+            callsign_dir=$(dirname "$chart" | sed 's|^\./||')
             echo "" >> README.md
             echo "---" >> README.md
             echo "" >> README.md
-            cat "$chart" >> README.md
+            echo "## DXCC Growth — ${callsign_dir}" >> README.md
+            echo "" >> README.md
+            echo "![DXCC Growth Chart](${chart})" >> README.md
             echo "" >> README.md
           done
           git add .
