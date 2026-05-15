@@ -20,6 +20,7 @@
 - 🚀 **高性能处理**：优化的 ADIF 解析算法，支持大文件处理
 - 📉 **ADIF 文件瘦身**：可配置关闭不必要的 LoTW detail 开关，并在保存前剥离无用字段（如 `APP_LoTW_CQZ`、`APP_LoTW_ITUZ`），显著减小 `lotwQso.adif` 体积
 - 📡 **多呼号支持**：在同一个 LoTW 账户下分别跟踪多个呼号，每个呼号有独立子目录、独立增量时间戳和 Shields.io 徽章 URL
+- 📋 **按模式分桶的已确认实体明细**：在统计 JSON 旁边额外生成 `lotwDxccDetails.json` 和 `lotwDxccDetails.md`，列出每个已确认 DXCC 实体（含名称）以及完成确认所对应的对方呼号、频段、模式、通联时间、QSL 时间，按 QSL 时间升序排序，分 Mixed / Phone / CW / Digital 四个桶
 
 ## 如何使用？
 
@@ -145,6 +146,24 @@ local-data/
 ```bash
 node ./bin/update-stats --callsign BG6LH
 ```
+
+### 按模式分桶的已确认实体明细表
+
+除了 `lotwDxcc.json` 之外，每次更新还会在**每个呼号目录**下额外生成两份文件：
+
+- `lotwDxccDetails.json` — 给程序消费的结构化视图，顶层是 `{ callsign, last_updated, summary, by_mode }`，其中 `by_mode` 有 `mixed` / `phone` / `cw` / `digital` 四个数组。每条记录包含 `dxcc`（编号）、`entity`（实体名称）、`callsign`（对方呼号）、`mode`、`band`、`qso_date`、`qso_time`、`qsl_received`。
+- `lotwDxccDetails.md` — 人类可读的 Markdown 报告：顶部一个 "Summary by Mode" 概览表，下面是四个明细表（每种模式各一），**按 QSL 接收时间升序**排序，所以每张表的第 1 行就是该模式下**第一个被确认的 DXCC 实体**。
+
+模式分桶根据每条 QSO 的 ADIF `MODE`/`SUBMODE` 字段判定：
+
+| 桶 | 包含的模式 |
+|---|---|
+| Mixed | 全部已 QSL 的 QSO（不区分模式） |
+| Phone | SSB / AM / FM / USB / LSB / DSB / ISB / FAX |
+| CW | CW |
+| Digital | FT8 / FT4 / RTTY / PSK 系列 / JT* / MFSK / OLIVIA / MSK144 / Q65 / VARA / WSPR 等 |
+
+DXCC 实体名称来自项目内置的 `schemas/dxcc-entities.json`；未识别的编号会显示为 `DXCC #<编号>`。
 
 ## Github部署，自动更新
 

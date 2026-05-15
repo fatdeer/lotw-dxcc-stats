@@ -20,6 +20,7 @@ This is an amateur radio LoTW DXCC statistics tool that automatically fetches an
 - 🚀 **High Performance Processing**: Optimized ADIF parsing algorithms supporting large file processing
 - 📉 **Configurable ADIF Slimming**: Disable optional LoTW detail flags and strip unused fields (e.g. `APP_LoTW_CQZ`, `APP_LoTW_ITUZ`) to significantly reduce the size of `lotwQso.adif`
 - 📡 **Multi-Callsign Support**: Track multiple callsigns under one LoTW account in independent subdirectories, each with its own incremental update timestamps and Shields.io badge URLs
+- 📋 **Per-Mode Confirmed Entity Tables**: Generate `lotwDxccDetails.json` and `lotwDxccDetails.md` next to the regular stats — listing every confirmed DXCC entity (with name) and the worked callsign / band / mode / QSO date / QSL date that earned it, sorted by QSL received date and split into Mixed / Phone / CW / Digital buckets
 
 ## How to Use?
 
@@ -144,6 +145,24 @@ You can also restrict a single run to one callsign with the CLI flag:
 ```bash
 node ./bin/update-stats --callsign BG6LH
 ```
+
+### Per-Mode Confirmed Entity Tables
+
+In addition to `lotwDxcc.json`, every run also writes two extra files **per callsign directory**:
+
+- `lotwDxccDetails.json` — programmatic view, structured as `{ callsign, last_updated, summary, by_mode }` where `by_mode` has four arrays: `mixed`, `phone`, `cw`, `digital`. Each item contains `dxcc`, `entity` (name), `callsign` (the worked station), `mode`, `band`, `qso_date`, `qso_time`, `qsl_received`.
+- `lotwDxccDetails.md` — human-readable Markdown with a top "Summary by Mode" table, followed by four detail tables — one per mode bucket — sorted by **QSL received date** ascending, so row 1 in each table is the very first DXCC entity confirmed in that mode bucket.
+
+Mode buckets are derived from each QSO's ADIF `MODE`/`SUBMODE`:
+
+| Bucket | Captures |
+|--------|----------|
+| Mixed | every QSL-confirmed QSO (regardless of mode) |
+| Phone | SSB / AM / FM / USB / LSB / DSB / ISB / FAX |
+| CW | CW |
+| Digital | FT8 / FT4 / RTTY / PSK family / JT* / MFSK / OLIVIA / MSK144 / Q65 / VARA / WSPR / etc. |
+
+DXCC entity names come from the bundled `schemas/dxcc-entities.json`; unknown IDs fall back to `DXCC #<id>`.
 
 ## GitHub Deployment for Automatic Updates
 
