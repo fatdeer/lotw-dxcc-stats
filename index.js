@@ -52,10 +52,27 @@ export async function createConfigContext(options = {}) {
   const finalDataPath =
     process.env.STATS_DATA_PATH || mergedConfig.localDataPath;
 
+  // 多呼号支持：当 callsign 选项存在时，所有数据放到该呼号子目录下
+  // 这样可以让每个呼号有独立的 ADIF / JSON / 备份文件
+  //
+  // 呼号可能含有路径不安全字符（如 BD4VOJ/QRP 中的 '/'）。这里区分两种用途：
+  //   - callsign：保留原始大写值，用作 LoTW API 的 qso_owncall 查询参数
+  //   - callsignDirName：替换路径不安全字符后的版本，用于文件系统目录名
+  const rootBasePath = path.resolve(process.cwd(), finalDataPath);
+  const callsign = mergedConfig.callsign
+    ? String(mergedConfig.callsign).toUpperCase()
+    : null;
+  const callsignDirName = callsign
+    ? callsign.replace(/[\/\\:*?"<>|]/g, "_")
+    : null;
+  const basePath = callsignDirName
+    ? path.resolve(rootBasePath, callsignDirName)
+    : rootBasePath;
+
   // 预计算所有文件路径
-  const basePath = path.resolve(process.cwd(), finalDataPath);
   const paths = {
     dataDir: basePath,
+    rootDataDir: rootBasePath,
     adifFile: path.resolve(basePath, mergedConfig.qsoDataFile),
     jsonFile: path.resolve(basePath, mergedConfig.lotwDataFile),
     // 备份文件路径生成函数
@@ -82,6 +99,8 @@ export async function createConfigContext(options = {}) {
       switch (type) {
         case "data":
           return paths.dataDir;
+        case "rootData":
+          return paths.rootDataDir;
         case "adif":
           return paths.adifFile;
         case "json":
@@ -90,6 +109,13 @@ export async function createConfigContext(options = {}) {
           throw new Error(`未知的路径类型: ${type}`);
       }
     },
+
+    // 当前呼号（多呼号模式下使用），未指定时为 null
+    getCallsign: () => callsign,
+
+    // 当前呼号在文件系统中使用的安全目录名（路径不安全字符已被替换为 '_'）
+    // 例如：BD4VOJ/QRP -> BD4VOJ_QRP
+    getCallsignDirName: () => callsignDirName,
 
     // 创建备份路径
     createBackupPath: (timestamp = Date.now()) =>
