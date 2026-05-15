@@ -8,6 +8,66 @@ import dotenv from "dotenv";
 // 加载环境变量
 dotenv.config();
 
+/**
+ * 加载配置以读取呼号列表
+ * 注意：这是一次轻量级读取，仅为决定要循环处理哪些呼号
+ */
+async function loadConfigForCallsignList() {
+  const ctx = await createConfigContext({});
+  return ctx.config;
+}
+
+/**
+ * 打印单次（增量或全量）更新的统计输出
+ */
+function printStats(result, label = "") {
+  if (!result) return;
+
+  const prefix = label ? `[${label}] ` : "";
+
+  if (result.incrementalStats) {
+    const { newQSOs, newQSLs, newDXCCs } = result.incrementalStats;
+    console.log(`\n=== ${prefix}This Incremental Update ===`);
+
+    const fmt = (n) => (n > 0 ? `+${n}` : n < 0 ? String(n) : "0");
+    console.log(`New QSOs: ${fmt(newQSOs)}`);
+    console.log(`New QSLs: ${fmt(newQSLs)}`);
+    console.log(`New DXCCs: ${fmt(newDXCCs)}`);
+  }
+
+  console.log("");
+  console.log(`=== ${prefix}Total Statistics ===`);
+  console.log(`Total QSOs: ${result.total_qso || 0}`);
+  console.log(`Total QSLs: ${result.total_qsl || 0}`);
+  console.log(`Confirmed DXCCs: ${result.dxcc_confirmed || 0}`);
+}
+
+/**
+ * 处理单个呼号的更新
+ */
+async function updateOneCallsign({
+  callsign,
+  username,
+  password,
+  cliOverrides,
+  fullUpdate,
+}) {
+  // 为每个呼号创建独立的 configContext（带 callsign）
+  const configOverrides = { ...cliOverrides };
+  if (callsign) configOverrides.callsign = callsign;
+
+  const configContext = await createConfigContext(configOverrides);
+
+  const result = await updateDXCCData({
+    username,
+    password,
+    configContext,
+    options: { full: fullUpdate },
+  });
+
+  return result;
+}
+
 program
   .name("update-stats")
   .description("Update DXCC data from LoTW")
@@ -15,6 +75,10 @@ program
   .option("-p, --password <password>", "LoTW password")
   .option("-f, --full", "Force full update")
   .option("--qso-begin-date <date>", "QSO begin date (YYYY-MM-DD)")
+  .option(
+    "-c, --callsign <callsign>",
+    "Update only this callsign (overrides callsigns config)",
+  )
   .action(async (options) => {
     try {
       console.log("[LoTW-DXCC] Starting DXCC data update...");
@@ -32,70 +96,86 @@ program
         process.exit(1);
       }
 
-      // 创建配置上下文 - 使用工厂函数策略
-      const configOverrides = {};
+      // 决定要处理哪些呼号
+      let callsignsToProcess = [];
+
+      if (options.callsign) {
+        // CLI 显式指定单个呼号 — 优先级最高
+        callsignsToProcess = [options.callsign];
+      } else {
+        const config = await loadConfigForCallsignList();
+        if (
+          Array.isArray(config.callsigns) &&
+          config.callsigns.length > 0
+        ) {
+          callsignsToProcess = config.callsigns;
+        } else {
+          // 未配置 callsigns —— 按单呼号模式（兼容旧行为，使用 username 作为呼号）
+          callsignsToProcess = [null]; // null 表示不进入子目录、qso_owncall 用 username
+        }
+      }
+
+      const cliOverrides = {};
       if (options.qsoBeginDate)
-        configOverrides.qsoBeginDate = options.qsoBeginDate;
+        cliOverrides.qsoBeginDate = options.qsoBeginDate;
 
-      const configContext = await createConfigContext(configOverrides);
+      const fullUpdate = options.full;
 
-      // 准备更新选项
-      const updateOptions = {
-        full: options.full, // 改为 full
-      };
+      // 多呼号循环
+      const summary = [];
+      let hadFailure = false;
 
-      // 调用更新函数 - 使用新的参数格式
-      const result = await updateDXCCData({
-        username,
-        password,
-        configContext,
-        options: updateOptions,
-      });
+      for (const callsign of callsignsToProcess) {
+        const label = callsign || username;
+        console.log(
+          `\n========== Updating callsign: ${label} ==========`,
+        );
 
-      console.log("[LoTW-DXCC] DXCC data update completed successfully!");
+        try {
+          const result = await updateOneCallsign({
+            callsign,
+            username,
+            password,
+            cliOverrides,
+            fullUpdate,
+          });
+          printStats(result, label);
+          summary.push({ callsign: label, ok: true, result });
+        } catch (err) {
+          hadFailure = true;
+          console.error(
+            `[LoTW-DXCC] Error updating callsign ${label}: ${err.message}`,
+          );
+          summary.push({ callsign: label, ok: false, error: err.message });
+          // 继续处理其他呼号
+        }
+      }
 
-      if (result) {
-        // 显示增量更新统计
-        if (result.incrementalStats) {
-          const { newQSOs, newQSLs, newDXCCs } = result.incrementalStats;
-          console.log("\n=== This Incremental Update ===");
-
-          // 显示QSO变化
-          if (newQSOs > 0) {
-            console.log(`New QSOs: +${newQSOs}`);
-          } else if (newQSOs < 0) {
-            console.log(`Reduced QSOs: ${newQSOs}`);
+      // 多呼号汇总
+      if (callsignsToProcess.length > 1) {
+        console.log("\n========== Multi-Callsign Summary ==========");
+        for (const item of summary) {
+          if (item.ok) {
+            const r = item.result;
+            console.log(
+              `${item.callsign}: QSO=${r?.total_qso || 0}, QSL=${r?.total_qsl || 0}, DXCC=${r?.dxcc_confirmed || 0}`,
+            );
           } else {
-            console.log(`New QSOs: 0`);
-          }
-
-          // 显示QSL变化
-          if (newQSLs > 0) {
-            console.log(`New QSLs: +${newQSLs}`);
-          } else if (newQSLs < 0) {
-            console.log(`Reduced QSLs: ${newQSLs}`);
-          } else {
-            console.log(`New QSLs: 0`);
-          }
-
-          // 显示DXCC变化
-          if (newDXCCs > 0) {
-            console.log(`New DXCCs: +${newDXCCs}`);
-          } else if (newDXCCs < 0) {
-            console.log(`Reduced DXCCs: ${newDXCCs}`);
-          } else {
-            console.log(`New DXCCs: 0`);
+            console.log(`${item.callsign}: FAILED — ${item.error}`);
           }
         }
-
-        console.log("");
-
-        // 显示总计统计
-        console.log("=== Total Statistics ===");
-        console.log(`Total QSOs: ${result.total_qso || 0}`);
-        console.log(`Total QSLs: ${result.total_qsl || 0}`);
-        console.log(`Confirmed DXCCs: ${result.dxcc_confirmed || 0}`);
       }
+
+      if (hadFailure) {
+        console.error(
+          "[LoTW-DXCC] One or more callsigns failed to update. See logs above.",
+        );
+        process.exit(2);
+      }
+
+      console.log(
+        "\n[LoTW-DXCC] DXCC data update completed successfully!",
+      );
     } catch (error) {
       console.error("Error updating DXCC data:", error.message);
       process.exit(1);

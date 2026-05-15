@@ -19,6 +19,7 @@
 - 📈 **徽章支持**：生成可用于 shields.io 的数据接口
 - 🚀 **高性能处理**：优化的 ADIF 解析算法，支持大文件处理
 - 📉 **ADIF 文件瘦身**：可配置关闭不必要的 LoTW detail 开关，并在保存前剥离无用字段（如 `APP_LoTW_CQZ`、`APP_LoTW_ITUZ`），显著减小 `lotwQso.adif` 体积
+- 📡 **多呼号支持**：在同一个 LoTW 账户下分别跟踪多个呼号，每个呼号有独立子目录、独立增量时间戳和 Shields.io 徽章 URL
 
 ## 如何使用？
 
@@ -51,6 +52,12 @@ export default {
   qsoBeginDate: "2018-01-01", // 所有通联记录的起始日期
   queryTimeout: 60000, // 查询LoTW的超时设置
   queryInterval: 0, // 查询LoTW的间隔小时，0表示不设置间隔
+
+  // 多呼号支持：填写后会为每个呼号生成独立的子目录
+  //   local-data/<CALLSIGN>/lotwDxcc.json
+  //   local-data/<CALLSIGN>/lotwQso.adif
+  // 留空（[]）按 LOTW_USERNAME 单呼号模式工作（向后兼容）
+  callsigns: [],  // 例如 ["BG6LH", "BD6KU"]
 
   // LoTW 查询 detail 开关 - 设为 false 可减小 ADIF 文件体积
   // 注意：qsoQslDetail 必须保持为 true，项目依赖 APP_LoTW_RXQSL / APP_LoTW_QSL_RCVD 字段
@@ -113,6 +120,28 @@ local-data/
 ├── lotwQsl.adif     # 截至最后一次统计时，全部的QSO、QSL记录
 └── lotwQso_<timestamp>.bak.adif # 最后一次统计的备份数据。
 
+```
+
+### 多呼号输出结构
+
+当你在配置中填写 `callsigns: ["BG6LH", "BD6KU"]` 时，工具会**为每个呼号单独查询 LoTW**（通过 `qso_owncall` 过滤），并将输出写入对应的子目录：
+
+```bash
+local-data/
+├── BG6LH/
+│   ├── lotwDxcc.json
+│   └── lotwQso.adif
+└── BD6KU/
+    ├── lotwDxcc.json
+    └── lotwQso.adif
+```
+
+每个呼号都有独立的增量时间戳，因此 QSO/QSL/DXCC 统计互不干扰。某个呼号更新失败不会影响其他呼号继续处理。
+
+也可以通过命令行只更新一个呼号：
+
+```bash
+node ./bin/update-stats --callsign BG6LH
 ```
 
 ## Github部署，自动更新
@@ -223,6 +252,18 @@ README.md         # 说明文件
 <!-- QSL 确认数徽章 -->
 
 ![LoTW QSLs](https://img.shields.io/badge/dynamic/json?label=LoTW%20QSL&url=https://bg6lh.github.io/js/lotwDxcc.json&query=total_qsl)
+```
+
+启用**多呼号模式**后，把上面 URL 中的 `lotwDxcc.json` 替换为 `stats` 分支下的呼号子路径：
+
+```markdown
+<!-- BG6LH DXCC 确认数徽章 -->
+
+![BG6LH DXCC](https://img.shields.io/badge/dynamic/json?label=BG6LH%20DXCC&url=https://raw.githubusercontent.com/<owner>/<repo>/stats/BG6LH/lotwDxcc.json&query=dxcc_confirmed)
+
+<!-- BD6KU DXCC 确认数徽章 -->
+
+![BD6KU DXCC](https://img.shields.io/badge/dynamic/json?label=BD6KU%20DXCC&url=https://raw.githubusercontent.com/<owner>/<repo>/stats/BD6KU/lotwDxcc.json&query=dxcc_confirmed)
 ```
 
 ## ⭐ 支持项目
