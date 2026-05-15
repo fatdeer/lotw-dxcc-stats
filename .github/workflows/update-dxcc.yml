@@ -59,7 +59,7 @@ jobs:
         run: |
           cd main/local-data
           # 多呼号场景下数据存放在 <callsign>/ 子目录里，因此递归搜索数据文件
-          if [ ! "$(find . -type f \( -name '*.json' -o -name '*.adif' -o -name '*.adi' -o -name '*.txt' \) ! -path './.git/*' 2>/dev/null)" ]; then
+          if [ ! "$(find . -type f \( -name '*.json' -o -name '*.adif' -o -name '*.adi' -o -name '*.txt' -o -name 'lotwDxccDetails.md' \) ! -path './.git/*' 2>/dev/null)" ]; then
             echo "No data files to deploy."
             exit 0
           fi
