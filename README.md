@@ -1,8 +1,8 @@
 # LoTW DXCC Stats
 
-![DXCC Confirmed](https://img.shields.io/badge/dynamic/json?label=DXCC%20Confirmed&url=https://bg6lh.github.io/js/lotwDxcc.json&query=dxcc_confirmed)
-![LoTW QSOs](https://img.shields.io/badge/dynamic/json?label=LoTW%20QSO&url=https://bg6lh.github.io/js/lotwDxcc.json&query=total_qso)
-![LoTW QSLs](https://img.shields.io/badge/dynamic/json?label=LoTW%20QSL&url=https://bg6lh.github.io/js/lotwDxcc.json&query=total_qsl)
+![DXCC Confirmed](https://img.shields.io/badge/dynamic/json?label=DXCC%20Confirmed&url=https://raw.githubusercontent.com/fatdeer/lotw-dxcc-stats/stats/lotwDxcc.json&query=dxcc_confirmed)
+![LoTW QSOs](https://img.shields.io/badge/dynamic/json?label=LoTW%20QSO&url=https://raw.githubusercontent.com/fatdeer/lotw-dxcc-stats/stats/lotwDxcc.json&query=total_qso)
+![LoTW QSLs](https://img.shields.io/badge/dynamic/json?label=LoTW%20QSL&url=https://raw.githubusercontent.com/fatdeer/lotw-dxcc-stats/stats/lotwDxcc.json&query=total_qsl)
 
 Above are my [Logbook of the World (LoTW)](https://lotw.arrl.org) DXCC statistics badges. If you want to have your own set, you can try my project.
 
