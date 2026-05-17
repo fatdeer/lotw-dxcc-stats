@@ -27,11 +27,12 @@ export default {
   //   APP_LoTW_QSO_TIMESTAMP / APP_LoTW_RXQSL / APP_LoTW_QSL_RCVD / QSL_RCVD / DXCC
   excludeADIFFields: ["APP_LoTW_CQZ", "APP_LoTW_ITUZ"],
 
-  // 新增超时重试配置
+  // 超时重试配置
   retryConfig: {
-    maxRetries: 3, // 最大重试次数
-    baseDelay: 5000, // 基础延迟时间（毫秒）
+    maxRetries: 4, // 最大重试次数（含首次请求共 4 次尝试）
+    retryDelays: [300000, 600000, 1200000], // 重试间隔：5分钟、10分钟、20分钟
     retryOn503: true, // 是否对503错误重试
     retryOnTimeout: true, // 是否对超时错误重试
+    retryOnConnectionError: true, // 是否对 ECONNRESET/socket hang up 等连接错误重试
   },
 };
