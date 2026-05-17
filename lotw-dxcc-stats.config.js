@@ -23,8 +23,8 @@ export default {
   qsoMyDetail: false, // 是否请求己方详细信息（含 MY_GRIDSQUARE / MY_CQ_ZONE 等，默认关闭以减小文件）
 
   // 在保存 ADIF 文件前剥离这些字段，进一步减小文件体积（字段名不区分大小写）
-  // 注意：不要把增量更新依赖的字段放入此列表，例如：
-  //   APP_LoTW_QSO_TIMESTAMP / APP_LoTW_RXQSL / APP_LoTW_QSL_RCVD / QSL_RCVD / DXCC
+  // 注意：不要把增量更新和统计依赖的字段放入此列表，例如：
+  //   APP_LoTW_QSO_TIMESTAMP / APP_LoTW_RXQSL / APP_LoTW_QSL_RCVD / QSL_RCVD / DXCC / COUNTRY
   excludeADIFFields: ["APP_LoTW_CQZ", "APP_LoTW_ITUZ"],
 
   // 超时重试配置
