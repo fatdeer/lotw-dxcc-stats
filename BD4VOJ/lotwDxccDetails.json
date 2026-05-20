@@ -1,0 +1,5440 @@
+{
+  "callsign": "BD4VOJ",
+  "last_updated": "2026-05-20T06:09:39.014Z",
+  "summary": {
+    "mixed": 210,
+    "phone": 54,
+    "cw": 68,
+    "digital": 210
+  },
+  "by_mode": {
+    "mixed": [
+      {
+        "dxcc": 100,
+        "entity": "ARGENTINA",
+        "callsign": "LW3DMA",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-02-18",
+        "qso_time": "092130",
+        "qsl_received": "2023-02-23 04:46:14"
+      },
+      {
+        "dxcc": 318,
+        "entity": "CHINA",
+        "callsign": "BD4TZY",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-02-18",
+        "qso_time": "100845",
+        "qsl_received": "2023-02-23 04:46:14"
+      },
+      {
+        "dxcc": 108,
+        "entity": "BRAZIL",
+        "callsign": "PU2VLW",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-02-19",
+        "qso_time": "081730",
+        "qsl_received": "2023-02-23 05:24:38"
+      },
+      {
+        "dxcc": 54,
+        "entity": "EUROPEAN RUSSIA",
+        "callsign": "RY7G",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-02-25",
+        "qso_time": "120930",
+        "qsl_received": "2023-02-25 19:11:20"
+      },
+      {
+        "dxcc": 296,
+        "entity": "SERBIA",
+        "callsign": "YT3PL",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-02-26",
+        "qso_time": "085545",
+        "qsl_received": "2023-02-26 13:38:26"
+      },
+      {
+        "dxcc": 130,
+        "entity": "KAZAKHSTAN",
+        "callsign": "UN7BY",
+        "mode": "FT8",
+        "band": "17M",
+        "qso_date": "2023-02-26",
+        "qso_time": "101400",
+        "qsl_received": "2023-02-26 13:38:27"
+      },
+      {
+        "dxcc": 206,
+        "entity": "AUSTRIA",
+        "callsign": "OE3FVU",
+        "mode": "FT8",
+        "band": "12M",
+        "qso_date": "2023-02-26",
+        "qso_time": "075030",
+        "qsl_received": "2023-02-26 19:24:36"
+      },
+      {
+        "dxcc": 269,
+        "entity": "POLAND",
+        "callsign": "SP3JHZ",
+        "mode": "FT8",
+        "band": "17M",
+        "qso_date": "2023-02-26",
+        "qso_time": "101915",
+        "qsl_received": "2023-02-27 01:42:41"
+      },
+      {
+        "dxcc": 386,
+        "entity": "TAIWAN",
+        "callsign": "BX6ABC",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-02-26",
+        "qso_time": "093845",
+        "qsl_received": "2023-02-27 03:17:47"
+      },
+      {
+        "dxcc": 137,
+        "entity": "REPUBLIC OF KOREA",
+        "callsign": "6K5ZMN",
+        "mode": "SSB",
+        "band": "20M",
+        "qso_date": "2023-02-19",
+        "qso_time": "072000",
+        "qsl_received": "2023-02-27 12:57:44"
+      },
+      {
+        "dxcc": 375,
+        "entity": "PHILIPPINES",
+        "callsign": "DU3CQ",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2023-02-25",
+        "qso_time": "130618",
+        "qsl_received": "2023-02-27 16:12:20"
+      },
+      {
+        "dxcc": 225,
+        "entity": "SARDINIA",
+        "callsign": "IS0KNG",
+        "mode": "FT8",
+        "band": "17M",
+        "qso_date": "2023-02-26",
+        "qso_time": "101630",
+        "qsl_received": "2023-02-28 05:06:07"
+      },
+      {
+        "dxcc": 339,
+        "entity": "JAPAN",
+        "callsign": "JA5CDL",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-02-18",
+        "qso_time": "093030",
+        "qsl_received": "2023-03-01 01:03:58"
+      },
+      {
+        "dxcc": 176,
+        "entity": "FIJI ISLANDS",
+        "callsign": "3D2MP",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-02-26",
+        "qso_time": "104145",
+        "qsl_received": "2023-03-02 00:32:27"
+      },
+      {
+        "dxcc": 503,
+        "entity": "CZECH REPUBLIC",
+        "callsign": "OK1HEH",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-02-26",
+        "qso_time": "093500",
+        "qsl_received": "2023-03-02 03:24:15"
+      },
+      {
+        "dxcc": 327,
+        "entity": "INDONESIA",
+        "callsign": "YC1FGH",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-02-18",
+        "qso_time": "101945",
+        "qsl_received": "2023-03-05 06:40:27"
+      },
+      {
+        "dxcc": 291,
+        "entity": "UNITED STATES OF AMERICA",
+        "callsign": "K6QI",
+        "mode": "FT8",
+        "band": "40M",
+        "qso_date": "2023-03-04",
+        "qso_time": "140915",
+        "qsl_received": "2023-03-05 09:17:21"
+      },
+      {
+        "dxcc": 299,
+        "entity": "WEST MALAYSIA",
+        "callsign": "9M2DA",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-02-26",
+        "qso_time": "104730",
+        "qsl_received": "2023-03-05 10:17:59"
+      },
+      {
+        "dxcc": 103,
+        "entity": "GUAM",
+        "callsign": "WA0OII",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-03-04",
+        "qso_time": "072845",
+        "qsl_received": "2023-03-06 07:02:06"
+      },
+      {
+        "dxcc": 212,
+        "entity": "BULGARIA",
+        "callsign": "LZ2KTS",
+        "mode": "FT4",
+        "band": "10M",
+        "qso_date": "2023-03-10",
+        "qso_time": "085907",
+        "qsl_received": "2023-03-10 11:53:09"
+      },
+      {
+        "dxcc": 223,
+        "entity": "ENGLAND",
+        "callsign": "G4KHG",
+        "mode": "FT4",
+        "band": "10M",
+        "qso_date": "2023-03-10",
+        "qso_time": "093737",
+        "qsl_received": "2023-03-11 00:32:23"
+      },
+      {
+        "dxcc": 284,
+        "entity": "SWEDEN",
+        "callsign": "SM0EJR",
+        "mode": "FT4",
+        "band": "10M",
+        "qso_date": "2023-03-10",
+        "qso_time": "091945",
+        "qsl_received": "2023-03-12 10:39:44"
+      },
+      {
+        "dxcc": 321,
+        "entity": "HONG KONG",
+        "callsign": "VR2IL",
+        "mode": "FT8",
+        "band": "40M",
+        "qso_date": "2023-03-13",
+        "qso_time": "124945",
+        "qsl_received": "2023-03-14 00:02:47"
+      },
+      {
+        "dxcc": 363,
+        "entity": "MONGOLIA",
+        "callsign": "JT1DN",
+        "mode": "FT8",
+        "band": "12M",
+        "qso_date": "2023-03-11",
+        "qso_time": "101530",
+        "qsl_received": "2023-03-16 00:42:07"
+      },
+      {
+        "dxcc": 287,
+        "entity": "SWITZERLAND",
+        "callsign": "HB9TUD",
+        "mode": "FT4",
+        "band": "10M",
+        "qso_date": "2023-03-16",
+        "qso_time": "075230",
+        "qsl_received": "2023-03-16 11:32:09"
+      },
+      {
+        "dxcc": 502,
+        "entity": "NORTH MACEDONIA",
+        "callsign": "Z32BM",
+        "mode": "FT4",
+        "band": "10M",
+        "qso_date": "2023-03-16",
+        "qso_time": "075400",
+        "qsl_received": "2023-03-16 11:32:09"
+      },
+      {
+        "dxcc": 27,
+        "entity": "BELARUS",
+        "callsign": "EV1R",
+        "mode": "FT4",
+        "band": "10M",
+        "qso_date": "2023-03-16",
+        "qso_time": "082730",
+        "qsl_received": "2023-03-16 11:32:10"
+      },
+      {
+        "dxcc": 224,
+        "entity": "FINLAND",
+        "callsign": "OH1FOL",
+        "mode": "FT8",
+        "band": "12M",
+        "qso_date": "2023-03-16",
+        "qso_time": "083830",
+        "qsl_received": "2023-03-16 11:32:10"
+      },
+      {
+        "dxcc": 266,
+        "entity": "NORWAY",
+        "callsign": "LA1XJA",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2023-03-16",
+        "qso_time": "094018",
+        "qsl_received": "2023-03-16 12:37:23"
+      },
+      {
+        "dxcc": 170,
+        "entity": "NEW ZEALAND",
+        "callsign": "ZL3NB",
+        "mode": "FT4",
+        "band": "10M",
+        "qso_date": "2023-03-16",
+        "qso_time": "073923",
+        "qsl_received": "2023-03-16 22:54:23"
+      },
+      {
+        "dxcc": 209,
+        "entity": "BELGIUM",
+        "callsign": "ON7GB",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2023-03-16",
+        "qso_time": "094300",
+        "qsl_received": "2023-03-17 19:55:08"
+      },
+      {
+        "dxcc": 162,
+        "entity": "NEW CALEDONIA",
+        "callsign": "FK8HM",
+        "mode": "FT4",
+        "band": "10M",
+        "qso_date": "2023-03-18",
+        "qso_time": "001437",
+        "qsl_received": "2023-03-18 01:32:08"
+      },
+      {
+        "dxcc": 112,
+        "entity": "CHILE",
+        "callsign": "CA3TSK",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2023-03-17",
+        "qso_time": "235119",
+        "qsl_received": "2023-03-18 02:55:16"
+      },
+      {
+        "dxcc": 265,
+        "entity": "NORTHERN IRELAND",
+        "callsign": "MI0NWA",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2023-03-16",
+        "qso_time": "093345",
+        "qsl_received": "2023-03-18 16:30:35"
+      },
+      {
+        "dxcc": 462,
+        "entity": "REPUBLIC OF SOUTH AFRICA",
+        "callsign": "ZR6TM",
+        "mode": "FT8",
+        "band": "17M",
+        "qso_date": "2023-03-18",
+        "qso_time": "141045",
+        "qsl_received": "2023-03-19 01:42:47"
+      },
+      {
+        "dxcc": 236,
+        "entity": "GREECE",
+        "callsign": "SV1JSS",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-03-18",
+        "qso_time": "152747",
+        "qsl_received": "2023-03-19 01:42:48"
+      },
+      {
+        "dxcc": 324,
+        "entity": "INDIA",
+        "callsign": "VU3YDA",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-03-18",
+        "qso_time": "163405",
+        "qsl_received": "2023-03-19 01:42:48"
+      },
+      {
+        "dxcc": 390,
+        "entity": "TURKEY",
+        "callsign": "TA9J",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-03-18",
+        "qso_time": "162430",
+        "qsl_received": "2023-03-19 08:25:33"
+      },
+      {
+        "dxcc": 190,
+        "entity": "SAMOA",
+        "callsign": "5W1SA",
+        "mode": "FT4",
+        "band": "10M",
+        "qso_date": "2023-03-18",
+        "qso_time": "003922",
+        "qsl_received": "2023-03-19 22:08:46"
+      },
+      {
+        "dxcc": 279,
+        "entity": "SCOTLAND",
+        "callsign": "MM0HVU",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-03-16",
+        "qso_time": "110804",
+        "qsl_received": "2023-03-20 18:07:06"
+      },
+      {
+        "dxcc": 144,
+        "entity": "URUGUAY",
+        "callsign": "CX3DDO",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-03-13",
+        "qso_time": "112034",
+        "qsl_received": "2023-03-21 14:25:49"
+      },
+      {
+        "dxcc": 239,
+        "entity": "HUNGARY",
+        "callsign": "HG3FMZ",
+        "mode": "FT4",
+        "band": "10M",
+        "qso_date": "2023-03-16",
+        "qso_time": "082845",
+        "qsl_received": "2023-03-25 21:38:27"
+      },
+      {
+        "dxcc": 288,
+        "entity": "UKRAINE",
+        "callsign": "UR6QV",
+        "mode": "FT8",
+        "band": "17M",
+        "qso_date": "2023-03-18",
+        "qso_time": "131630",
+        "qsl_received": "2023-03-27 05:52:39"
+      },
+      {
+        "dxcc": 110,
+        "entity": "HAWAII",
+        "callsign": "KX4ES",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2023-03-25",
+        "qso_time": "034950",
+        "qsl_received": "2023-03-27 12:33:50"
+      },
+      {
+        "dxcc": 275,
+        "entity": "ROMANIA",
+        "callsign": "YO5TP",
+        "mode": "FT4",
+        "band": "10M",
+        "qso_date": "2023-03-16",
+        "qso_time": "074237",
+        "qsl_received": "2023-03-30 18:37:01"
+      },
+      {
+        "dxcc": 152,
+        "entity": "MACAO",
+        "callsign": "XX9ET",
+        "mode": "FT8",
+        "band": "30M",
+        "qso_date": "2023-03-30",
+        "qso_time": "131400",
+        "qsl_received": "2023-03-31 21:36:50"
+      },
+      {
+        "dxcc": 6,
+        "entity": "ALASKA",
+        "callsign": "NL8F",
+        "mode": "FT8",
+        "band": "30M",
+        "qso_date": "2023-03-30",
+        "qso_time": "123036",
+        "qsl_received": "2023-04-01 04:25:33"
+      },
+      {
+        "dxcc": 381,
+        "entity": "SINGAPORE",
+        "callsign": "9V1YC",
+        "mode": "FT8",
+        "band": "12M",
+        "qso_date": "2023-03-31",
+        "qso_time": "010030",
+        "qsl_received": "2023-04-01 11:12:18"
+      },
+      {
+        "dxcc": 293,
+        "entity": "VIET NAM",
+        "callsign": "3W3B",
+        "mode": "FT8",
+        "band": "17M",
+        "qso_date": "2023-03-31",
+        "qso_time": "004302",
+        "qsl_received": "2023-04-01 11:20:58"
+      },
+      {
+        "dxcc": 146,
+        "entity": "LITHUANIA",
+        "callsign": "LY3CY",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-03-18",
+        "qso_time": "145830",
+        "qsl_received": "2023-04-01 13:42:56"
+      },
+      {
+        "dxcc": 501,
+        "entity": "BOSNIA-HERZEGOVINA",
+        "callsign": "E75C",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-03-30",
+        "qso_time": "121700",
+        "qsl_received": "2023-04-01 14:02:11"
+      },
+      {
+        "dxcc": 227,
+        "entity": "FRANCE",
+        "callsign": "F1MXE",
+        "mode": "FT4",
+        "band": "10M",
+        "qso_date": "2023-03-16",
+        "qso_time": "075215",
+        "qsl_received": "2023-04-02 23:19:41"
+      },
+      {
+        "dxcc": 499,
+        "entity": "SLOVENIA",
+        "callsign": "S56GD",
+        "mode": "FT4",
+        "band": "10M",
+        "qso_date": "2023-03-16",
+        "qso_time": "072315",
+        "qsl_received": "2023-04-05 13:16:41"
+      },
+      {
+        "dxcc": 145,
+        "entity": "LATVIA",
+        "callsign": "YL2NX",
+        "mode": "FT4",
+        "band": "10M",
+        "qso_date": "2023-03-10",
+        "qso_time": "090440",
+        "qsl_received": "2023-04-06 13:43:44"
+      },
+      {
+        "dxcc": 230,
+        "entity": "FEDERAL REPUBLIC OF GERMANY",
+        "callsign": "DK5WL",
+        "mode": "FT8",
+        "band": "12M",
+        "qso_date": "2023-03-09",
+        "qso_time": "110245",
+        "qsl_received": "2023-04-06 23:43:38"
+      },
+      {
+        "dxcc": 336,
+        "entity": "ISRAEL",
+        "callsign": "4Z5PT",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2023-04-08",
+        "qso_time": "045100",
+        "qsl_received": "2023-04-09 23:18:56"
+      },
+      {
+        "dxcc": 52,
+        "entity": "ESTONIA",
+        "callsign": "ES1KK",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2023-04-08",
+        "qso_time": "103730",
+        "qsl_received": "2023-04-09 23:18:57"
+      },
+      {
+        "dxcc": 272,
+        "entity": "PORTUGAL",
+        "callsign": "CT7AOL",
+        "mode": "FT4",
+        "band": "10M",
+        "qso_date": "2023-04-08",
+        "qso_time": "120637",
+        "qsl_received": "2023-04-09 23:18:57"
+      },
+      {
+        "dxcc": 221,
+        "entity": "DENMARK",
+        "callsign": "OZ7FOC",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2023-04-08",
+        "qso_time": "103500",
+        "qsl_received": "2023-04-10 03:55:42"
+      },
+      {
+        "dxcc": 372,
+        "entity": "PAKISTAN",
+        "callsign": "AP2HA",
+        "mode": "FT4",
+        "band": "10M",
+        "qso_date": "2023-04-08",
+        "qso_time": "101922",
+        "qsl_received": "2023-04-11 02:50:17"
+      },
+      {
+        "dxcc": 150,
+        "entity": "AUSTRALIA",
+        "callsign": "VK3ZLT",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-02-18",
+        "qso_time": "102745",
+        "qsl_received": "2023-04-11 21:28:46"
+      },
+      {
+        "dxcc": 15,
+        "entity": "ASIATIC RUSSIA",
+        "callsign": "UA0LQE",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-02-18",
+        "qso_time": "092030",
+        "qsl_received": "2023-04-13 15:24:21"
+      },
+      {
+        "dxcc": 46,
+        "entity": "EAST MALAYSIA",
+        "callsign": "9W6EZ",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-03-27",
+        "qso_time": "122350",
+        "qsl_received": "2023-04-14 04:37:48"
+      },
+      {
+        "dxcc": 245,
+        "entity": "IRELAND",
+        "callsign": "EI3JS",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2023-04-08",
+        "qso_time": "111815",
+        "qsl_received": "2023-04-14 19:29:27"
+      },
+      {
+        "dxcc": 21,
+        "entity": "BALEARIC ISLANDS",
+        "callsign": "EA6VQ",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2023-04-09",
+        "qso_time": "110521",
+        "qsl_received": "2023-04-18 07:42:08"
+      },
+      {
+        "dxcc": 40,
+        "entity": "CRETE",
+        "callsign": "SV9COL",
+        "mode": "FT4",
+        "band": "10M",
+        "qso_date": "2023-04-08",
+        "qso_time": "104715",
+        "qsl_received": "2023-04-19 09:50:06"
+      },
+      {
+        "dxcc": 430,
+        "entity": "KENYA",
+        "callsign": "5Z4VJ",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2023-04-08",
+        "qso_time": "110847",
+        "qsl_received": "2023-04-22 18:53:28"
+      },
+      {
+        "dxcc": 281,
+        "entity": "SPAIN",
+        "callsign": "EA5KB",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-03-10",
+        "qso_time": "084430",
+        "qsl_received": "2023-04-24 09:47:08"
+      },
+      {
+        "dxcc": 5,
+        "entity": "ALAND ISLANDS",
+        "callsign": "OH0EG",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-04-25",
+        "qso_time": "111730",
+        "qsl_received": "2023-04-26 10:57:13"
+      },
+      {
+        "dxcc": 215,
+        "entity": "CYPRUS",
+        "callsign": "5B4AAB",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2023-04-25",
+        "qso_time": "122200",
+        "qsl_received": "2023-04-26 11:55:11"
+      },
+      {
+        "dxcc": 315,
+        "entity": "SRI LANKA",
+        "callsign": "4S7VG",
+        "mode": "FT4",
+        "band": "10M",
+        "qso_date": "2023-04-08",
+        "qso_time": "101823",
+        "qsl_received": "2023-05-01 04:20:41"
+      },
+      {
+        "dxcc": 120,
+        "entity": "ECUADOR",
+        "callsign": "HC5VF",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2023-04-08",
+        "qso_time": "033815",
+        "qsl_received": "2023-05-04 01:02:16"
+      },
+      {
+        "dxcc": 50,
+        "entity": "MEXICO",
+        "callsign": "XE1YD",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-05-03",
+        "qso_time": "092800",
+        "qsl_received": "2023-05-04 02:11:37"
+      },
+      {
+        "dxcc": 387,
+        "entity": "THAILAND",
+        "callsign": "E21EIC/M",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-02-26",
+        "qso_time": "095015",
+        "qsl_received": "2023-05-04 05:14:09"
+      },
+      {
+        "dxcc": 207,
+        "entity": "RODRIGUEZ ISLAND",
+        "callsign": "3B9FR",
+        "mode": "FT8",
+        "band": "6M",
+        "qso_date": "2023-04-25",
+        "qso_time": "101151",
+        "qsl_received": "2023-05-04 06:04:14"
+      },
+      {
+        "dxcc": 1,
+        "entity": "CANADA",
+        "callsign": "VE7JH",
+        "mode": "FT8",
+        "band": "40M",
+        "qso_date": "2023-05-01",
+        "qso_time": "125630",
+        "qsl_received": "2023-05-08 03:13:18"
+      },
+      {
+        "dxcc": 179,
+        "entity": "MOLDOVA",
+        "callsign": "ER3KAZ",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-04-30",
+        "qso_time": "155345",
+        "qsl_received": "2023-05-09 04:18:08"
+      },
+      {
+        "dxcc": 304,
+        "entity": "BAHRAIN",
+        "callsign": "A91WTIS",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-05-13",
+        "qso_time": "230330",
+        "qsl_received": "2023-05-14 16:23:19"
+      },
+      {
+        "dxcc": 348,
+        "entity": "KUWAIT",
+        "callsign": "9K2HS",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2023-05-13",
+        "qso_time": "082615",
+        "qsl_received": "2023-05-15 21:05:26"
+      },
+      {
+        "dxcc": 497,
+        "entity": "CROATIA",
+        "callsign": "9A0W",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2023-03-16",
+        "qso_time": "091300",
+        "qsl_received": "2023-05-22 19:48:11"
+      },
+      {
+        "dxcc": 75,
+        "entity": "GEORGIA",
+        "callsign": "4L8A",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-05-13",
+        "qso_time": "101246",
+        "qsl_received": "2023-06-01 10:59:37"
+      },
+      {
+        "dxcc": 165,
+        "entity": "MAURITIUS ISLAND",
+        "callsign": "3B8CW",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2023-06-03",
+        "qso_time": "072830",
+        "qsl_received": "2023-06-04 15:53:07"
+      },
+      {
+        "dxcc": 122,
+        "entity": "JERSEY",
+        "callsign": "GJ0KYZ",
+        "mode": "FT8",
+        "band": "12M",
+        "qso_date": "2023-06-03",
+        "qso_time": "120344",
+        "qsl_received": "2023-06-04 15:53:08"
+      },
+      {
+        "dxcc": 106,
+        "entity": "GUERNSEY",
+        "callsign": "GU0GUX",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-06-03",
+        "qso_time": "195229",
+        "qsl_received": "2023-06-04 20:47:17"
+      },
+      {
+        "dxcc": 354,
+        "entity": "LEBANON",
+        "callsign": "OD5ZZ",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-06-03",
+        "qso_time": "224517",
+        "qsl_received": "2023-06-05 00:13:18"
+      },
+      {
+        "dxcc": 166,
+        "entity": "MARIANA ISLANDS",
+        "callsign": "KH0/W5TZX",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-06-06",
+        "qso_time": "072533",
+        "qsl_received": "2023-06-06 14:28:11"
+      },
+      {
+        "dxcc": 376,
+        "entity": "QATAR",
+        "callsign": "A71UN",
+        "mode": "FT8",
+        "band": "17M",
+        "qso_date": "2023-06-04",
+        "qso_time": "210915",
+        "qsl_received": "2023-06-06 15:22:19"
+      },
+      {
+        "dxcc": 342,
+        "entity": "JORDAN",
+        "callsign": "JY5IB",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2023-06-06",
+        "qso_time": "150345",
+        "qsl_received": "2023-06-08 13:48:06"
+      },
+      {
+        "dxcc": 294,
+        "entity": "WALES",
+        "callsign": "MW6PNW",
+        "mode": "FT4",
+        "band": "15M",
+        "qso_date": "2023-06-07",
+        "qso_time": "175422",
+        "qsl_received": "2023-06-08 19:31:17"
+      },
+      {
+        "dxcc": 256,
+        "entity": "MADEIRA ISLANDS",
+        "callsign": "CT3MD",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-06-07",
+        "qso_time": "213716",
+        "qsl_received": "2023-06-10 11:51:05"
+      },
+      {
+        "dxcc": 254,
+        "entity": "LUXEMBOURG",
+        "callsign": "LX1TI",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-06-06",
+        "qso_time": "153400",
+        "qsl_received": "2023-06-12 07:21:10"
+      },
+      {
+        "dxcc": 29,
+        "entity": "CANARY ISLANDS",
+        "callsign": "EA8AIN",
+        "mode": "FT8",
+        "band": "17M",
+        "qso_date": "2023-06-02",
+        "qso_time": "202415",
+        "qsl_received": "2023-06-15 20:12:41"
+      },
+      {
+        "dxcc": 66,
+        "entity": "BELIZE",
+        "callsign": "V31DL",
+        "mode": "FT8",
+        "band": "17M",
+        "qso_date": "2023-06-22",
+        "qso_time": "170330",
+        "qsl_received": "2023-06-25 18:01:27"
+      },
+      {
+        "dxcc": 369,
+        "entity": "NEPAL",
+        "callsign": "9N7AA",
+        "mode": "FT4",
+        "band": "20M",
+        "qso_date": "2023-06-26",
+        "qso_time": "144630",
+        "qsl_received": "2023-06-27 01:57:04"
+      },
+      {
+        "dxcc": 521,
+        "entity": "REPUBLIC OF SOUTH SUDAN",
+        "callsign": "Z81D",
+        "mode": "FT8",
+        "band": "40M",
+        "qso_date": "2023-06-29",
+        "qso_time": "204145",
+        "qsl_received": "2023-06-30 08:54:04"
+      },
+      {
+        "dxcc": 242,
+        "entity": "ICELAND",
+        "callsign": "TF5B",
+        "mode": "FT8",
+        "band": "17M",
+        "qso_date": "2023-07-01",
+        "qso_time": "105745",
+        "qsl_received": "2023-07-02 02:09:08"
+      },
+      {
+        "dxcc": 49,
+        "entity": "EQUATORIAL GUINEA",
+        "callsign": "3C3CA",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-07-01",
+        "qso_time": "180445",
+        "qsl_received": "2023-07-02 02:09:09"
+      },
+      {
+        "dxcc": 114,
+        "entity": "ISLE OF MAN",
+        "callsign": "MD0CCE",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-07-01",
+        "qso_time": "161345",
+        "qsl_received": "2023-07-02 02:09:09"
+      },
+      {
+        "dxcc": 464,
+        "entity": "NAMIBIA",
+        "callsign": "V51CO",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-07-01",
+        "qso_time": "142953",
+        "qsl_received": "2023-07-02 02:09:09"
+      },
+      {
+        "dxcc": 298,
+        "entity": "WALLIS & FUTUNA ISLANDS",
+        "callsign": "FW1JG",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-07-02",
+        "qso_time": "074615",
+        "qsl_received": "2023-07-03 08:45:05"
+      },
+      {
+        "dxcc": 159,
+        "entity": "MALDIVES",
+        "callsign": "8Q7PR",
+        "mode": "FT8",
+        "band": "17M",
+        "qso_date": "2023-07-01",
+        "qso_time": "173345",
+        "qsl_received": "2023-07-03 15:26:09"
+      },
+      {
+        "dxcc": 391,
+        "entity": "UNITED ARAB EMIRATES",
+        "callsign": "A61FJ",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2023-07-05",
+        "qso_time": "073545",
+        "qsl_received": "2023-07-06 01:09:12"
+      },
+      {
+        "dxcc": 370,
+        "entity": "OMAN",
+        "callsign": "A41DX",
+        "mode": "FT8",
+        "band": "40M",
+        "qso_date": "2023-07-09",
+        "qso_time": "220500",
+        "qsl_received": "2023-07-10 09:22:11"
+      },
+      {
+        "dxcc": 169,
+        "entity": "MAYOTTE ISLAND",
+        "callsign": "FH4VVK",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-07-12",
+        "qso_time": "215915",
+        "qsl_received": "2023-07-14 10:54:09"
+      },
+      {
+        "dxcc": 504,
+        "entity": "SLOVAK REPUBLIC",
+        "callsign": "OM3CND",
+        "mode": "FT4",
+        "band": "10M",
+        "qso_date": "2023-03-16",
+        "qso_time": "085309",
+        "qsl_received": "2023-07-15 19:07:18"
+      },
+      {
+        "dxcc": 202,
+        "entity": "PUERTO RICO",
+        "callsign": "WP3R",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-07-27",
+        "qso_time": "031932",
+        "qsl_received": "2023-07-27 20:07:17"
+      },
+      {
+        "dxcc": 135,
+        "entity": "KYRGYZSTAN",
+        "callsign": "EX8BT",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2023-04-08",
+        "qso_time": "110815",
+        "qsl_received": "2023-07-28 11:26:42"
+      },
+      {
+        "dxcc": 285,
+        "entity": "US VIRGIN ISLANDS",
+        "callsign": "KP2B",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-08-01",
+        "qso_time": "115703",
+        "qsl_received": "2023-08-07 02:30:18"
+      },
+      {
+        "dxcc": 116,
+        "entity": "COLOMBIA",
+        "callsign": "HK4SAN",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-07-27",
+        "qso_time": "102615",
+        "qsl_received": "2023-08-11 11:50:05"
+      },
+      {
+        "dxcc": 514,
+        "entity": "MONTENEGRO",
+        "callsign": "4O7CC",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-07-11",
+        "qso_time": "181515",
+        "qsl_received": "2023-08-23 19:51:55"
+      },
+      {
+        "dxcc": 460,
+        "entity": "ROTUMA",
+        "callsign": "3D2BJ",
+        "mode": "FT8",
+        "band": "17M",
+        "qso_date": "2023-07-11",
+        "qso_time": "211515",
+        "qsl_received": "2023-08-27 03:05:49"
+      },
+      {
+        "dxcc": 132,
+        "entity": "PARAGUAY",
+        "callsign": "ZP6LMR",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-07-25",
+        "qso_time": "111115",
+        "qsl_received": "2023-08-29 09:26:16"
+      },
+      {
+        "dxcc": 260,
+        "entity": "MONACO",
+        "callsign": "3A2MW",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-10-14",
+        "qso_time": "195903",
+        "qsl_received": "2023-10-18 11:43:24"
+      },
+      {
+        "dxcc": 517,
+        "entity": "CURACAO",
+        "callsign": "PJ2MAN",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-10-18",
+        "qso_time": "103015",
+        "qsl_received": "2023-10-19 07:35:11"
+      },
+      {
+        "dxcc": 420,
+        "entity": "GABON",
+        "callsign": "TR8CA",
+        "mode": "FT4",
+        "band": "17M",
+        "qso_date": "2023-10-19",
+        "qso_time": "084500",
+        "qsl_received": "2023-10-23 12:12:06"
+      },
+      {
+        "dxcc": 214,
+        "entity": "CORSICA",
+        "callsign": "TK4LS",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-10-21",
+        "qso_time": "154330",
+        "qsl_received": "2023-10-23 12:12:10"
+      },
+      {
+        "dxcc": 157,
+        "entity": "NAURU",
+        "callsign": "C21TS",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-10-03",
+        "qso_time": "204315",
+        "qsl_received": "2023-11-08 08:50:24"
+      },
+      {
+        "dxcc": 262,
+        "entity": "TAJIKISTAN",
+        "callsign": "EY8MM",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2023-11-03",
+        "qso_time": "032519",
+        "qsl_received": "2023-11-18 09:06:11"
+      },
+      {
+        "dxcc": 38,
+        "entity": "COCOS (KEELING) ISLANDS",
+        "callsign": "VK9QO",
+        "mode": "FT8",
+        "band": "30M",
+        "qso_date": "2023-11-05",
+        "qso_time": "152700",
+        "qsl_received": "2023-11-20 01:30:09"
+      },
+      {
+        "dxcc": 203,
+        "entity": "ANDORRA",
+        "callsign": "C31CT",
+        "mode": "FT8",
+        "band": "30M",
+        "qso_date": "2023-11-16",
+        "qso_time": "212304",
+        "qsl_received": "2023-11-21 10:59:06"
+      },
+      {
+        "dxcc": 173,
+        "entity": "MICRONESIA",
+        "callsign": "V63AH",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-10-19",
+        "qso_time": "000245",
+        "qsl_received": "2023-11-21 14:08:08"
+      },
+      {
+        "dxcc": 308,
+        "entity": "COSTA RICA",
+        "callsign": "TI2YO",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-11-22",
+        "qso_time": "015334",
+        "qsl_received": "2023-11-26 08:35:37"
+      },
+      {
+        "dxcc": 248,
+        "entity": "ITALY",
+        "callsign": "IZ8VYU",
+        "mode": "FT8",
+        "band": "12M",
+        "qso_date": "2023-02-26",
+        "qso_time": "081045",
+        "qsl_received": "2023-11-26 21:07:53"
+      },
+      {
+        "dxcc": 70,
+        "entity": "CUBA",
+        "callsign": "CO6HLP",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-11-20",
+        "qso_time": "235815",
+        "qsl_received": "2023-11-28 20:11:41"
+      },
+      {
+        "dxcc": 237,
+        "entity": "GREENLAND",
+        "callsign": "OX7AKT",
+        "mode": "FT8",
+        "band": "30M",
+        "qso_date": "2023-11-26",
+        "qso_time": "220400",
+        "qsl_received": "2023-12-04 10:45:04"
+      },
+      {
+        "dxcc": 257,
+        "entity": "MALTA",
+        "callsign": "9H1GP",
+        "mode": "FT8",
+        "band": "40M",
+        "qso_date": "2023-11-27",
+        "qso_time": "205245",
+        "qsl_received": "2023-12-04 10:45:06"
+      },
+      {
+        "dxcc": 401,
+        "entity": "ANGOLA",
+        "callsign": "D2UY",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-10-21",
+        "qso_time": "090115",
+        "qsl_received": "2023-12-11 08:35:02"
+      },
+      {
+        "dxcc": 91,
+        "entity": "ARUBA",
+        "callsign": "P4/WE9V",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-11-29",
+        "qso_time": "074330",
+        "qsl_received": "2023-12-11 18:03:57"
+      },
+      {
+        "dxcc": 402,
+        "entity": "BOTSWANA",
+        "callsign": "A25R",
+        "mode": "FT8",
+        "band": "12M",
+        "qso_date": "2023-10-28",
+        "qso_time": "104115",
+        "qsl_received": "2023-12-18 20:28:49"
+      },
+      {
+        "dxcc": 143,
+        "entity": "LAOS",
+        "callsign": "XW4DX",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-11-19",
+        "qso_time": "125200",
+        "qsl_received": "2023-12-22 21:08:02"
+      },
+      {
+        "dxcc": 175,
+        "entity": "FRENCH POLYNESIA",
+        "callsign": "TX6D",
+        "mode": "FT8",
+        "band": "17M",
+        "qso_date": "2023-10-03",
+        "qso_time": "143115",
+        "qsl_received": "2023-12-23 12:47:39"
+      },
+      {
+        "dxcc": 192,
+        "entity": "OGASAWARA",
+        "callsign": "JD1YCE",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-12-11",
+        "qso_time": "222715",
+        "qsl_received": "2023-12-27 02:15:55"
+      },
+      {
+        "dxcc": 126,
+        "entity": "KALININGRAD",
+        "callsign": "UA2FF",
+        "mode": "FT4",
+        "band": "15M",
+        "qso_date": "2023-07-10",
+        "qso_time": "163337",
+        "qsl_received": "2023-12-31 22:53:06"
+      },
+      {
+        "dxcc": 312,
+        "entity": "CAMBODIA",
+        "callsign": "XU7AKJ",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2023-12-28",
+        "qso_time": "062403",
+        "qsl_received": "2024-01-02 03:38:15"
+      },
+      {
+        "dxcc": 9,
+        "entity": "AMERICAN SAMOA",
+        "callsign": "KH8RRC",
+        "mode": "FT4",
+        "band": "15M",
+        "qso_date": "2023-07-08",
+        "qso_time": "211753",
+        "qsl_received": "2024-01-15 03:16:17"
+      },
+      {
+        "dxcc": 95,
+        "entity": "DOMINICA",
+        "callsign": "J79WTA",
+        "mode": "FT8",
+        "band": "12M",
+        "qso_date": "2023-12-28",
+        "qso_time": "052535",
+        "qsl_received": "2024-01-16 01:40:16"
+      },
+      {
+        "dxcc": 22,
+        "entity": "PALAU",
+        "callsign": "T88AQ",
+        "mode": "FT8",
+        "band": "12M",
+        "qso_date": "2024-01-12",
+        "qso_time": "040530",
+        "qsl_received": "2024-01-17 13:07:16"
+      },
+      {
+        "dxcc": 305,
+        "entity": "BANGLADESH",
+        "callsign": "S21AF",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2024-01-16",
+        "qso_time": "114600",
+        "qsl_received": "2024-01-22 03:35:05"
+      },
+      {
+        "dxcc": 35,
+        "entity": "CHRISTMAS ISLAND",
+        "callsign": "VK9XY",
+        "mode": "FT8",
+        "band": "17M",
+        "qso_date": "2023-11-16",
+        "qso_time": "022430",
+        "qsl_received": "2024-01-31 18:27:06"
+      },
+      {
+        "dxcc": 440,
+        "entity": "MALAWI",
+        "callsign": "7Q7EMH",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-07-07",
+        "qso_time": "082945",
+        "qsl_received": "2024-02-01 15:17:57"
+      },
+      {
+        "dxcc": 250,
+        "entity": "SAINT HELENA",
+        "callsign": "ZD7CA",
+        "mode": "FT4",
+        "band": "15M",
+        "qso_date": "2024-01-11",
+        "qso_time": "071341",
+        "qsl_received": "2024-02-05 12:20:15"
+      },
+      {
+        "dxcc": 14,
+        "entity": "ARMENIA",
+        "callsign": "EK/RX3DPK",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2024-02-08",
+        "qso_time": "143748",
+        "qsl_received": "2024-02-12 09:01:31"
+      },
+      {
+        "dxcc": 345,
+        "entity": "BRUNEI",
+        "callsign": "V85NPV",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2024-02-09",
+        "qso_time": "231702",
+        "qsl_received": "2024-02-12 09:01:35"
+      },
+      {
+        "dxcc": 97,
+        "entity": "SAINT LUCIA",
+        "callsign": "J645DS",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2024-02-24",
+        "qso_time": "231930",
+        "qsl_received": "2024-03-04 21:26:10"
+      },
+      {
+        "dxcc": 282,
+        "entity": "TUVALU",
+        "callsign": "T2C",
+        "mode": "FT8",
+        "band": "30M",
+        "qso_date": "2023-10-13",
+        "qso_time": "165100",
+        "qsl_received": "2024-03-09 16:06:18"
+      },
+      {
+        "dxcc": 172,
+        "entity": "PITCAIRN ISLAND",
+        "callsign": "VP6MW",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2024-03-05",
+        "qso_time": "154500",
+        "qsl_received": "2024-03-10 22:17:42"
+      },
+      {
+        "dxcc": 48,
+        "entity": "EASTERN KIRIBATI",
+        "callsign": "T32TT",
+        "mode": "FT8",
+        "band": "17M",
+        "qso_date": "2023-12-06",
+        "qso_time": "080645",
+        "qsl_received": "2024-03-11 16:04:13"
+      },
+      {
+        "dxcc": 45,
+        "entity": "DODECANESE",
+        "callsign": "SV5AZP",
+        "mode": "FT4",
+        "band": "10M",
+        "qso_date": "2023-03-16",
+        "qso_time": "073507",
+        "qsl_received": "2024-03-12 10:41:11"
+      },
+      {
+        "dxcc": 416,
+        "entity": "BENIN",
+        "callsign": "TY5C",
+        "mode": "FT8",
+        "band": "40M",
+        "qso_date": "2024-03-28",
+        "qso_time": "221645",
+        "qsl_received": "2024-03-29 13:09:14"
+      },
+      {
+        "dxcc": 160,
+        "entity": "TONGA",
+        "callsign": "A31DL",
+        "mode": "FT8",
+        "band": "40M",
+        "qso_date": "2024-02-16",
+        "qso_time": "160518",
+        "qsl_received": "2024-04-01 15:32:27"
+      },
+      {
+        "dxcc": 515,
+        "entity": "SWAINS ISLAND",
+        "callsign": "W8S",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-10-13",
+        "qso_time": "165545",
+        "qsl_received": "2024-04-14 04:14:31"
+      },
+      {
+        "dxcc": 189,
+        "entity": "NORFOLK ISLAND",
+        "callsign": "VK9DX",
+        "mode": "FT8",
+        "band": "80M",
+        "qso_date": "2024-01-02",
+        "qso_time": "174200",
+        "qsl_received": "2024-05-08 10:43:34"
+      },
+      {
+        "dxcc": 508,
+        "entity": "AUSTRAL ISLANDS",
+        "callsign": "TX7W",
+        "mode": "FT8",
+        "band": "40M",
+        "qso_date": "2024-04-19",
+        "qso_time": "105000",
+        "qsl_received": "2024-05-08 13:32:04"
+      },
+      {
+        "dxcc": 286,
+        "entity": "UGANDA",
+        "callsign": "5X7O",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2024-02-10",
+        "qso_time": "201530",
+        "qsl_received": "2024-05-11 16:53:22"
+      },
+      {
+        "dxcc": 72,
+        "entity": "DOMINICAN REPUBLIC",
+        "callsign": "HI8ML",
+        "mode": "FT8",
+        "band": "40M",
+        "qso_date": "2024-06-30",
+        "qso_time": "104430",
+        "qsl_received": "2024-07-06 23:20:59"
+      },
+      {
+        "dxcc": 511,
+        "entity": "TIMOR - LESTE",
+        "callsign": "4W6RU",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-07-01",
+        "qso_time": "102115",
+        "qsl_received": "2024-07-07 12:01:34"
+      },
+      {
+        "dxcc": 11,
+        "entity": "ANDAMAN & NICOBAR ISLANDS",
+        "callsign": "VU4N",
+        "mode": "FT8",
+        "band": "30M",
+        "qso_date": "2023-12-18",
+        "qso_time": "160417",
+        "qsl_received": "2024-07-13 03:12:11"
+      },
+      {
+        "dxcc": 125,
+        "entity": "JUAN FERNANDEZ ISLAND",
+        "callsign": "CB0ZA",
+        "mode": "FT8",
+        "band": "40M",
+        "qso_date": "2024-02-23",
+        "qso_time": "084200",
+        "qsl_received": "2024-08-01 03:50:03"
+      },
+      {
+        "dxcc": 147,
+        "entity": "LORD HOWE ISLAND",
+        "callsign": "VK9LA",
+        "mode": "FT8",
+        "band": "17M",
+        "qso_date": "2024-06-19",
+        "qso_time": "214600",
+        "qsl_received": "2024-08-31 10:41:28"
+      },
+      {
+        "dxcc": 32,
+        "entity": "CEUTA & MELILLA",
+        "callsign": "AO75MC",
+        "mode": "FT8",
+        "band": "17M",
+        "qso_date": "2024-04-26",
+        "qso_time": "181345",
+        "qsl_received": "2024-10-10 08:17:58"
+      },
+      {
+        "dxcc": 434,
+        "entity": "LIBERIA",
+        "callsign": "A8OK",
+        "mode": "FT8",
+        "band": "17M",
+        "qso_date": "2024-04-06",
+        "qso_time": "223715",
+        "qsl_received": "2024-10-19 10:27:29"
+      },
+      {
+        "dxcc": 188,
+        "entity": "NIUE",
+        "callsign": "E6AM",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-10-15",
+        "qso_time": "085600",
+        "qsl_received": "2024-10-27 21:39:47"
+      },
+      {
+        "dxcc": 492,
+        "entity": "YEMEN",
+        "callsign": "7O73T",
+        "mode": "FT8",
+        "band": "30M",
+        "qso_date": "2023-11-17",
+        "qso_time": "223945",
+        "qsl_received": "2024-11-01 13:00:18"
+      },
+      {
+        "dxcc": 18,
+        "entity": "AZERBAIJAN",
+        "callsign": "4K5RA",
+        "mode": "FT8",
+        "band": "30M",
+        "qso_date": "2024-02-12",
+        "qso_time": "171045",
+        "qsl_received": "2024-11-09 19:35:44"
+      },
+      {
+        "dxcc": 191,
+        "entity": "NORTH COOK ISLANDS",
+        "callsign": "E51JAN",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-10-17",
+        "qso_time": "090945",
+        "qsl_received": "2024-11-20 08:15:31"
+      },
+      {
+        "dxcc": 7,
+        "entity": "ALBANIA",
+        "callsign": "ZA5G",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-07-22",
+        "qso_time": "171733",
+        "qsl_received": "2024-11-27 17:10:50"
+      },
+      {
+        "dxcc": 149,
+        "entity": "AZORES",
+        "callsign": "CU8AF",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-06-28",
+        "qso_time": "101730",
+        "qsl_received": "2024-11-29 17:57:16"
+      },
+      {
+        "dxcc": 233,
+        "entity": "GIBRALTAR",
+        "callsign": "ZB2IF",
+        "mode": "FT8",
+        "band": "17M",
+        "qso_date": "2023-06-30",
+        "qso_time": "212645",
+        "qsl_received": "2024-11-29 17:57:17"
+      },
+      {
+        "dxcc": 378,
+        "entity": "SAUDI ARABIA",
+        "callsign": "7Z1AL",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-07-06",
+        "qso_time": "191030",
+        "qsl_received": "2024-11-29 17:57:18"
+      },
+      {
+        "dxcc": 330,
+        "entity": "IRAN",
+        "callsign": "EP4HR",
+        "mode": "FT8",
+        "band": "40M",
+        "qso_date": "2023-07-27",
+        "qso_time": "195845",
+        "qsl_received": "2024-11-29 17:57:23"
+      },
+      {
+        "dxcc": 142,
+        "entity": "LAKSHADWEEP ISLANDS",
+        "callsign": "VU7A",
+        "mode": "FT8",
+        "band": "30M",
+        "qso_date": "2023-12-07",
+        "qso_time": "175245",
+        "qsl_received": "2024-11-29 17:57:29"
+      },
+      {
+        "dxcc": 489,
+        "entity": "CONWAY REEF",
+        "callsign": "3D2CCC",
+        "mode": "FT8",
+        "band": "17M",
+        "qso_date": "2024-04-28",
+        "qso_time": "061100",
+        "qsl_received": "2024-11-30 17:58:06"
+      },
+      {
+        "dxcc": 47,
+        "entity": "EASTER ISLAND",
+        "callsign": "3G0YA",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2024-04-19",
+        "qso_time": "103200",
+        "qsl_received": "2024-12-22 00:11:24"
+      },
+      {
+        "dxcc": 458,
+        "entity": "SIERRA LEONE",
+        "callsign": "9L5A",
+        "mode": "FT8",
+        "band": "30M",
+        "qso_date": "2024-12-06",
+        "qso_time": "233100",
+        "qsl_received": "2025-01-06 22:13:09"
+      },
+      {
+        "dxcc": 136,
+        "entity": "PERU",
+        "callsign": "OA4DOS",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2023-11-06",
+        "qso_time": "033919",
+        "qsl_received": "2025-01-10 03:51:44"
+      },
+      {
+        "dxcc": 76,
+        "entity": "GUATEMALA",
+        "callsign": "TG9ANF",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2025-01-22",
+        "qso_time": "005745",
+        "qsl_received": "2025-01-29 14:06:01"
+      },
+      {
+        "dxcc": 13,
+        "entity": "ANTARCTICA",
+        "callsign": "8J1RL",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-07-20",
+        "qso_time": "103700",
+        "qsl_received": "2025-02-05 08:32:58"
+      },
+      {
+        "dxcc": 234,
+        "entity": "SOUTH COOK ISLANDS",
+        "callsign": "E51SGC",
+        "mode": "FT8",
+        "band": "80M",
+        "qso_date": "2024-11-09",
+        "qso_time": "152130",
+        "qsl_received": "2025-02-19 20:54:17"
+      },
+      {
+        "dxcc": 480,
+        "entity": "BURKINA FASO",
+        "callsign": "XT2MD",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2024-11-05",
+        "qso_time": "083430",
+        "qsl_received": "2025-03-04 13:06:31"
+      },
+      {
+        "dxcc": 453,
+        "entity": "REUNION ISLAND",
+        "callsign": "FR5CB",
+        "mode": "FT8",
+        "band": "17M",
+        "qso_date": "2025-02-21",
+        "qso_time": "130900",
+        "qsl_received": "2025-03-07 07:45:05"
+      },
+      {
+        "dxcc": 333,
+        "entity": "IRAQ",
+        "callsign": "YI3TTT",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2025-03-06",
+        "qso_time": "195602",
+        "qsl_received": "2025-03-07 07:45:20"
+      },
+      {
+        "dxcc": 379,
+        "entity": "SEYCHELLES ISLANDS",
+        "callsign": "S79VU",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2025-03-06",
+        "qso_time": "063115",
+        "qsl_received": "2025-03-07 07:45:20"
+      },
+      {
+        "dxcc": 446,
+        "entity": "MOROCCO",
+        "callsign": "CN8NS",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2025-03-07",
+        "qso_time": "230045",
+        "qsl_received": "2025-03-17 06:34:03"
+      },
+      {
+        "dxcc": 63,
+        "entity": "FRENCH GUIANA",
+        "callsign": "FY/PY8WW",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2025-03-13",
+        "qso_time": "222315",
+        "qsl_received": "2025-03-17 06:34:12"
+      },
+      {
+        "dxcc": 450,
+        "entity": "NIGERIA",
+        "callsign": "5N9DTG",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2025-02-19",
+        "qso_time": "233100",
+        "qsl_received": "2025-03-26 19:46:07"
+      },
+      {
+        "dxcc": 278,
+        "entity": "SAN MARINO",
+        "callsign": "T77C",
+        "mode": "FT8",
+        "band": "30M",
+        "qso_date": "2024-03-31",
+        "qso_time": "211815",
+        "qsl_received": "2025-03-28 08:56:40"
+      },
+      {
+        "dxcc": 507,
+        "entity": "TEMOTU PROVINCE",
+        "callsign": "H40WA",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2024-02-27",
+        "qso_time": "003500",
+        "qsl_received": "2025-04-08 20:56:06"
+      },
+      {
+        "dxcc": 148,
+        "entity": "VENEZUELA",
+        "callsign": "YV6ANK",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2025-04-13",
+        "qso_time": "101615",
+        "qsl_received": "2025-04-21 04:53:28"
+      },
+      {
+        "dxcc": 163,
+        "entity": "PAPUA NEW GUINEA",
+        "callsign": "P29XZ",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2025-01-22",
+        "qso_time": "093730",
+        "qsl_received": "2025-05-02 07:17:29"
+      },
+      {
+        "dxcc": 442,
+        "entity": "MALI",
+        "callsign": "TZ1CE",
+        "mode": "FT8",
+        "band": "30M",
+        "qso_date": "2025-03-03",
+        "qso_time": "215015",
+        "qsl_received": "2025-05-09 02:36:04"
+      },
+      {
+        "dxcc": 468,
+        "entity": "KINGDOM OF ESWATINI",
+        "callsign": "3DA0DL",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2024-11-03",
+        "qso_time": "223715",
+        "qsl_received": "2025-05-09 12:20:23"
+      },
+      {
+        "dxcc": 470,
+        "entity": "TANZANIA",
+        "callsign": "5H1KB",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2025-04-24",
+        "qso_time": "163300",
+        "qsl_received": "2025-05-11 05:07:58"
+      },
+      {
+        "dxcc": 306,
+        "entity": "BHUTAN",
+        "callsign": "A52CI",
+        "mode": "FT8",
+        "band": "12M",
+        "qso_date": "2024-04-19",
+        "qso_time": "082730",
+        "qsl_received": "2025-05-13 17:10:34"
+      },
+      {
+        "dxcc": 297,
+        "entity": "WAKE ISLAND",
+        "callsign": "KH7AL/KH9",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2025-05-14",
+        "qso_time": "104430",
+        "qsl_received": "2025-05-18 15:10:14"
+      },
+      {
+        "dxcc": 482,
+        "entity": "ZAMBIA",
+        "callsign": "9J2FI",
+        "mode": "FT8",
+        "band": "12M",
+        "qso_date": "2025-05-16",
+        "qso_time": "145645",
+        "qsl_received": "2025-05-18 15:10:16"
+      },
+      {
+        "dxcc": 259,
+        "entity": "SVALBARD",
+        "callsign": "JW/KD2RSF",
+        "mode": "FT8",
+        "band": "17M",
+        "qso_date": "2025-07-01",
+        "qso_time": "163700",
+        "qsl_received": "2025-07-04 13:16:10"
+      },
+      {
+        "dxcc": 158,
+        "entity": "VANUATU",
+        "callsign": "YJ8RN",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-06-30",
+        "qso_time": "064547",
+        "qsl_received": "2025-07-22 02:30:34"
+      },
+      {
+        "dxcc": 292,
+        "entity": "UZBEKISTAN",
+        "callsign": "UK8IF",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-06-26",
+        "qso_time": "142419",
+        "qsl_received": "2025-07-26 15:40:56"
+      },
+      {
+        "dxcc": 400,
+        "entity": "ALGERIA",
+        "callsign": "7X2KF",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2025-07-30",
+        "qso_time": "175545",
+        "qsl_received": "2025-08-07 16:36:09"
+      },
+      {
+        "dxcc": 34,
+        "entity": "CHATHAM ISLAND",
+        "callsign": "ZL7IO",
+        "mode": "FT8",
+        "band": "17M",
+        "qso_date": "2025-10-09",
+        "qso_time": "091400",
+        "qsl_received": "2025-10-20 02:49:15"
+      },
+      {
+        "dxcc": 251,
+        "entity": "LIECHTENSTEIN",
+        "callsign": "HB0RER",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-07-07",
+        "qso_time": "180630",
+        "qsl_received": "2025-11-10 13:17:18"
+      },
+      {
+        "dxcc": 263,
+        "entity": "NETHERLANDS",
+        "callsign": "PD0HLA",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2023-03-16",
+        "qso_time": "094130",
+        "qsl_received": "2025-11-12 19:37:34"
+      },
+      {
+        "dxcc": 438,
+        "entity": "MADAGASCAR",
+        "callsign": "5R8WE",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2024-11-02",
+        "qso_time": "065800",
+        "qsl_received": "2025-11-13 09:58:43"
+      },
+      {
+        "dxcc": 168,
+        "entity": "MARSHALL ISLANDS",
+        "callsign": "V73WE",
+        "mode": "FT8",
+        "band": "12M",
+        "qso_date": "2024-12-02",
+        "qso_time": "022515",
+        "qsl_received": "2025-12-11 09:55:00"
+      },
+      {
+        "dxcc": 185,
+        "entity": "SOLOMON ISLANDS",
+        "callsign": "H44WA",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-11-16",
+        "qso_time": "021119",
+        "qsl_received": "2025-12-31 20:42:06"
+      },
+      {
+        "dxcc": 104,
+        "entity": "BOLIVIA",
+        "callsign": "CP4MG",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2026-03-15",
+        "qso_time": "015333",
+        "qsl_received": "2026-03-26 16:16:13"
+      },
+      {
+        "dxcc": 518,
+        "entity": "SINT MAARTEN",
+        "callsign": "PJ7AA",
+        "mode": "FT8",
+        "band": "17M",
+        "qso_date": "2026-03-17",
+        "qso_time": "020430",
+        "qsl_received": "2026-03-26 16:16:21"
+      },
+      {
+        "dxcc": 80,
+        "entity": "HONDURAS",
+        "callsign": "HR1R",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2025-03-07",
+        "qso_time": "010804",
+        "qsl_received": "2026-04-07 23:14:21"
+      },
+      {
+        "dxcc": 509,
+        "entity": "MARQUESAS ISLANDS",
+        "callsign": "TX9W",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2026-04-24",
+        "qso_time": "083330",
+        "qsl_received": "2026-05-06 16:37:12"
+      },
+      {
+        "dxcc": 510,
+        "entity": "PALESTINE",
+        "callsign": "E44OM",
+        "mode": "FT8",
+        "band": "30M",
+        "qso_date": "2025-09-20",
+        "qso_time": "193530",
+        "qsl_received": "2026-05-12 16:56:01"
+      }
+    ],
+    "phone": [
+      {
+        "dxcc": 137,
+        "entity": "REPUBLIC OF KOREA",
+        "callsign": "6K5ZMN",
+        "mode": "SSB",
+        "band": "20M",
+        "qso_date": "2023-02-19",
+        "qso_time": "072000",
+        "qsl_received": "2023-02-27 12:57:44"
+      },
+      {
+        "dxcc": 318,
+        "entity": "CHINA",
+        "callsign": "BG8KUV",
+        "mode": "SSB",
+        "band": "20M",
+        "qso_date": "2024-03-30",
+        "qso_time": "131259",
+        "qsl_received": "2024-03-31 15:50:41"
+      },
+      {
+        "dxcc": 375,
+        "entity": "PHILIPPINES",
+        "callsign": "DU1EV",
+        "mode": "SSB",
+        "band": "10M",
+        "qso_date": "2024-03-31",
+        "qso_time": "093601",
+        "qsl_received": "2024-03-31 15:50:42"
+      },
+      {
+        "dxcc": 339,
+        "entity": "JAPAN",
+        "callsign": "JG1LFR",
+        "mode": "SSB",
+        "band": "20M",
+        "qso_date": "2024-03-31",
+        "qso_time": "100939",
+        "qsl_received": "2024-04-01 07:14:08"
+      },
+      {
+        "dxcc": 327,
+        "entity": "INDONESIA",
+        "callsign": "YB3KM",
+        "mode": "SSB",
+        "band": "10M",
+        "qso_date": "2024-03-31",
+        "qso_time": "093435",
+        "qsl_received": "2024-04-01 13:56:49"
+      },
+      {
+        "dxcc": 324,
+        "entity": "INDIA",
+        "callsign": "VU2ABE",
+        "mode": "SSB",
+        "band": "15M",
+        "qso_date": "2024-10-27",
+        "qso_time": "013633",
+        "qsl_received": "2024-10-28 14:57:51"
+      },
+      {
+        "dxcc": 345,
+        "entity": "BRUNEI",
+        "callsign": "V85RH",
+        "mode": "SSB",
+        "band": "20M",
+        "qso_date": "2024-10-26",
+        "qso_time": "162500",
+        "qsl_received": "2024-10-28 14:57:51"
+      },
+      {
+        "dxcc": 291,
+        "entity": "UNITED STATES OF AMERICA",
+        "callsign": "N6SS",
+        "mode": "SSB",
+        "band": "10M",
+        "qso_date": "2024-10-27",
+        "qso_time": "022256",
+        "qsl_received": "2024-10-28 14:57:52"
+      },
+      {
+        "dxcc": 499,
+        "entity": "SLOVENIA",
+        "callsign": "S55OO",
+        "mode": "SSB",
+        "band": "10M",
+        "qso_date": "2024-10-27",
+        "qso_time": "105331",
+        "qsl_received": "2024-10-28 14:57:52"
+      },
+      {
+        "dxcc": 263,
+        "entity": "NETHERLANDS",
+        "callsign": "PD9DX",
+        "mode": "SSB",
+        "band": "20M",
+        "qso_date": "2024-10-27",
+        "qso_time": "161339",
+        "qsl_received": "2024-10-28 23:05:00"
+      },
+      {
+        "dxcc": 150,
+        "entity": "AUSTRALIA",
+        "callsign": "VK1A",
+        "mode": "SSB",
+        "band": "20M",
+        "qso_date": "2024-10-27",
+        "qso_time": "171146",
+        "qsl_received": "2024-10-30 03:54:22"
+      },
+      {
+        "dxcc": 269,
+        "entity": "POLAND",
+        "callsign": "SN2B",
+        "mode": "SSB",
+        "band": "15M",
+        "qso_date": "2024-10-27",
+        "qso_time": "094520",
+        "qsl_received": "2024-11-01 10:23:10"
+      },
+      {
+        "dxcc": 503,
+        "entity": "CZECH REPUBLIC",
+        "callsign": "OK7K",
+        "mode": "SSB",
+        "band": "20M",
+        "qso_date": "2024-10-26",
+        "qso_time": "191930",
+        "qsl_received": "2024-11-03 15:11:59"
+      },
+      {
+        "dxcc": 281,
+        "entity": "SPAIN",
+        "callsign": "ED3C",
+        "mode": "SSB",
+        "band": "20M",
+        "qso_date": "2024-10-26",
+        "qso_time": "181913",
+        "qsl_received": "2024-11-04 19:00:39"
+      },
+      {
+        "dxcc": 52,
+        "entity": "ESTONIA",
+        "callsign": "ES9C",
+        "mode": "SSB",
+        "band": "15M",
+        "qso_date": "2024-10-27",
+        "qso_time": "095443",
+        "qsl_received": "2024-11-06 07:54:47"
+      },
+      {
+        "dxcc": 212,
+        "entity": "BULGARIA",
+        "callsign": "LZ9W",
+        "mode": "SSB",
+        "band": "20M",
+        "qso_date": "2024-10-26",
+        "qso_time": "183052",
+        "qsl_received": "2024-11-10 10:49:29"
+      },
+      {
+        "dxcc": 103,
+        "entity": "GUAM",
+        "callsign": "AH2R",
+        "mode": "SSB",
+        "band": "20M",
+        "qso_date": "2024-10-26",
+        "qso_time": "160942",
+        "qsl_received": "2024-11-11 05:37:02"
+      },
+      {
+        "dxcc": 230,
+        "entity": "FEDERAL REPUBLIC OF GERMANY",
+        "callsign": "DF0HQ",
+        "mode": "SSB",
+        "band": "20M",
+        "qso_date": "2024-10-26",
+        "qso_time": "172731",
+        "qsl_received": "2024-11-30 20:26:38"
+      },
+      {
+        "dxcc": 130,
+        "entity": "KAZAKHSTAN",
+        "callsign": "UP2L",
+        "mode": "SSB",
+        "band": "10M",
+        "qso_date": "2024-10-27",
+        "qso_time": "111114",
+        "qsl_received": "2024-12-11 13:25:47"
+      },
+      {
+        "dxcc": 497,
+        "entity": "CROATIA",
+        "callsign": "9A1A",
+        "mode": "SSB",
+        "band": "20M",
+        "qso_date": "2024-10-27",
+        "qso_time": "170058",
+        "qsl_received": "2024-12-12 02:17:42"
+      },
+      {
+        "dxcc": 387,
+        "entity": "THAILAND",
+        "callsign": "E2M",
+        "mode": "SSB",
+        "band": "10M",
+        "qso_date": "2024-10-26",
+        "qso_time": "050100",
+        "qsl_received": "2024-12-20 14:02:23"
+      },
+      {
+        "dxcc": 110,
+        "entity": "HAWAII",
+        "callsign": "WH7T",
+        "mode": "SSB",
+        "band": "10M",
+        "qso_date": "2024-12-15",
+        "qso_time": "012818",
+        "qsl_received": "2024-12-20 16:40:14"
+      },
+      {
+        "dxcc": 369,
+        "entity": "NEPAL",
+        "callsign": "9N7AA",
+        "mode": "SSB",
+        "band": "10M",
+        "qso_date": "2024-12-15",
+        "qso_time": "041850",
+        "qsl_received": "2024-12-20 16:40:15"
+      },
+      {
+        "dxcc": 15,
+        "entity": "ASIATIC RUSSIA",
+        "callsign": "RW0A",
+        "mode": "SSB",
+        "band": "40M",
+        "qso_date": "2024-10-26",
+        "qso_time": "193428",
+        "qsl_received": "2024-12-30 16:08:04"
+      },
+      {
+        "dxcc": 248,
+        "entity": "ITALY",
+        "callsign": "IO5O",
+        "mode": "SSB",
+        "band": "10M",
+        "qso_date": "2024-12-15",
+        "qso_time": "080331",
+        "qsl_received": "2025-01-01 13:32:55"
+      },
+      {
+        "dxcc": 239,
+        "entity": "HUNGARY",
+        "callsign": "HA3NU",
+        "mode": "SSB",
+        "band": "10M",
+        "qso_date": "2024-12-15",
+        "qso_time": "074238",
+        "qsl_received": "2025-01-18 07:09:07"
+      },
+      {
+        "dxcc": 168,
+        "entity": "MARSHALL ISLANDS",
+        "callsign": "V73WW",
+        "mode": "SSB",
+        "band": "15M",
+        "qso_date": "2025-02-23",
+        "qso_time": "075500",
+        "qsl_received": "2025-02-27 04:26:58"
+      },
+      {
+        "dxcc": 54,
+        "entity": "EUROPEAN RUSSIA",
+        "callsign": "RL3A",
+        "mode": "SSB",
+        "band": "10M",
+        "qso_date": "2024-10-26",
+        "qso_time": "054700",
+        "qsl_received": "2025-05-18 22:00:34"
+      },
+      {
+        "dxcc": 321,
+        "entity": "HONG KONG",
+        "callsign": "VR2P",
+        "mode": "SSB",
+        "band": "15M",
+        "qso_date": "2024-10-26",
+        "qso_time": "052600",
+        "qsl_received": "2025-06-21 04:35:24"
+      },
+      {
+        "dxcc": 170,
+        "entity": "NEW ZEALAND",
+        "callsign": "ZL2AJ",
+        "mode": "SSB",
+        "band": "15M",
+        "qso_date": "2025-10-25",
+        "qso_time": "053835",
+        "qsl_received": "2025-10-28 04:49:03"
+      },
+      {
+        "dxcc": 145,
+        "entity": "LATVIA",
+        "callsign": "YL2SM",
+        "mode": "SSB",
+        "band": "20M",
+        "qso_date": "2025-10-25",
+        "qso_time": "131857",
+        "qsl_received": "2025-10-28 04:49:05"
+      },
+      {
+        "dxcc": 266,
+        "entity": "NORWAY",
+        "callsign": "LN8W",
+        "mode": "SSB",
+        "band": "10M",
+        "qso_date": "2025-10-26",
+        "qso_time": "072920",
+        "qsl_received": "2025-10-28 04:49:11"
+      },
+      {
+        "dxcc": 296,
+        "entity": "SERBIA",
+        "callsign": "YT6X",
+        "mode": "SSB",
+        "band": "10M",
+        "qso_date": "2025-10-26",
+        "qso_time": "070801",
+        "qsl_received": "2025-10-28 04:49:11"
+      },
+      {
+        "dxcc": 225,
+        "entity": "SARDINIA",
+        "callsign": "IS0BSR",
+        "mode": "SSB",
+        "band": "10M",
+        "qso_date": "2025-10-26",
+        "qso_time": "083511",
+        "qsl_received": "2025-10-28 04:49:12"
+      },
+      {
+        "dxcc": 284,
+        "entity": "SWEDEN",
+        "callsign": "SJ2W",
+        "mode": "SSB",
+        "band": "10M",
+        "qso_date": "2025-10-26",
+        "qso_time": "083252",
+        "qsl_received": "2025-10-28 04:49:12"
+      },
+      {
+        "dxcc": 209,
+        "entity": "BELGIUM",
+        "callsign": "OT1A",
+        "mode": "SSB",
+        "band": "10M",
+        "qso_date": "2025-10-26",
+        "qso_time": "092553",
+        "qsl_received": "2025-10-28 04:49:13"
+      },
+      {
+        "dxcc": 256,
+        "entity": "MADEIRA ISLANDS",
+        "callsign": "CQ3W",
+        "mode": "SSB",
+        "band": "10M",
+        "qso_date": "2025-10-26",
+        "qso_time": "092208",
+        "qsl_received": "2025-10-29 11:41:10"
+      },
+      {
+        "dxcc": 206,
+        "entity": "AUSTRIA",
+        "callsign": "OE9MON",
+        "mode": "SSB",
+        "band": "10M",
+        "qso_date": "2025-10-26",
+        "qso_time": "092819",
+        "qsl_received": "2025-10-29 14:57:02"
+      },
+      {
+        "dxcc": 224,
+        "entity": "FINLAND",
+        "callsign": "OH8L",
+        "mode": "SSB",
+        "band": "20M",
+        "qso_date": "2025-10-26",
+        "qso_time": "112538",
+        "qsl_received": "2025-10-30 14:55:07"
+      },
+      {
+        "dxcc": 146,
+        "entity": "LITHUANIA",
+        "callsign": "LY5E",
+        "mode": "SSB",
+        "band": "10M",
+        "qso_date": "2025-10-26",
+        "qso_time": "053157",
+        "qsl_received": "2025-10-30 20:56:49"
+      },
+      {
+        "dxcc": 190,
+        "entity": "SAMOA",
+        "callsign": "5W1SA",
+        "mode": "SSB",
+        "band": "10M",
+        "qso_date": "2025-10-26",
+        "qso_time": "025610",
+        "qsl_received": "2025-11-01 00:29:34"
+      },
+      {
+        "dxcc": 6,
+        "entity": "ALASKA",
+        "callsign": "KL5DX",
+        "mode": "SSB",
+        "band": "15M",
+        "qso_date": "2025-10-25",
+        "qso_time": "052327",
+        "qsl_received": "2025-11-01 20:23:11"
+      },
+      {
+        "dxcc": 223,
+        "entity": "ENGLAND",
+        "callsign": "M6T",
+        "mode": "SSB",
+        "band": "15M",
+        "qso_date": "2025-10-25",
+        "qso_time": "073207",
+        "qsl_received": "2025-11-02 19:18:55"
+      },
+      {
+        "dxcc": 501,
+        "entity": "BOSNIA-HERZEGOVINA",
+        "callsign": "E70T",
+        "mode": "SSB",
+        "band": "15M",
+        "qso_date": "2025-10-26",
+        "qso_time": "063726",
+        "qsl_received": "2025-11-02 21:15:38"
+      },
+      {
+        "dxcc": 279,
+        "entity": "SCOTLAND",
+        "callsign": "GM2T",
+        "mode": "SSB",
+        "band": "15M",
+        "qso_date": "2025-10-26",
+        "qso_time": "100908",
+        "qsl_received": "2025-11-04 10:18:50"
+      },
+      {
+        "dxcc": 272,
+        "entity": "PORTUGAL",
+        "callsign": "CR5Y",
+        "mode": "SSB",
+        "band": "10M",
+        "qso_date": "2025-10-26",
+        "qso_time": "085201",
+        "qsl_received": "2025-11-13 19:13:28"
+      },
+      {
+        "dxcc": 27,
+        "entity": "BELARUS",
+        "callsign": "EW8R",
+        "mode": "SSB",
+        "band": "10M",
+        "qso_date": "2025-10-26",
+        "qso_time": "052347",
+        "qsl_received": "2025-11-16 17:51:25"
+      },
+      {
+        "dxcc": 227,
+        "entity": "FRANCE",
+        "callsign": "F4VXB",
+        "mode": "SSB",
+        "band": "10M",
+        "qso_date": "2025-10-26",
+        "qso_time": "092011",
+        "qsl_received": "2025-11-22 09:36:48"
+      },
+      {
+        "dxcc": 46,
+        "entity": "EAST MALAYSIA",
+        "callsign": "9M8YY",
+        "mode": "SSB",
+        "band": "10M",
+        "qso_date": "2025-10-25",
+        "qso_time": "051216",
+        "qsl_received": "2025-12-15 14:16:12"
+      },
+      {
+        "dxcc": 236,
+        "entity": "GREECE",
+        "callsign": "SX3S",
+        "mode": "SSB",
+        "band": "10M",
+        "qso_date": "2025-10-26",
+        "qso_time": "093005",
+        "qsl_received": "2025-12-17 06:54:02"
+      },
+      {
+        "dxcc": 108,
+        "entity": "BRAZIL",
+        "callsign": "ZW5B",
+        "mode": "SSB",
+        "band": "10M",
+        "qso_date": "2025-10-25",
+        "qso_time": "051134",
+        "qsl_received": "2025-12-18 13:02:58"
+      },
+      {
+        "dxcc": 100,
+        "entity": "ARGENTINA",
+        "callsign": "AZ1D",
+        "mode": "SSB",
+        "band": "10M",
+        "qso_date": "2025-10-25",
+        "qso_time": "043332",
+        "qsl_received": "2026-02-18 22:18:29"
+      },
+      {
+        "dxcc": 305,
+        "entity": "BANGLADESH",
+        "callsign": "S21WD",
+        "mode": "SSB",
+        "band": "15M",
+        "qso_date": "2026-03-27",
+        "qso_time": "092100",
+        "qsl_received": "2026-04-07 17:03:11"
+      },
+      {
+        "dxcc": 22,
+        "entity": "PALAU",
+        "callsign": "T88KH",
+        "mode": "SSB",
+        "band": "10M",
+        "qso_date": "2026-03-28",
+        "qso_time": "073207",
+        "qsl_received": "2026-04-07 17:03:15"
+      }
+    ],
+    "cw": [
+      {
+        "dxcc": 339,
+        "entity": "JAPAN",
+        "callsign": "JH8YOH",
+        "mode": "CW",
+        "band": "40M",
+        "qso_date": "2023-11-25",
+        "qso_time": "173759",
+        "qsl_received": "2023-12-04 08:22:19"
+      },
+      {
+        "dxcc": 318,
+        "entity": "CHINA",
+        "callsign": "B1CRA",
+        "mode": "CW",
+        "band": "20M",
+        "qso_date": "2024-05-04",
+        "qso_time": "012300",
+        "qsl_received": "2024-10-14 15:38:21"
+      },
+      {
+        "dxcc": 321,
+        "entity": "HONG KONG",
+        "callsign": "VR2NC",
+        "mode": "CW",
+        "band": "20M",
+        "qso_date": "2024-10-06",
+        "qso_time": "041600",
+        "qsl_received": "2024-10-18 17:34:04"
+      },
+      {
+        "dxcc": 137,
+        "entity": "REPUBLIC OF KOREA",
+        "callsign": "DS4EOI",
+        "mode": "CW",
+        "band": "80M",
+        "qso_date": "2024-11-23",
+        "qso_time": "172525",
+        "qsl_received": "2024-11-25 03:55:17"
+      },
+      {
+        "dxcc": 266,
+        "entity": "NORWAY",
+        "callsign": "LA7GIA",
+        "mode": "CW",
+        "band": "10M",
+        "qso_date": "2024-11-24",
+        "qso_time": "081210",
+        "qsl_received": "2024-11-25 03:55:18"
+      },
+      {
+        "dxcc": 345,
+        "entity": "BRUNEI",
+        "callsign": "V85RH",
+        "mode": "CW",
+        "band": "15M",
+        "qso_date": "2024-11-24",
+        "qso_time": "024850",
+        "qsl_received": "2024-11-25 03:55:18"
+      },
+      {
+        "dxcc": 291,
+        "entity": "UNITED STATES OF AMERICA",
+        "callsign": "KN7K",
+        "mode": "CW",
+        "band": "40M",
+        "qso_date": "2024-11-24",
+        "qso_time": "143814",
+        "qsl_received": "2024-11-25 03:55:19"
+      },
+      {
+        "dxcc": 375,
+        "entity": "PHILIPPINES",
+        "callsign": "DU0A",
+        "mode": "CW",
+        "band": "10M",
+        "qso_date": "2024-11-23",
+        "qso_time": "055600",
+        "qsl_received": "2024-11-25 10:14:31"
+      },
+      {
+        "dxcc": 224,
+        "entity": "FINLAND",
+        "callsign": "OG1F",
+        "mode": "CW",
+        "band": "15M",
+        "qso_date": "2024-11-23",
+        "qso_time": "100349",
+        "qsl_received": "2024-11-25 18:34:51"
+      },
+      {
+        "dxcc": 46,
+        "entity": "EAST MALAYSIA",
+        "callsign": "9M6NA",
+        "mode": "CW",
+        "band": "20M",
+        "qso_date": "2024-11-24",
+        "qso_time": "145543",
+        "qsl_received": "2024-11-25 21:22:20"
+      },
+      {
+        "dxcc": 207,
+        "entity": "RODRIGUEZ ISLAND",
+        "callsign": "3B9KW",
+        "mode": "CW",
+        "band": "10M",
+        "qso_date": "2024-11-24",
+        "qso_time": "072920",
+        "qsl_received": "2024-11-26 15:22:14"
+      },
+      {
+        "dxcc": 114,
+        "entity": "ISLE OF MAN",
+        "callsign": "MD4K",
+        "mode": "CW",
+        "band": "10M",
+        "qso_date": "2024-11-24",
+        "qso_time": "082634",
+        "qsl_received": "2024-11-26 21:11:16"
+      },
+      {
+        "dxcc": 327,
+        "entity": "INDONESIA",
+        "callsign": "7A0F",
+        "mode": "CW",
+        "band": "40M",
+        "qso_date": "2024-11-23",
+        "qso_time": "182058",
+        "qsl_received": "2024-11-27 00:03:15"
+      },
+      {
+        "dxcc": 110,
+        "entity": "HAWAII",
+        "callsign": "KH6J",
+        "mode": "CW",
+        "band": "40M",
+        "qso_date": "2024-11-24",
+        "qso_time": "144902",
+        "qsl_received": "2024-11-27 00:32:13"
+      },
+      {
+        "dxcc": 150,
+        "entity": "AUSTRALIA",
+        "callsign": "VK1A",
+        "mode": "CW",
+        "band": "40M",
+        "qso_date": "2024-11-24",
+        "qso_time": "154045",
+        "qsl_received": "2024-11-27 06:16:31"
+      },
+      {
+        "dxcc": 166,
+        "entity": "MARIANA ISLANDS",
+        "callsign": "KH0/WH2JA",
+        "mode": "CW",
+        "band": "10M",
+        "qso_date": "2024-11-24",
+        "qso_time": "070559",
+        "qsl_received": "2024-11-27 11:28:48"
+      },
+      {
+        "dxcc": 275,
+        "entity": "ROMANIA",
+        "callsign": "YR8D",
+        "mode": "CW",
+        "band": "15M",
+        "qso_date": "2024-11-24",
+        "qso_time": "090344",
+        "qsl_received": "2024-11-27 12:52:47"
+      },
+      {
+        "dxcc": 223,
+        "entity": "ENGLAND",
+        "callsign": "M6T",
+        "mode": "CW",
+        "band": "15M",
+        "qso_date": "2024-11-24",
+        "qso_time": "084702",
+        "qsl_received": "2024-11-29 14:32:00"
+      },
+      {
+        "dxcc": 504,
+        "entity": "SLOVAK REPUBLIC",
+        "callsign": "OM7K",
+        "mode": "CW",
+        "band": "40M",
+        "qso_date": "2024-11-23",
+        "qso_time": "184511",
+        "qsl_received": "2024-11-29 20:47:49"
+      },
+      {
+        "dxcc": 269,
+        "entity": "POLAND",
+        "callsign": "SN2B",
+        "mode": "CW",
+        "band": "10M",
+        "qso_date": "2024-11-24",
+        "qso_time": "081645",
+        "qsl_received": "2024-11-30 07:02:36"
+      },
+      {
+        "dxcc": 387,
+        "entity": "THAILAND",
+        "callsign": "E2A",
+        "mode": "CW",
+        "band": "10M",
+        "qso_date": "2024-11-24",
+        "qso_time": "003449",
+        "qsl_received": "2024-11-30 12:23:01"
+      },
+      {
+        "dxcc": 248,
+        "entity": "ITALY",
+        "callsign": "II2Q",
+        "mode": "CW",
+        "band": "10M",
+        "qso_date": "2024-11-24",
+        "qso_time": "075839",
+        "qsl_received": "2024-11-30 17:42:12"
+      },
+      {
+        "dxcc": 239,
+        "entity": "HUNGARY",
+        "callsign": "HG3N",
+        "mode": "CW",
+        "band": "15M",
+        "qso_date": "2024-11-23",
+        "qso_time": "101800",
+        "qsl_received": "2024-11-30 19:10:38"
+      },
+      {
+        "dxcc": 284,
+        "entity": "SWEDEN",
+        "callsign": "SM2EKM",
+        "mode": "CW",
+        "band": "40M",
+        "qso_date": "2024-11-24",
+        "qso_time": "143604",
+        "qsl_received": "2024-12-01 04:47:00"
+      },
+      {
+        "dxcc": 130,
+        "entity": "KAZAKHSTAN",
+        "callsign": "UN5G",
+        "mode": "CW",
+        "band": "10M",
+        "qso_date": "2024-11-24",
+        "qso_time": "023956",
+        "qsl_received": "2024-12-01 08:55:41"
+      },
+      {
+        "dxcc": 52,
+        "entity": "ESTONIA",
+        "callsign": "ES9C",
+        "mode": "CW",
+        "band": "10M",
+        "qso_date": "2024-11-24",
+        "qso_time": "070301",
+        "qsl_received": "2024-12-01 22:30:18"
+      },
+      {
+        "dxcc": 296,
+        "entity": "SERBIA",
+        "callsign": "YU1A",
+        "mode": "CW",
+        "band": "10M",
+        "qso_date": "2024-11-24",
+        "qso_time": "090707",
+        "qsl_received": "2024-12-02 09:42:01"
+      },
+      {
+        "dxcc": 103,
+        "entity": "GUAM",
+        "callsign": "AH2R",
+        "mode": "CW",
+        "band": "15M",
+        "qso_date": "2024-11-24",
+        "qso_time": "030248",
+        "qsl_received": "2024-12-04 00:50:46"
+      },
+      {
+        "dxcc": 15,
+        "entity": "ASIATIC RUSSIA",
+        "callsign": "RT8U",
+        "mode": "CW",
+        "band": "40M",
+        "qso_date": "2024-11-23",
+        "qso_time": "182441",
+        "qsl_received": "2024-12-05 13:45:12"
+      },
+      {
+        "dxcc": 230,
+        "entity": "FEDERAL REPUBLIC OF GERMANY",
+        "callsign": "DF7A",
+        "mode": "CW",
+        "band": "15M",
+        "qso_date": "2024-11-23",
+        "qso_time": "102922",
+        "qsl_received": "2024-12-08 15:46:40"
+      },
+      {
+        "dxcc": 503,
+        "entity": "CZECH REPUBLIC",
+        "callsign": "OK1Z",
+        "mode": "CW",
+        "band": "40M",
+        "qso_date": "2024-11-24",
+        "qso_time": "153407",
+        "qsl_received": "2024-12-10 13:41:24"
+      },
+      {
+        "dxcc": 212,
+        "entity": "BULGARIA",
+        "callsign": "LZ9W",
+        "mode": "CW",
+        "band": "20M",
+        "qso_date": "2024-11-24",
+        "qso_time": "141307",
+        "qsl_received": "2024-12-13 14:34:45"
+      },
+      {
+        "dxcc": 54,
+        "entity": "EUROPEAN RUSSIA",
+        "callsign": "R7NW",
+        "mode": "CW",
+        "band": "40M",
+        "qso_date": "2024-11-23",
+        "qso_time": "173124",
+        "qsl_received": "2024-12-16 09:06:27"
+      },
+      {
+        "dxcc": 236,
+        "entity": "GREECE",
+        "callsign": "SV1DPJ",
+        "mode": "CW",
+        "band": "10M",
+        "qso_date": "2024-12-15",
+        "qso_time": "065920",
+        "qsl_received": "2024-12-20 16:40:15"
+      },
+      {
+        "dxcc": 497,
+        "entity": "CROATIA",
+        "callsign": "9A5X",
+        "mode": "CW",
+        "band": "10M",
+        "qso_date": "2024-12-15",
+        "qso_time": "091237",
+        "qsl_received": "2024-12-20 16:40:16"
+      },
+      {
+        "dxcc": 298,
+        "entity": "WALLIS & FUTUNA ISLANDS",
+        "callsign": "FW7AA",
+        "mode": "CW",
+        "band": "40M",
+        "qso_date": "2024-11-24",
+        "qso_time": "142305",
+        "qsl_received": "2024-12-29 18:51:46"
+      },
+      {
+        "dxcc": 168,
+        "entity": "MARSHALL ISLANDS",
+        "callsign": "V73WW",
+        "mode": "CW",
+        "band": "10M",
+        "qso_date": "2025-02-23",
+        "qso_time": "084500",
+        "qsl_received": "2025-02-27 04:26:58"
+      },
+      {
+        "dxcc": 146,
+        "entity": "LITHUANIA",
+        "callsign": "LY2XW",
+        "mode": "CW",
+        "band": "15M",
+        "qso_date": "2024-11-23",
+        "qso_time": "100724",
+        "qsl_received": "2025-05-02 05:14:45"
+      },
+      {
+        "dxcc": 227,
+        "entity": "FRANCE",
+        "callsign": "F8DFP",
+        "mode": "CW",
+        "band": "10M",
+        "qso_date": "2024-12-15",
+        "qso_time": "090453",
+        "qsl_received": "2025-05-11 13:51:48"
+      },
+      {
+        "dxcc": 176,
+        "entity": "FIJI ISLANDS",
+        "callsign": "3D2SP",
+        "mode": "CW",
+        "band": "15M",
+        "qso_date": "2025-05-25",
+        "qso_time": "084037",
+        "qsl_received": "2025-05-26 04:14:55"
+      },
+      {
+        "dxcc": 5,
+        "entity": "ALAND ISLANDS",
+        "callsign": "OH0TXF",
+        "mode": "CW",
+        "band": "20M",
+        "qso_date": "2025-05-24",
+        "qso_time": "175944",
+        "qsl_received": "2025-05-28 08:56:41"
+      },
+      {
+        "dxcc": 281,
+        "entity": "SPAIN",
+        "callsign": "EF3W",
+        "mode": "CW",
+        "band": "10M",
+        "qso_date": "2025-05-24",
+        "qso_time": "090851",
+        "qsl_received": "2025-05-28 21:52:08"
+      },
+      {
+        "dxcc": 100,
+        "entity": "ARGENTINA",
+        "callsign": "LP1H",
+        "mode": "CW",
+        "band": "20M",
+        "qso_date": "2025-05-24",
+        "qso_time": "113641",
+        "qsl_received": "2025-05-28 23:43:31"
+      },
+      {
+        "dxcc": 501,
+        "entity": "BOSNIA-HERZEGOVINA",
+        "callsign": "E74A",
+        "mode": "CW",
+        "band": "15M",
+        "qso_date": "2025-05-25",
+        "qso_time": "123959",
+        "qsl_received": "2025-06-15 18:40:20"
+      },
+      {
+        "dxcc": 35,
+        "entity": "CHRISTMAS ISLAND",
+        "callsign": "VK9XU",
+        "mode": "CW",
+        "band": "17M",
+        "qso_date": "2025-03-01",
+        "qso_time": "084600",
+        "qsl_received": "2025-06-25 09:38:36"
+      },
+      {
+        "dxcc": 21,
+        "entity": "BALEARIC ISLANDS",
+        "callsign": "EF6T",
+        "mode": "CW",
+        "band": "10M",
+        "qso_date": "2025-11-29",
+        "qso_time": "074809",
+        "qsl_received": "2025-12-01 16:05:08"
+      },
+      {
+        "dxcc": 499,
+        "entity": "SLOVENIA",
+        "callsign": "S53R",
+        "mode": "CW",
+        "band": "10M",
+        "qso_date": "2025-11-29",
+        "qso_time": "091536",
+        "qsl_received": "2025-12-01 16:05:09"
+      },
+      {
+        "dxcc": 145,
+        "entity": "LATVIA",
+        "callsign": "YL2SM",
+        "mode": "CW",
+        "band": "20M",
+        "qso_date": "2025-11-29",
+        "qso_time": "093813",
+        "qsl_received": "2025-12-01 16:05:10"
+      },
+      {
+        "dxcc": 386,
+        "entity": "TAIWAN",
+        "callsign": "BX4AFI",
+        "mode": "CW",
+        "band": "20M",
+        "qso_date": "2025-11-30",
+        "qso_time": "004852",
+        "qsl_received": "2025-12-01 16:05:13"
+      },
+      {
+        "dxcc": 27,
+        "entity": "BELARUS",
+        "callsign": "EV1R",
+        "mode": "CW",
+        "band": "10M",
+        "qso_date": "2025-11-30",
+        "qso_time": "063151",
+        "qsl_received": "2025-12-01 16:05:17"
+      },
+      {
+        "dxcc": 288,
+        "entity": "UKRAINE",
+        "callsign": "UR5R",
+        "mode": "CW",
+        "band": "10M",
+        "qso_date": "2025-11-30",
+        "qso_time": "063741",
+        "qsl_received": "2025-12-01 16:05:17"
+      },
+      {
+        "dxcc": 225,
+        "entity": "SARDINIA",
+        "callsign": "IS0AFM",
+        "mode": "CW",
+        "band": "10M",
+        "qso_date": "2025-11-30",
+        "qso_time": "083727",
+        "qsl_received": "2025-12-01 16:05:18"
+      },
+      {
+        "dxcc": 502,
+        "entity": "NORTH MACEDONIA",
+        "callsign": "Z35M",
+        "mode": "CW",
+        "band": "40M",
+        "qso_date": "2025-11-30",
+        "qso_time": "162642",
+        "qsl_received": "2025-12-01 16:05:19"
+      },
+      {
+        "dxcc": 112,
+        "entity": "CHILE",
+        "callsign": "CB3A",
+        "mode": "CW",
+        "band": "20M",
+        "qso_date": "2025-11-30",
+        "qso_time": "115816",
+        "qsl_received": "2025-12-01 17:49:45"
+      },
+      {
+        "dxcc": 215,
+        "entity": "CYPRUS",
+        "callsign": "P3X",
+        "mode": "CW",
+        "band": "10M",
+        "qso_date": "2025-11-29",
+        "qso_time": "090634",
+        "qsl_received": "2025-12-02 08:58:26"
+      },
+      {
+        "dxcc": 144,
+        "entity": "URUGUAY",
+        "callsign": "CW5W",
+        "mode": "CW",
+        "band": "10M",
+        "qso_date": "2025-11-29",
+        "qso_time": "014432",
+        "qsl_received": "2025-12-02 17:02:20"
+      },
+      {
+        "dxcc": 254,
+        "entity": "LUXEMBOURG",
+        "callsign": "LX7I",
+        "mode": "CW",
+        "band": "10M",
+        "qso_date": "2025-11-29",
+        "qso_time": "091446",
+        "qsl_received": "2025-12-03 20:57:17"
+      },
+      {
+        "dxcc": 34,
+        "entity": "CHATHAM ISLAND",
+        "callsign": "ZL7IO",
+        "mode": "CW",
+        "band": "10M",
+        "qso_date": "2025-11-29",
+        "qso_time": "014014",
+        "qsl_received": "2025-12-04 07:22:09"
+      },
+      {
+        "dxcc": 514,
+        "entity": "MONTENEGRO",
+        "callsign": "4O3A",
+        "mode": "CW",
+        "band": "10M",
+        "qso_date": "2025-11-29",
+        "qso_time": "081303",
+        "qsl_received": "2025-12-04 12:07:51"
+      },
+      {
+        "dxcc": 363,
+        "entity": "MONGOLIA",
+        "callsign": "JT1BV",
+        "mode": "CW",
+        "band": "10M",
+        "qso_date": "2025-11-30",
+        "qso_time": "040723",
+        "qsl_received": "2025-12-05 09:38:24"
+      },
+      {
+        "dxcc": 214,
+        "entity": "CORSICA",
+        "callsign": "TK0C",
+        "mode": "CW",
+        "band": "10M",
+        "qso_date": "2025-11-29",
+        "qso_time": "081817",
+        "qsl_received": "2025-12-06 08:42:03"
+      },
+      {
+        "dxcc": 75,
+        "entity": "GEORGIA",
+        "callsign": "4L9M",
+        "mode": "CW",
+        "band": "20M",
+        "qso_date": "2025-11-29",
+        "qso_time": "112222",
+        "qsl_received": "2025-12-06 11:21:46"
+      },
+      {
+        "dxcc": 190,
+        "entity": "SAMOA",
+        "callsign": "5W1SA",
+        "mode": "CW",
+        "band": "10M",
+        "qso_date": "2025-11-29",
+        "qso_time": "063813",
+        "qsl_received": "2025-12-06 19:46:38"
+      },
+      {
+        "dxcc": 108,
+        "entity": "BRAZIL",
+        "callsign": "ZW5B",
+        "mode": "CW",
+        "band": "10M",
+        "qso_date": "2025-11-29",
+        "qso_time": "031351",
+        "qsl_received": "2025-12-18 12:55:34"
+      },
+      {
+        "dxcc": 256,
+        "entity": "MADEIRA ISLANDS",
+        "callsign": "CR3A",
+        "mode": "CW",
+        "band": "15M",
+        "qso_date": "2025-11-30",
+        "qso_time": "085957",
+        "qsl_received": "2025-12-19 18:35:59"
+      },
+      {
+        "dxcc": 22,
+        "entity": "PALAU",
+        "callsign": "T88AR",
+        "mode": "CW",
+        "band": "15M",
+        "qso_date": "2025-11-29",
+        "qso_time": "233613",
+        "qsl_received": "2026-01-18 16:39:37"
+      },
+      {
+        "dxcc": 1,
+        "entity": "CANADA",
+        "callsign": "VE7ZO",
+        "mode": "CW",
+        "band": "15M",
+        "qso_date": "2025-11-29",
+        "qso_time": "233911",
+        "qsl_received": "2026-01-20 00:47:40"
+      },
+      {
+        "dxcc": 305,
+        "entity": "BANGLADESH",
+        "callsign": "S21WD",
+        "mode": "CW",
+        "band": "10M",
+        "qso_date": "2026-03-28",
+        "qso_time": "042300",
+        "qsl_received": "2026-04-07 17:03:10"
+      }
+    ],
+    "digital": [
+      {
+        "dxcc": 100,
+        "entity": "ARGENTINA",
+        "callsign": "LW3DMA",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-02-18",
+        "qso_time": "092130",
+        "qsl_received": "2023-02-23 04:46:14"
+      },
+      {
+        "dxcc": 318,
+        "entity": "CHINA",
+        "callsign": "BD4TZY",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-02-18",
+        "qso_time": "100845",
+        "qsl_received": "2023-02-23 04:46:14"
+      },
+      {
+        "dxcc": 108,
+        "entity": "BRAZIL",
+        "callsign": "PU2VLW",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-02-19",
+        "qso_time": "081730",
+        "qsl_received": "2023-02-23 05:24:38"
+      },
+      {
+        "dxcc": 54,
+        "entity": "EUROPEAN RUSSIA",
+        "callsign": "RY7G",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-02-25",
+        "qso_time": "120930",
+        "qsl_received": "2023-02-25 19:11:20"
+      },
+      {
+        "dxcc": 296,
+        "entity": "SERBIA",
+        "callsign": "YT3PL",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-02-26",
+        "qso_time": "085545",
+        "qsl_received": "2023-02-26 13:38:26"
+      },
+      {
+        "dxcc": 130,
+        "entity": "KAZAKHSTAN",
+        "callsign": "UN7BY",
+        "mode": "FT8",
+        "band": "17M",
+        "qso_date": "2023-02-26",
+        "qso_time": "101400",
+        "qsl_received": "2023-02-26 13:38:27"
+      },
+      {
+        "dxcc": 206,
+        "entity": "AUSTRIA",
+        "callsign": "OE3FVU",
+        "mode": "FT8",
+        "band": "12M",
+        "qso_date": "2023-02-26",
+        "qso_time": "075030",
+        "qsl_received": "2023-02-26 19:24:36"
+      },
+      {
+        "dxcc": 269,
+        "entity": "POLAND",
+        "callsign": "SP3JHZ",
+        "mode": "FT8",
+        "band": "17M",
+        "qso_date": "2023-02-26",
+        "qso_time": "101915",
+        "qsl_received": "2023-02-27 01:42:41"
+      },
+      {
+        "dxcc": 386,
+        "entity": "TAIWAN",
+        "callsign": "BX6ABC",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-02-26",
+        "qso_time": "093845",
+        "qsl_received": "2023-02-27 03:17:47"
+      },
+      {
+        "dxcc": 375,
+        "entity": "PHILIPPINES",
+        "callsign": "DU3CQ",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2023-02-25",
+        "qso_time": "130618",
+        "qsl_received": "2023-02-27 16:12:20"
+      },
+      {
+        "dxcc": 225,
+        "entity": "SARDINIA",
+        "callsign": "IS0KNG",
+        "mode": "FT8",
+        "band": "17M",
+        "qso_date": "2023-02-26",
+        "qso_time": "101630",
+        "qsl_received": "2023-02-28 05:06:07"
+      },
+      {
+        "dxcc": 339,
+        "entity": "JAPAN",
+        "callsign": "JA5CDL",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-02-18",
+        "qso_time": "093030",
+        "qsl_received": "2023-03-01 01:03:58"
+      },
+      {
+        "dxcc": 176,
+        "entity": "FIJI ISLANDS",
+        "callsign": "3D2MP",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-02-26",
+        "qso_time": "104145",
+        "qsl_received": "2023-03-02 00:32:27"
+      },
+      {
+        "dxcc": 503,
+        "entity": "CZECH REPUBLIC",
+        "callsign": "OK1HEH",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-02-26",
+        "qso_time": "093500",
+        "qsl_received": "2023-03-02 03:24:15"
+      },
+      {
+        "dxcc": 327,
+        "entity": "INDONESIA",
+        "callsign": "YC1FGH",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-02-18",
+        "qso_time": "101945",
+        "qsl_received": "2023-03-05 06:40:27"
+      },
+      {
+        "dxcc": 291,
+        "entity": "UNITED STATES OF AMERICA",
+        "callsign": "K6QI",
+        "mode": "FT8",
+        "band": "40M",
+        "qso_date": "2023-03-04",
+        "qso_time": "140915",
+        "qsl_received": "2023-03-05 09:17:21"
+      },
+      {
+        "dxcc": 299,
+        "entity": "WEST MALAYSIA",
+        "callsign": "9M2DA",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-02-26",
+        "qso_time": "104730",
+        "qsl_received": "2023-03-05 10:17:59"
+      },
+      {
+        "dxcc": 103,
+        "entity": "GUAM",
+        "callsign": "WA0OII",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-03-04",
+        "qso_time": "072845",
+        "qsl_received": "2023-03-06 07:02:06"
+      },
+      {
+        "dxcc": 212,
+        "entity": "BULGARIA",
+        "callsign": "LZ2KTS",
+        "mode": "FT4",
+        "band": "10M",
+        "qso_date": "2023-03-10",
+        "qso_time": "085907",
+        "qsl_received": "2023-03-10 11:53:09"
+      },
+      {
+        "dxcc": 223,
+        "entity": "ENGLAND",
+        "callsign": "G4KHG",
+        "mode": "FT4",
+        "band": "10M",
+        "qso_date": "2023-03-10",
+        "qso_time": "093737",
+        "qsl_received": "2023-03-11 00:32:23"
+      },
+      {
+        "dxcc": 284,
+        "entity": "SWEDEN",
+        "callsign": "SM0EJR",
+        "mode": "FT4",
+        "band": "10M",
+        "qso_date": "2023-03-10",
+        "qso_time": "091945",
+        "qsl_received": "2023-03-12 10:39:44"
+      },
+      {
+        "dxcc": 321,
+        "entity": "HONG KONG",
+        "callsign": "VR2IL",
+        "mode": "FT8",
+        "band": "40M",
+        "qso_date": "2023-03-13",
+        "qso_time": "124945",
+        "qsl_received": "2023-03-14 00:02:47"
+      },
+      {
+        "dxcc": 363,
+        "entity": "MONGOLIA",
+        "callsign": "JT1DN",
+        "mode": "FT8",
+        "band": "12M",
+        "qso_date": "2023-03-11",
+        "qso_time": "101530",
+        "qsl_received": "2023-03-16 00:42:07"
+      },
+      {
+        "dxcc": 287,
+        "entity": "SWITZERLAND",
+        "callsign": "HB9TUD",
+        "mode": "FT4",
+        "band": "10M",
+        "qso_date": "2023-03-16",
+        "qso_time": "075230",
+        "qsl_received": "2023-03-16 11:32:09"
+      },
+      {
+        "dxcc": 502,
+        "entity": "NORTH MACEDONIA",
+        "callsign": "Z32BM",
+        "mode": "FT4",
+        "band": "10M",
+        "qso_date": "2023-03-16",
+        "qso_time": "075400",
+        "qsl_received": "2023-03-16 11:32:09"
+      },
+      {
+        "dxcc": 27,
+        "entity": "BELARUS",
+        "callsign": "EV1R",
+        "mode": "FT4",
+        "band": "10M",
+        "qso_date": "2023-03-16",
+        "qso_time": "082730",
+        "qsl_received": "2023-03-16 11:32:10"
+      },
+      {
+        "dxcc": 224,
+        "entity": "FINLAND",
+        "callsign": "OH1FOL",
+        "mode": "FT8",
+        "band": "12M",
+        "qso_date": "2023-03-16",
+        "qso_time": "083830",
+        "qsl_received": "2023-03-16 11:32:10"
+      },
+      {
+        "dxcc": 266,
+        "entity": "NORWAY",
+        "callsign": "LA1XJA",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2023-03-16",
+        "qso_time": "094018",
+        "qsl_received": "2023-03-16 12:37:23"
+      },
+      {
+        "dxcc": 170,
+        "entity": "NEW ZEALAND",
+        "callsign": "ZL3NB",
+        "mode": "FT4",
+        "band": "10M",
+        "qso_date": "2023-03-16",
+        "qso_time": "073923",
+        "qsl_received": "2023-03-16 22:54:23"
+      },
+      {
+        "dxcc": 209,
+        "entity": "BELGIUM",
+        "callsign": "ON7GB",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2023-03-16",
+        "qso_time": "094300",
+        "qsl_received": "2023-03-17 19:55:08"
+      },
+      {
+        "dxcc": 162,
+        "entity": "NEW CALEDONIA",
+        "callsign": "FK8HM",
+        "mode": "FT4",
+        "band": "10M",
+        "qso_date": "2023-03-18",
+        "qso_time": "001437",
+        "qsl_received": "2023-03-18 01:32:08"
+      },
+      {
+        "dxcc": 112,
+        "entity": "CHILE",
+        "callsign": "CA3TSK",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2023-03-17",
+        "qso_time": "235119",
+        "qsl_received": "2023-03-18 02:55:16"
+      },
+      {
+        "dxcc": 265,
+        "entity": "NORTHERN IRELAND",
+        "callsign": "MI0NWA",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2023-03-16",
+        "qso_time": "093345",
+        "qsl_received": "2023-03-18 16:30:35"
+      },
+      {
+        "dxcc": 462,
+        "entity": "REPUBLIC OF SOUTH AFRICA",
+        "callsign": "ZR6TM",
+        "mode": "FT8",
+        "band": "17M",
+        "qso_date": "2023-03-18",
+        "qso_time": "141045",
+        "qsl_received": "2023-03-19 01:42:47"
+      },
+      {
+        "dxcc": 236,
+        "entity": "GREECE",
+        "callsign": "SV1JSS",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-03-18",
+        "qso_time": "152747",
+        "qsl_received": "2023-03-19 01:42:48"
+      },
+      {
+        "dxcc": 324,
+        "entity": "INDIA",
+        "callsign": "VU3YDA",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-03-18",
+        "qso_time": "163405",
+        "qsl_received": "2023-03-19 01:42:48"
+      },
+      {
+        "dxcc": 390,
+        "entity": "TURKEY",
+        "callsign": "TA9J",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-03-18",
+        "qso_time": "162430",
+        "qsl_received": "2023-03-19 08:25:33"
+      },
+      {
+        "dxcc": 190,
+        "entity": "SAMOA",
+        "callsign": "5W1SA",
+        "mode": "FT4",
+        "band": "10M",
+        "qso_date": "2023-03-18",
+        "qso_time": "003922",
+        "qsl_received": "2023-03-19 22:08:46"
+      },
+      {
+        "dxcc": 279,
+        "entity": "SCOTLAND",
+        "callsign": "MM0HVU",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-03-16",
+        "qso_time": "110804",
+        "qsl_received": "2023-03-20 18:07:06"
+      },
+      {
+        "dxcc": 144,
+        "entity": "URUGUAY",
+        "callsign": "CX3DDO",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-03-13",
+        "qso_time": "112034",
+        "qsl_received": "2023-03-21 14:25:49"
+      },
+      {
+        "dxcc": 239,
+        "entity": "HUNGARY",
+        "callsign": "HG3FMZ",
+        "mode": "FT4",
+        "band": "10M",
+        "qso_date": "2023-03-16",
+        "qso_time": "082845",
+        "qsl_received": "2023-03-25 21:38:27"
+      },
+      {
+        "dxcc": 288,
+        "entity": "UKRAINE",
+        "callsign": "UR6QV",
+        "mode": "FT8",
+        "band": "17M",
+        "qso_date": "2023-03-18",
+        "qso_time": "131630",
+        "qsl_received": "2023-03-27 05:52:39"
+      },
+      {
+        "dxcc": 110,
+        "entity": "HAWAII",
+        "callsign": "KX4ES",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2023-03-25",
+        "qso_time": "034950",
+        "qsl_received": "2023-03-27 12:33:50"
+      },
+      {
+        "dxcc": 275,
+        "entity": "ROMANIA",
+        "callsign": "YO5TP",
+        "mode": "FT4",
+        "band": "10M",
+        "qso_date": "2023-03-16",
+        "qso_time": "074237",
+        "qsl_received": "2023-03-30 18:37:01"
+      },
+      {
+        "dxcc": 152,
+        "entity": "MACAO",
+        "callsign": "XX9ET",
+        "mode": "FT8",
+        "band": "30M",
+        "qso_date": "2023-03-30",
+        "qso_time": "131400",
+        "qsl_received": "2023-03-31 21:36:50"
+      },
+      {
+        "dxcc": 6,
+        "entity": "ALASKA",
+        "callsign": "NL8F",
+        "mode": "FT8",
+        "band": "30M",
+        "qso_date": "2023-03-30",
+        "qso_time": "123036",
+        "qsl_received": "2023-04-01 04:25:33"
+      },
+      {
+        "dxcc": 381,
+        "entity": "SINGAPORE",
+        "callsign": "9V1YC",
+        "mode": "FT8",
+        "band": "12M",
+        "qso_date": "2023-03-31",
+        "qso_time": "010030",
+        "qsl_received": "2023-04-01 11:12:18"
+      },
+      {
+        "dxcc": 293,
+        "entity": "VIET NAM",
+        "callsign": "3W3B",
+        "mode": "FT8",
+        "band": "17M",
+        "qso_date": "2023-03-31",
+        "qso_time": "004302",
+        "qsl_received": "2023-04-01 11:20:58"
+      },
+      {
+        "dxcc": 146,
+        "entity": "LITHUANIA",
+        "callsign": "LY3CY",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-03-18",
+        "qso_time": "145830",
+        "qsl_received": "2023-04-01 13:42:56"
+      },
+      {
+        "dxcc": 501,
+        "entity": "BOSNIA-HERZEGOVINA",
+        "callsign": "E75C",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-03-30",
+        "qso_time": "121700",
+        "qsl_received": "2023-04-01 14:02:11"
+      },
+      {
+        "dxcc": 227,
+        "entity": "FRANCE",
+        "callsign": "F1MXE",
+        "mode": "FT4",
+        "band": "10M",
+        "qso_date": "2023-03-16",
+        "qso_time": "075215",
+        "qsl_received": "2023-04-02 23:19:41"
+      },
+      {
+        "dxcc": 499,
+        "entity": "SLOVENIA",
+        "callsign": "S56GD",
+        "mode": "FT4",
+        "band": "10M",
+        "qso_date": "2023-03-16",
+        "qso_time": "072315",
+        "qsl_received": "2023-04-05 13:16:41"
+      },
+      {
+        "dxcc": 145,
+        "entity": "LATVIA",
+        "callsign": "YL2NX",
+        "mode": "FT4",
+        "band": "10M",
+        "qso_date": "2023-03-10",
+        "qso_time": "090440",
+        "qsl_received": "2023-04-06 13:43:44"
+      },
+      {
+        "dxcc": 230,
+        "entity": "FEDERAL REPUBLIC OF GERMANY",
+        "callsign": "DK5WL",
+        "mode": "FT8",
+        "band": "12M",
+        "qso_date": "2023-03-09",
+        "qso_time": "110245",
+        "qsl_received": "2023-04-06 23:43:38"
+      },
+      {
+        "dxcc": 336,
+        "entity": "ISRAEL",
+        "callsign": "4Z5PT",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2023-04-08",
+        "qso_time": "045100",
+        "qsl_received": "2023-04-09 23:18:56"
+      },
+      {
+        "dxcc": 52,
+        "entity": "ESTONIA",
+        "callsign": "ES1KK",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2023-04-08",
+        "qso_time": "103730",
+        "qsl_received": "2023-04-09 23:18:57"
+      },
+      {
+        "dxcc": 272,
+        "entity": "PORTUGAL",
+        "callsign": "CT7AOL",
+        "mode": "FT4",
+        "band": "10M",
+        "qso_date": "2023-04-08",
+        "qso_time": "120637",
+        "qsl_received": "2023-04-09 23:18:57"
+      },
+      {
+        "dxcc": 221,
+        "entity": "DENMARK",
+        "callsign": "OZ7FOC",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2023-04-08",
+        "qso_time": "103500",
+        "qsl_received": "2023-04-10 03:55:42"
+      },
+      {
+        "dxcc": 372,
+        "entity": "PAKISTAN",
+        "callsign": "AP2HA",
+        "mode": "FT4",
+        "band": "10M",
+        "qso_date": "2023-04-08",
+        "qso_time": "101922",
+        "qsl_received": "2023-04-11 02:50:17"
+      },
+      {
+        "dxcc": 150,
+        "entity": "AUSTRALIA",
+        "callsign": "VK3ZLT",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-02-18",
+        "qso_time": "102745",
+        "qsl_received": "2023-04-11 21:28:46"
+      },
+      {
+        "dxcc": 15,
+        "entity": "ASIATIC RUSSIA",
+        "callsign": "UA0LQE",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-02-18",
+        "qso_time": "092030",
+        "qsl_received": "2023-04-13 15:24:21"
+      },
+      {
+        "dxcc": 46,
+        "entity": "EAST MALAYSIA",
+        "callsign": "9W6EZ",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-03-27",
+        "qso_time": "122350",
+        "qsl_received": "2023-04-14 04:37:48"
+      },
+      {
+        "dxcc": 245,
+        "entity": "IRELAND",
+        "callsign": "EI3JS",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2023-04-08",
+        "qso_time": "111815",
+        "qsl_received": "2023-04-14 19:29:27"
+      },
+      {
+        "dxcc": 21,
+        "entity": "BALEARIC ISLANDS",
+        "callsign": "EA6VQ",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2023-04-09",
+        "qso_time": "110521",
+        "qsl_received": "2023-04-18 07:42:08"
+      },
+      {
+        "dxcc": 40,
+        "entity": "CRETE",
+        "callsign": "SV9COL",
+        "mode": "FT4",
+        "band": "10M",
+        "qso_date": "2023-04-08",
+        "qso_time": "104715",
+        "qsl_received": "2023-04-19 09:50:06"
+      },
+      {
+        "dxcc": 430,
+        "entity": "KENYA",
+        "callsign": "5Z4VJ",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2023-04-08",
+        "qso_time": "110847",
+        "qsl_received": "2023-04-22 18:53:28"
+      },
+      {
+        "dxcc": 281,
+        "entity": "SPAIN",
+        "callsign": "EA5KB",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-03-10",
+        "qso_time": "084430",
+        "qsl_received": "2023-04-24 09:47:08"
+      },
+      {
+        "dxcc": 5,
+        "entity": "ALAND ISLANDS",
+        "callsign": "OH0EG",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-04-25",
+        "qso_time": "111730",
+        "qsl_received": "2023-04-26 10:57:13"
+      },
+      {
+        "dxcc": 215,
+        "entity": "CYPRUS",
+        "callsign": "5B4AAB",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2023-04-25",
+        "qso_time": "122200",
+        "qsl_received": "2023-04-26 11:55:11"
+      },
+      {
+        "dxcc": 315,
+        "entity": "SRI LANKA",
+        "callsign": "4S7VG",
+        "mode": "FT4",
+        "band": "10M",
+        "qso_date": "2023-04-08",
+        "qso_time": "101823",
+        "qsl_received": "2023-05-01 04:20:41"
+      },
+      {
+        "dxcc": 120,
+        "entity": "ECUADOR",
+        "callsign": "HC5VF",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2023-04-08",
+        "qso_time": "033815",
+        "qsl_received": "2023-05-04 01:02:16"
+      },
+      {
+        "dxcc": 50,
+        "entity": "MEXICO",
+        "callsign": "XE1YD",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-05-03",
+        "qso_time": "092800",
+        "qsl_received": "2023-05-04 02:11:37"
+      },
+      {
+        "dxcc": 387,
+        "entity": "THAILAND",
+        "callsign": "E21EIC/M",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-02-26",
+        "qso_time": "095015",
+        "qsl_received": "2023-05-04 05:14:09"
+      },
+      {
+        "dxcc": 207,
+        "entity": "RODRIGUEZ ISLAND",
+        "callsign": "3B9FR",
+        "mode": "FT8",
+        "band": "6M",
+        "qso_date": "2023-04-25",
+        "qso_time": "101151",
+        "qsl_received": "2023-05-04 06:04:14"
+      },
+      {
+        "dxcc": 1,
+        "entity": "CANADA",
+        "callsign": "VE7JH",
+        "mode": "FT8",
+        "band": "40M",
+        "qso_date": "2023-05-01",
+        "qso_time": "125630",
+        "qsl_received": "2023-05-08 03:13:18"
+      },
+      {
+        "dxcc": 179,
+        "entity": "MOLDOVA",
+        "callsign": "ER3KAZ",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-04-30",
+        "qso_time": "155345",
+        "qsl_received": "2023-05-09 04:18:08"
+      },
+      {
+        "dxcc": 304,
+        "entity": "BAHRAIN",
+        "callsign": "A91WTIS",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-05-13",
+        "qso_time": "230330",
+        "qsl_received": "2023-05-14 16:23:19"
+      },
+      {
+        "dxcc": 348,
+        "entity": "KUWAIT",
+        "callsign": "9K2HS",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2023-05-13",
+        "qso_time": "082615",
+        "qsl_received": "2023-05-15 21:05:26"
+      },
+      {
+        "dxcc": 497,
+        "entity": "CROATIA",
+        "callsign": "9A0W",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2023-03-16",
+        "qso_time": "091300",
+        "qsl_received": "2023-05-22 19:48:11"
+      },
+      {
+        "dxcc": 75,
+        "entity": "GEORGIA",
+        "callsign": "4L8A",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-05-13",
+        "qso_time": "101246",
+        "qsl_received": "2023-06-01 10:59:37"
+      },
+      {
+        "dxcc": 165,
+        "entity": "MAURITIUS ISLAND",
+        "callsign": "3B8CW",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2023-06-03",
+        "qso_time": "072830",
+        "qsl_received": "2023-06-04 15:53:07"
+      },
+      {
+        "dxcc": 122,
+        "entity": "JERSEY",
+        "callsign": "GJ0KYZ",
+        "mode": "FT8",
+        "band": "12M",
+        "qso_date": "2023-06-03",
+        "qso_time": "120344",
+        "qsl_received": "2023-06-04 15:53:08"
+      },
+      {
+        "dxcc": 106,
+        "entity": "GUERNSEY",
+        "callsign": "GU0GUX",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-06-03",
+        "qso_time": "195229",
+        "qsl_received": "2023-06-04 20:47:17"
+      },
+      {
+        "dxcc": 354,
+        "entity": "LEBANON",
+        "callsign": "OD5ZZ",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-06-03",
+        "qso_time": "224517",
+        "qsl_received": "2023-06-05 00:13:18"
+      },
+      {
+        "dxcc": 166,
+        "entity": "MARIANA ISLANDS",
+        "callsign": "KH0/W5TZX",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-06-06",
+        "qso_time": "072533",
+        "qsl_received": "2023-06-06 14:28:11"
+      },
+      {
+        "dxcc": 376,
+        "entity": "QATAR",
+        "callsign": "A71UN",
+        "mode": "FT8",
+        "band": "17M",
+        "qso_date": "2023-06-04",
+        "qso_time": "210915",
+        "qsl_received": "2023-06-06 15:22:19"
+      },
+      {
+        "dxcc": 342,
+        "entity": "JORDAN",
+        "callsign": "JY5IB",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2023-06-06",
+        "qso_time": "150345",
+        "qsl_received": "2023-06-08 13:48:06"
+      },
+      {
+        "dxcc": 294,
+        "entity": "WALES",
+        "callsign": "MW6PNW",
+        "mode": "FT4",
+        "band": "15M",
+        "qso_date": "2023-06-07",
+        "qso_time": "175422",
+        "qsl_received": "2023-06-08 19:31:17"
+      },
+      {
+        "dxcc": 256,
+        "entity": "MADEIRA ISLANDS",
+        "callsign": "CT3MD",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-06-07",
+        "qso_time": "213716",
+        "qsl_received": "2023-06-10 11:51:05"
+      },
+      {
+        "dxcc": 254,
+        "entity": "LUXEMBOURG",
+        "callsign": "LX1TI",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-06-06",
+        "qso_time": "153400",
+        "qsl_received": "2023-06-12 07:21:10"
+      },
+      {
+        "dxcc": 29,
+        "entity": "CANARY ISLANDS",
+        "callsign": "EA8AIN",
+        "mode": "FT8",
+        "band": "17M",
+        "qso_date": "2023-06-02",
+        "qso_time": "202415",
+        "qsl_received": "2023-06-15 20:12:41"
+      },
+      {
+        "dxcc": 66,
+        "entity": "BELIZE",
+        "callsign": "V31DL",
+        "mode": "FT8",
+        "band": "17M",
+        "qso_date": "2023-06-22",
+        "qso_time": "170330",
+        "qsl_received": "2023-06-25 18:01:27"
+      },
+      {
+        "dxcc": 369,
+        "entity": "NEPAL",
+        "callsign": "9N7AA",
+        "mode": "FT4",
+        "band": "20M",
+        "qso_date": "2023-06-26",
+        "qso_time": "144630",
+        "qsl_received": "2023-06-27 01:57:04"
+      },
+      {
+        "dxcc": 521,
+        "entity": "REPUBLIC OF SOUTH SUDAN",
+        "callsign": "Z81D",
+        "mode": "FT8",
+        "band": "40M",
+        "qso_date": "2023-06-29",
+        "qso_time": "204145",
+        "qsl_received": "2023-06-30 08:54:04"
+      },
+      {
+        "dxcc": 242,
+        "entity": "ICELAND",
+        "callsign": "TF5B",
+        "mode": "FT8",
+        "band": "17M",
+        "qso_date": "2023-07-01",
+        "qso_time": "105745",
+        "qsl_received": "2023-07-02 02:09:08"
+      },
+      {
+        "dxcc": 49,
+        "entity": "EQUATORIAL GUINEA",
+        "callsign": "3C3CA",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-07-01",
+        "qso_time": "180445",
+        "qsl_received": "2023-07-02 02:09:09"
+      },
+      {
+        "dxcc": 114,
+        "entity": "ISLE OF MAN",
+        "callsign": "MD0CCE",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-07-01",
+        "qso_time": "161345",
+        "qsl_received": "2023-07-02 02:09:09"
+      },
+      {
+        "dxcc": 464,
+        "entity": "NAMIBIA",
+        "callsign": "V51CO",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-07-01",
+        "qso_time": "142953",
+        "qsl_received": "2023-07-02 02:09:09"
+      },
+      {
+        "dxcc": 298,
+        "entity": "WALLIS & FUTUNA ISLANDS",
+        "callsign": "FW1JG",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-07-02",
+        "qso_time": "074615",
+        "qsl_received": "2023-07-03 08:45:05"
+      },
+      {
+        "dxcc": 159,
+        "entity": "MALDIVES",
+        "callsign": "8Q7PR",
+        "mode": "FT8",
+        "band": "17M",
+        "qso_date": "2023-07-01",
+        "qso_time": "173345",
+        "qsl_received": "2023-07-03 15:26:09"
+      },
+      {
+        "dxcc": 391,
+        "entity": "UNITED ARAB EMIRATES",
+        "callsign": "A61FJ",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2023-07-05",
+        "qso_time": "073545",
+        "qsl_received": "2023-07-06 01:09:12"
+      },
+      {
+        "dxcc": 370,
+        "entity": "OMAN",
+        "callsign": "A41DX",
+        "mode": "FT8",
+        "band": "40M",
+        "qso_date": "2023-07-09",
+        "qso_time": "220500",
+        "qsl_received": "2023-07-10 09:22:11"
+      },
+      {
+        "dxcc": 169,
+        "entity": "MAYOTTE ISLAND",
+        "callsign": "FH4VVK",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-07-12",
+        "qso_time": "215915",
+        "qsl_received": "2023-07-14 10:54:09"
+      },
+      {
+        "dxcc": 504,
+        "entity": "SLOVAK REPUBLIC",
+        "callsign": "OM3CND",
+        "mode": "FT4",
+        "band": "10M",
+        "qso_date": "2023-03-16",
+        "qso_time": "085309",
+        "qsl_received": "2023-07-15 19:07:18"
+      },
+      {
+        "dxcc": 202,
+        "entity": "PUERTO RICO",
+        "callsign": "WP3R",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-07-27",
+        "qso_time": "031932",
+        "qsl_received": "2023-07-27 20:07:17"
+      },
+      {
+        "dxcc": 135,
+        "entity": "KYRGYZSTAN",
+        "callsign": "EX8BT",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2023-04-08",
+        "qso_time": "110815",
+        "qsl_received": "2023-07-28 11:26:42"
+      },
+      {
+        "dxcc": 285,
+        "entity": "US VIRGIN ISLANDS",
+        "callsign": "KP2B",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-08-01",
+        "qso_time": "115703",
+        "qsl_received": "2023-08-07 02:30:18"
+      },
+      {
+        "dxcc": 116,
+        "entity": "COLOMBIA",
+        "callsign": "HK4SAN",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-07-27",
+        "qso_time": "102615",
+        "qsl_received": "2023-08-11 11:50:05"
+      },
+      {
+        "dxcc": 514,
+        "entity": "MONTENEGRO",
+        "callsign": "4O7CC",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-07-11",
+        "qso_time": "181515",
+        "qsl_received": "2023-08-23 19:51:55"
+      },
+      {
+        "dxcc": 460,
+        "entity": "ROTUMA",
+        "callsign": "3D2BJ",
+        "mode": "FT8",
+        "band": "17M",
+        "qso_date": "2023-07-11",
+        "qso_time": "211515",
+        "qsl_received": "2023-08-27 03:05:49"
+      },
+      {
+        "dxcc": 132,
+        "entity": "PARAGUAY",
+        "callsign": "ZP6LMR",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-07-25",
+        "qso_time": "111115",
+        "qsl_received": "2023-08-29 09:26:16"
+      },
+      {
+        "dxcc": 260,
+        "entity": "MONACO",
+        "callsign": "3A2MW",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-10-14",
+        "qso_time": "195903",
+        "qsl_received": "2023-10-18 11:43:24"
+      },
+      {
+        "dxcc": 517,
+        "entity": "CURACAO",
+        "callsign": "PJ2MAN",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-10-18",
+        "qso_time": "103015",
+        "qsl_received": "2023-10-19 07:35:11"
+      },
+      {
+        "dxcc": 420,
+        "entity": "GABON",
+        "callsign": "TR8CA",
+        "mode": "FT4",
+        "band": "17M",
+        "qso_date": "2023-10-19",
+        "qso_time": "084500",
+        "qsl_received": "2023-10-23 12:12:06"
+      },
+      {
+        "dxcc": 214,
+        "entity": "CORSICA",
+        "callsign": "TK4LS",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-10-21",
+        "qso_time": "154330",
+        "qsl_received": "2023-10-23 12:12:10"
+      },
+      {
+        "dxcc": 157,
+        "entity": "NAURU",
+        "callsign": "C21TS",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-10-03",
+        "qso_time": "204315",
+        "qsl_received": "2023-11-08 08:50:24"
+      },
+      {
+        "dxcc": 262,
+        "entity": "TAJIKISTAN",
+        "callsign": "EY8MM",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2023-11-03",
+        "qso_time": "032519",
+        "qsl_received": "2023-11-18 09:06:11"
+      },
+      {
+        "dxcc": 38,
+        "entity": "COCOS (KEELING) ISLANDS",
+        "callsign": "VK9QO",
+        "mode": "FT8",
+        "band": "30M",
+        "qso_date": "2023-11-05",
+        "qso_time": "152700",
+        "qsl_received": "2023-11-20 01:30:09"
+      },
+      {
+        "dxcc": 203,
+        "entity": "ANDORRA",
+        "callsign": "C31CT",
+        "mode": "FT8",
+        "band": "30M",
+        "qso_date": "2023-11-16",
+        "qso_time": "212304",
+        "qsl_received": "2023-11-21 10:59:06"
+      },
+      {
+        "dxcc": 173,
+        "entity": "MICRONESIA",
+        "callsign": "V63AH",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-10-19",
+        "qso_time": "000245",
+        "qsl_received": "2023-11-21 14:08:08"
+      },
+      {
+        "dxcc": 308,
+        "entity": "COSTA RICA",
+        "callsign": "TI2YO",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-11-22",
+        "qso_time": "015334",
+        "qsl_received": "2023-11-26 08:35:37"
+      },
+      {
+        "dxcc": 248,
+        "entity": "ITALY",
+        "callsign": "IZ8VYU",
+        "mode": "FT8",
+        "band": "12M",
+        "qso_date": "2023-02-26",
+        "qso_time": "081045",
+        "qsl_received": "2023-11-26 21:07:53"
+      },
+      {
+        "dxcc": 70,
+        "entity": "CUBA",
+        "callsign": "CO6HLP",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-11-20",
+        "qso_time": "235815",
+        "qsl_received": "2023-11-28 20:11:41"
+      },
+      {
+        "dxcc": 237,
+        "entity": "GREENLAND",
+        "callsign": "OX7AKT",
+        "mode": "FT8",
+        "band": "30M",
+        "qso_date": "2023-11-26",
+        "qso_time": "220400",
+        "qsl_received": "2023-12-04 10:45:04"
+      },
+      {
+        "dxcc": 257,
+        "entity": "MALTA",
+        "callsign": "9H1GP",
+        "mode": "FT8",
+        "band": "40M",
+        "qso_date": "2023-11-27",
+        "qso_time": "205245",
+        "qsl_received": "2023-12-04 10:45:06"
+      },
+      {
+        "dxcc": 401,
+        "entity": "ANGOLA",
+        "callsign": "D2UY",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-10-21",
+        "qso_time": "090115",
+        "qsl_received": "2023-12-11 08:35:02"
+      },
+      {
+        "dxcc": 91,
+        "entity": "ARUBA",
+        "callsign": "P4/WE9V",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-11-29",
+        "qso_time": "074330",
+        "qsl_received": "2023-12-11 18:03:57"
+      },
+      {
+        "dxcc": 402,
+        "entity": "BOTSWANA",
+        "callsign": "A25R",
+        "mode": "FT8",
+        "band": "12M",
+        "qso_date": "2023-10-28",
+        "qso_time": "104115",
+        "qsl_received": "2023-12-18 20:28:49"
+      },
+      {
+        "dxcc": 143,
+        "entity": "LAOS",
+        "callsign": "XW4DX",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-11-19",
+        "qso_time": "125200",
+        "qsl_received": "2023-12-22 21:08:02"
+      },
+      {
+        "dxcc": 175,
+        "entity": "FRENCH POLYNESIA",
+        "callsign": "TX6D",
+        "mode": "FT8",
+        "band": "17M",
+        "qso_date": "2023-10-03",
+        "qso_time": "143115",
+        "qsl_received": "2023-12-23 12:47:39"
+      },
+      {
+        "dxcc": 192,
+        "entity": "OGASAWARA",
+        "callsign": "JD1YCE",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-12-11",
+        "qso_time": "222715",
+        "qsl_received": "2023-12-27 02:15:55"
+      },
+      {
+        "dxcc": 126,
+        "entity": "KALININGRAD",
+        "callsign": "UA2FF",
+        "mode": "FT4",
+        "band": "15M",
+        "qso_date": "2023-07-10",
+        "qso_time": "163337",
+        "qsl_received": "2023-12-31 22:53:06"
+      },
+      {
+        "dxcc": 312,
+        "entity": "CAMBODIA",
+        "callsign": "XU7AKJ",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2023-12-28",
+        "qso_time": "062403",
+        "qsl_received": "2024-01-02 03:38:15"
+      },
+      {
+        "dxcc": 9,
+        "entity": "AMERICAN SAMOA",
+        "callsign": "KH8RRC",
+        "mode": "FT4",
+        "band": "15M",
+        "qso_date": "2023-07-08",
+        "qso_time": "211753",
+        "qsl_received": "2024-01-15 03:16:17"
+      },
+      {
+        "dxcc": 95,
+        "entity": "DOMINICA",
+        "callsign": "J79WTA",
+        "mode": "FT8",
+        "band": "12M",
+        "qso_date": "2023-12-28",
+        "qso_time": "052535",
+        "qsl_received": "2024-01-16 01:40:16"
+      },
+      {
+        "dxcc": 22,
+        "entity": "PALAU",
+        "callsign": "T88AQ",
+        "mode": "FT8",
+        "band": "12M",
+        "qso_date": "2024-01-12",
+        "qso_time": "040530",
+        "qsl_received": "2024-01-17 13:07:16"
+      },
+      {
+        "dxcc": 305,
+        "entity": "BANGLADESH",
+        "callsign": "S21AF",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2024-01-16",
+        "qso_time": "114600",
+        "qsl_received": "2024-01-22 03:35:05"
+      },
+      {
+        "dxcc": 35,
+        "entity": "CHRISTMAS ISLAND",
+        "callsign": "VK9XY",
+        "mode": "FT8",
+        "band": "17M",
+        "qso_date": "2023-11-16",
+        "qso_time": "022430",
+        "qsl_received": "2024-01-31 18:27:06"
+      },
+      {
+        "dxcc": 440,
+        "entity": "MALAWI",
+        "callsign": "7Q7EMH",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-07-07",
+        "qso_time": "082945",
+        "qsl_received": "2024-02-01 15:17:57"
+      },
+      {
+        "dxcc": 250,
+        "entity": "SAINT HELENA",
+        "callsign": "ZD7CA",
+        "mode": "FT4",
+        "band": "15M",
+        "qso_date": "2024-01-11",
+        "qso_time": "071341",
+        "qsl_received": "2024-02-05 12:20:15"
+      },
+      {
+        "dxcc": 14,
+        "entity": "ARMENIA",
+        "callsign": "EK/RX3DPK",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2024-02-08",
+        "qso_time": "143748",
+        "qsl_received": "2024-02-12 09:01:31"
+      },
+      {
+        "dxcc": 345,
+        "entity": "BRUNEI",
+        "callsign": "V85NPV",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2024-02-09",
+        "qso_time": "231702",
+        "qsl_received": "2024-02-12 09:01:35"
+      },
+      {
+        "dxcc": 97,
+        "entity": "SAINT LUCIA",
+        "callsign": "J645DS",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2024-02-24",
+        "qso_time": "231930",
+        "qsl_received": "2024-03-04 21:26:10"
+      },
+      {
+        "dxcc": 282,
+        "entity": "TUVALU",
+        "callsign": "T2C",
+        "mode": "FT8",
+        "band": "30M",
+        "qso_date": "2023-10-13",
+        "qso_time": "165100",
+        "qsl_received": "2024-03-09 16:06:18"
+      },
+      {
+        "dxcc": 172,
+        "entity": "PITCAIRN ISLAND",
+        "callsign": "VP6MW",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2024-03-05",
+        "qso_time": "154500",
+        "qsl_received": "2024-03-10 22:17:42"
+      },
+      {
+        "dxcc": 48,
+        "entity": "EASTERN KIRIBATI",
+        "callsign": "T32TT",
+        "mode": "FT8",
+        "band": "17M",
+        "qso_date": "2023-12-06",
+        "qso_time": "080645",
+        "qsl_received": "2024-03-11 16:04:13"
+      },
+      {
+        "dxcc": 45,
+        "entity": "DODECANESE",
+        "callsign": "SV5AZP",
+        "mode": "FT4",
+        "band": "10M",
+        "qso_date": "2023-03-16",
+        "qso_time": "073507",
+        "qsl_received": "2024-03-12 10:41:11"
+      },
+      {
+        "dxcc": 416,
+        "entity": "BENIN",
+        "callsign": "TY5C",
+        "mode": "FT8",
+        "band": "40M",
+        "qso_date": "2024-03-28",
+        "qso_time": "221645",
+        "qsl_received": "2024-03-29 13:09:14"
+      },
+      {
+        "dxcc": 160,
+        "entity": "TONGA",
+        "callsign": "A31DL",
+        "mode": "FT8",
+        "band": "40M",
+        "qso_date": "2024-02-16",
+        "qso_time": "160518",
+        "qsl_received": "2024-04-01 15:32:27"
+      },
+      {
+        "dxcc": 515,
+        "entity": "SWAINS ISLAND",
+        "callsign": "W8S",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-10-13",
+        "qso_time": "165545",
+        "qsl_received": "2024-04-14 04:14:31"
+      },
+      {
+        "dxcc": 189,
+        "entity": "NORFOLK ISLAND",
+        "callsign": "VK9DX",
+        "mode": "FT8",
+        "band": "80M",
+        "qso_date": "2024-01-02",
+        "qso_time": "174200",
+        "qsl_received": "2024-05-08 10:43:34"
+      },
+      {
+        "dxcc": 508,
+        "entity": "AUSTRAL ISLANDS",
+        "callsign": "TX7W",
+        "mode": "FT8",
+        "band": "40M",
+        "qso_date": "2024-04-19",
+        "qso_time": "105000",
+        "qsl_received": "2024-05-08 13:32:04"
+      },
+      {
+        "dxcc": 286,
+        "entity": "UGANDA",
+        "callsign": "5X7O",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2024-02-10",
+        "qso_time": "201530",
+        "qsl_received": "2024-05-11 16:53:22"
+      },
+      {
+        "dxcc": 137,
+        "entity": "REPUBLIC OF KOREA",
+        "callsign": "HL1LUA",
+        "mode": "FT8",
+        "band": "40M",
+        "qso_date": "2023-02-25",
+        "qso_time": "105845",
+        "qsl_received": "2024-07-03 04:47:22"
+      },
+      {
+        "dxcc": 72,
+        "entity": "DOMINICAN REPUBLIC",
+        "callsign": "HI8ML",
+        "mode": "FT8",
+        "band": "40M",
+        "qso_date": "2024-06-30",
+        "qso_time": "104430",
+        "qsl_received": "2024-07-06 23:20:59"
+      },
+      {
+        "dxcc": 511,
+        "entity": "TIMOR - LESTE",
+        "callsign": "4W6RU",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-07-01",
+        "qso_time": "102115",
+        "qsl_received": "2024-07-07 12:01:34"
+      },
+      {
+        "dxcc": 11,
+        "entity": "ANDAMAN & NICOBAR ISLANDS",
+        "callsign": "VU4N",
+        "mode": "FT8",
+        "band": "30M",
+        "qso_date": "2023-12-18",
+        "qso_time": "160417",
+        "qsl_received": "2024-07-13 03:12:11"
+      },
+      {
+        "dxcc": 125,
+        "entity": "JUAN FERNANDEZ ISLAND",
+        "callsign": "CB0ZA",
+        "mode": "FT8",
+        "band": "40M",
+        "qso_date": "2024-02-23",
+        "qso_time": "084200",
+        "qsl_received": "2024-08-01 03:50:03"
+      },
+      {
+        "dxcc": 147,
+        "entity": "LORD HOWE ISLAND",
+        "callsign": "VK9LA",
+        "mode": "FT8",
+        "band": "17M",
+        "qso_date": "2024-06-19",
+        "qso_time": "214600",
+        "qsl_received": "2024-08-31 10:41:28"
+      },
+      {
+        "dxcc": 32,
+        "entity": "CEUTA & MELILLA",
+        "callsign": "AO75MC",
+        "mode": "FT8",
+        "band": "17M",
+        "qso_date": "2024-04-26",
+        "qso_time": "181345",
+        "qsl_received": "2024-10-10 08:17:58"
+      },
+      {
+        "dxcc": 434,
+        "entity": "LIBERIA",
+        "callsign": "A8OK",
+        "mode": "FT8",
+        "band": "17M",
+        "qso_date": "2024-04-06",
+        "qso_time": "223715",
+        "qsl_received": "2024-10-19 10:27:29"
+      },
+      {
+        "dxcc": 188,
+        "entity": "NIUE",
+        "callsign": "E6AM",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-10-15",
+        "qso_time": "085600",
+        "qsl_received": "2024-10-27 21:39:47"
+      },
+      {
+        "dxcc": 492,
+        "entity": "YEMEN",
+        "callsign": "7O73T",
+        "mode": "FT8",
+        "band": "30M",
+        "qso_date": "2023-11-17",
+        "qso_time": "223945",
+        "qsl_received": "2024-11-01 13:00:18"
+      },
+      {
+        "dxcc": 18,
+        "entity": "AZERBAIJAN",
+        "callsign": "4K5RA",
+        "mode": "FT8",
+        "band": "30M",
+        "qso_date": "2024-02-12",
+        "qso_time": "171045",
+        "qsl_received": "2024-11-09 19:35:44"
+      },
+      {
+        "dxcc": 191,
+        "entity": "NORTH COOK ISLANDS",
+        "callsign": "E51JAN",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-10-17",
+        "qso_time": "090945",
+        "qsl_received": "2024-11-20 08:15:31"
+      },
+      {
+        "dxcc": 7,
+        "entity": "ALBANIA",
+        "callsign": "ZA5G",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-07-22",
+        "qso_time": "171733",
+        "qsl_received": "2024-11-27 17:10:50"
+      },
+      {
+        "dxcc": 149,
+        "entity": "AZORES",
+        "callsign": "CU8AF",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-06-28",
+        "qso_time": "101730",
+        "qsl_received": "2024-11-29 17:57:16"
+      },
+      {
+        "dxcc": 233,
+        "entity": "GIBRALTAR",
+        "callsign": "ZB2IF",
+        "mode": "FT8",
+        "band": "17M",
+        "qso_date": "2023-06-30",
+        "qso_time": "212645",
+        "qsl_received": "2024-11-29 17:57:17"
+      },
+      {
+        "dxcc": 378,
+        "entity": "SAUDI ARABIA",
+        "callsign": "7Z1AL",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-07-06",
+        "qso_time": "191030",
+        "qsl_received": "2024-11-29 17:57:18"
+      },
+      {
+        "dxcc": 330,
+        "entity": "IRAN",
+        "callsign": "EP4HR",
+        "mode": "FT8",
+        "band": "40M",
+        "qso_date": "2023-07-27",
+        "qso_time": "195845",
+        "qsl_received": "2024-11-29 17:57:23"
+      },
+      {
+        "dxcc": 142,
+        "entity": "LAKSHADWEEP ISLANDS",
+        "callsign": "VU7A",
+        "mode": "FT8",
+        "band": "30M",
+        "qso_date": "2023-12-07",
+        "qso_time": "175245",
+        "qsl_received": "2024-11-29 17:57:29"
+      },
+      {
+        "dxcc": 489,
+        "entity": "CONWAY REEF",
+        "callsign": "3D2CCC",
+        "mode": "FT8",
+        "band": "17M",
+        "qso_date": "2024-04-28",
+        "qso_time": "061100",
+        "qsl_received": "2024-11-30 17:58:06"
+      },
+      {
+        "dxcc": 47,
+        "entity": "EASTER ISLAND",
+        "callsign": "3G0YA",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2024-04-19",
+        "qso_time": "103200",
+        "qsl_received": "2024-12-22 00:11:24"
+      },
+      {
+        "dxcc": 458,
+        "entity": "SIERRA LEONE",
+        "callsign": "9L5A",
+        "mode": "FT8",
+        "band": "30M",
+        "qso_date": "2024-12-06",
+        "qso_time": "233100",
+        "qsl_received": "2025-01-06 22:13:09"
+      },
+      {
+        "dxcc": 136,
+        "entity": "PERU",
+        "callsign": "OA4DOS",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2023-11-06",
+        "qso_time": "033919",
+        "qsl_received": "2025-01-10 03:51:44"
+      },
+      {
+        "dxcc": 76,
+        "entity": "GUATEMALA",
+        "callsign": "TG9ANF",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2025-01-22",
+        "qso_time": "005745",
+        "qsl_received": "2025-01-29 14:06:01"
+      },
+      {
+        "dxcc": 13,
+        "entity": "ANTARCTICA",
+        "callsign": "8J1RL",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-07-20",
+        "qso_time": "103700",
+        "qsl_received": "2025-02-05 08:32:58"
+      },
+      {
+        "dxcc": 234,
+        "entity": "SOUTH COOK ISLANDS",
+        "callsign": "E51SGC",
+        "mode": "FT8",
+        "band": "80M",
+        "qso_date": "2024-11-09",
+        "qso_time": "152130",
+        "qsl_received": "2025-02-19 20:54:17"
+      },
+      {
+        "dxcc": 480,
+        "entity": "BURKINA FASO",
+        "callsign": "XT2MD",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2024-11-05",
+        "qso_time": "083430",
+        "qsl_received": "2025-03-04 13:06:31"
+      },
+      {
+        "dxcc": 453,
+        "entity": "REUNION ISLAND",
+        "callsign": "FR5CB",
+        "mode": "FT8",
+        "band": "17M",
+        "qso_date": "2025-02-21",
+        "qso_time": "130900",
+        "qsl_received": "2025-03-07 07:45:05"
+      },
+      {
+        "dxcc": 333,
+        "entity": "IRAQ",
+        "callsign": "YI3TTT",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2025-03-06",
+        "qso_time": "195602",
+        "qsl_received": "2025-03-07 07:45:20"
+      },
+      {
+        "dxcc": 379,
+        "entity": "SEYCHELLES ISLANDS",
+        "callsign": "S79VU",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2025-03-06",
+        "qso_time": "063115",
+        "qsl_received": "2025-03-07 07:45:20"
+      },
+      {
+        "dxcc": 446,
+        "entity": "MOROCCO",
+        "callsign": "CN8NS",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2025-03-07",
+        "qso_time": "230045",
+        "qsl_received": "2025-03-17 06:34:03"
+      },
+      {
+        "dxcc": 63,
+        "entity": "FRENCH GUIANA",
+        "callsign": "FY/PY8WW",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2025-03-13",
+        "qso_time": "222315",
+        "qsl_received": "2025-03-17 06:34:12"
+      },
+      {
+        "dxcc": 450,
+        "entity": "NIGERIA",
+        "callsign": "5N9DTG",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2025-02-19",
+        "qso_time": "233100",
+        "qsl_received": "2025-03-26 19:46:07"
+      },
+      {
+        "dxcc": 278,
+        "entity": "SAN MARINO",
+        "callsign": "T77C",
+        "mode": "FT8",
+        "band": "30M",
+        "qso_date": "2024-03-31",
+        "qso_time": "211815",
+        "qsl_received": "2025-03-28 08:56:40"
+      },
+      {
+        "dxcc": 507,
+        "entity": "TEMOTU PROVINCE",
+        "callsign": "H40WA",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2024-02-27",
+        "qso_time": "003500",
+        "qsl_received": "2025-04-08 20:56:06"
+      },
+      {
+        "dxcc": 148,
+        "entity": "VENEZUELA",
+        "callsign": "YV6ANK",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2025-04-13",
+        "qso_time": "101615",
+        "qsl_received": "2025-04-21 04:53:28"
+      },
+      {
+        "dxcc": 163,
+        "entity": "PAPUA NEW GUINEA",
+        "callsign": "P29XZ",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2025-01-22",
+        "qso_time": "093730",
+        "qsl_received": "2025-05-02 07:17:29"
+      },
+      {
+        "dxcc": 442,
+        "entity": "MALI",
+        "callsign": "TZ1CE",
+        "mode": "FT8",
+        "band": "30M",
+        "qso_date": "2025-03-03",
+        "qso_time": "215015",
+        "qsl_received": "2025-05-09 02:36:04"
+      },
+      {
+        "dxcc": 468,
+        "entity": "KINGDOM OF ESWATINI",
+        "callsign": "3DA0DL",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2024-11-03",
+        "qso_time": "223715",
+        "qsl_received": "2025-05-09 12:20:23"
+      },
+      {
+        "dxcc": 470,
+        "entity": "TANZANIA",
+        "callsign": "5H1KB",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2025-04-24",
+        "qso_time": "163300",
+        "qsl_received": "2025-05-11 05:07:58"
+      },
+      {
+        "dxcc": 306,
+        "entity": "BHUTAN",
+        "callsign": "A52CI",
+        "mode": "FT8",
+        "band": "12M",
+        "qso_date": "2024-04-19",
+        "qso_time": "082730",
+        "qsl_received": "2025-05-13 17:10:34"
+      },
+      {
+        "dxcc": 297,
+        "entity": "WAKE ISLAND",
+        "callsign": "KH7AL/KH9",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2025-05-14",
+        "qso_time": "104430",
+        "qsl_received": "2025-05-18 15:10:14"
+      },
+      {
+        "dxcc": 482,
+        "entity": "ZAMBIA",
+        "callsign": "9J2FI",
+        "mode": "FT8",
+        "band": "12M",
+        "qso_date": "2025-05-16",
+        "qso_time": "145645",
+        "qsl_received": "2025-05-18 15:10:16"
+      },
+      {
+        "dxcc": 259,
+        "entity": "SVALBARD",
+        "callsign": "JW/KD2RSF",
+        "mode": "FT8",
+        "band": "17M",
+        "qso_date": "2025-07-01",
+        "qso_time": "163700",
+        "qsl_received": "2025-07-04 13:16:10"
+      },
+      {
+        "dxcc": 158,
+        "entity": "VANUATU",
+        "callsign": "YJ8RN",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2023-06-30",
+        "qso_time": "064547",
+        "qsl_received": "2025-07-22 02:30:34"
+      },
+      {
+        "dxcc": 292,
+        "entity": "UZBEKISTAN",
+        "callsign": "UK8IF",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-06-26",
+        "qso_time": "142419",
+        "qsl_received": "2025-07-26 15:40:56"
+      },
+      {
+        "dxcc": 400,
+        "entity": "ALGERIA",
+        "callsign": "7X2KF",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2025-07-30",
+        "qso_time": "175545",
+        "qsl_received": "2025-08-07 16:36:09"
+      },
+      {
+        "dxcc": 34,
+        "entity": "CHATHAM ISLAND",
+        "callsign": "ZL7IO",
+        "mode": "FT8",
+        "band": "17M",
+        "qso_date": "2025-10-09",
+        "qso_time": "091400",
+        "qsl_received": "2025-10-20 02:49:15"
+      },
+      {
+        "dxcc": 251,
+        "entity": "LIECHTENSTEIN",
+        "callsign": "HB0RER",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-07-07",
+        "qso_time": "180630",
+        "qsl_received": "2025-11-10 13:17:18"
+      },
+      {
+        "dxcc": 263,
+        "entity": "NETHERLANDS",
+        "callsign": "PD0HLA",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2023-03-16",
+        "qso_time": "094130",
+        "qsl_received": "2025-11-12 19:37:34"
+      },
+      {
+        "dxcc": 438,
+        "entity": "MADAGASCAR",
+        "callsign": "5R8WE",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2024-11-02",
+        "qso_time": "065800",
+        "qsl_received": "2025-11-13 09:58:43"
+      },
+      {
+        "dxcc": 168,
+        "entity": "MARSHALL ISLANDS",
+        "callsign": "V73WE",
+        "mode": "FT8",
+        "band": "12M",
+        "qso_date": "2024-12-02",
+        "qso_time": "022515",
+        "qsl_received": "2025-12-11 09:55:00"
+      },
+      {
+        "dxcc": 185,
+        "entity": "SOLOMON ISLANDS",
+        "callsign": "H44WA",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2023-11-16",
+        "qso_time": "021119",
+        "qsl_received": "2025-12-31 20:42:06"
+      },
+      {
+        "dxcc": 104,
+        "entity": "BOLIVIA",
+        "callsign": "CP4MG",
+        "mode": "FT8",
+        "band": "15M",
+        "qso_date": "2026-03-15",
+        "qso_time": "015333",
+        "qsl_received": "2026-03-26 16:16:13"
+      },
+      {
+        "dxcc": 518,
+        "entity": "SINT MAARTEN",
+        "callsign": "PJ7AA",
+        "mode": "FT8",
+        "band": "17M",
+        "qso_date": "2026-03-17",
+        "qso_time": "020430",
+        "qsl_received": "2026-03-26 16:16:21"
+      },
+      {
+        "dxcc": 80,
+        "entity": "HONDURAS",
+        "callsign": "HR1R",
+        "mode": "FT8",
+        "band": "10M",
+        "qso_date": "2025-03-07",
+        "qso_time": "010804",
+        "qsl_received": "2026-04-07 23:14:21"
+      },
+      {
+        "dxcc": 509,
+        "entity": "MARQUESAS ISLANDS",
+        "callsign": "TX9W",
+        "mode": "FT8",
+        "band": "20M",
+        "qso_date": "2026-04-24",
+        "qso_time": "083330",
+        "qsl_received": "2026-05-06 16:37:12"
+      },
+      {
+        "dxcc": 510,
+        "entity": "PALESTINE",
+        "callsign": "E44OM",
+        "mode": "FT8",
+        "band": "30M",
+        "qso_date": "2025-09-20",
+        "qso_time": "193530",
+        "qsl_received": "2026-05-12 16:56:01"
+      }
+    ]
+  }
+}
