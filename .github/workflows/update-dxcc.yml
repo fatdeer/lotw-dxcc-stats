@@ -89,6 +89,17 @@ jobs:
             echo "![DXCC Growth Chart](${chart})" >> README.md
             echo "" >> README.md
           done
+          # 嵌入每个呼号的 DXCC By Band 统计链接
+          for bandmd in $(find . -maxdepth 2 -name 'lotwDxccByBand.md' | sort); do
+            callsign_dir=$(dirname "$bandmd" | sed 's|^\./||')
+            echo "" >> README.md
+            echo "---" >> README.md
+            echo "" >> README.md
+            echo "## DXCC by Band — ${callsign_dir}" >> README.md
+            echo "" >> README.md
+            echo "See [lotwDxccByBand.md](${bandmd}) for full band-by-band DXCC details and Challenge score." >> README.md
+            echo "" >> README.md
+          done
           git add .
           if ! git diff --staged --quiet; then
             git commit -m "Update DXCC data - $(date -u '+%Y-%m-%d %H:%M:%S UTC')"

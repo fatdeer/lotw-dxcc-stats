@@ -151,6 +151,7 @@ export { updateDXCCData } from "./lib/update-strategy.js";
 export { fetchADIFData } from "./lib/lotw-api.js";
 export { saveADIFData, loadLocalData } from "./lib/file-manager.js";
 export { parseADIFToJSON } from "./lib/adif-parser.js";
+export { generateDXCCByBand } from "./lib/dxcc-band-stats.js";
 
 // // Export display plugin
 // export { default as lotwDisplayPlugin } from './eleventy-dxcc-widgets.js';
