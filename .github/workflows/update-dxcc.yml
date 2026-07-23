@@ -4,6 +4,11 @@ permissions:
   contents: write
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - "lib/adif-processor.js"
   schedule:
    - cron: '0 2 * * *' # Execute daily at UTC 02:00 AM
   workflow_dispatch: # Support manual trigger
@@ -43,7 +48,7 @@ jobs:
       - name: Run DXCC update
         working-directory: ./main
         run: |
-          if [ "${{ github.event.inputs.full_update }}" = "true" ] || [ "${{ steps.sync_data.outcome }}" != "success" ]; then
+          if [ "${{ github.event_name }}" = "push" ] || [ "${{ github.event.inputs.full_update }}" = "true" ] || [ "${{ steps.sync_data.outcome }}" != "success" ]; then
             echo "Performing full update..."
             node ./bin/update-stats --full
           else

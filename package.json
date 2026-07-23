@@ -49,7 +49,7 @@
   "scripts": {
     "update-stats": "node bin/update-stats",
     "validate-data": "ajv validate -s schemas/lotw-dxcc-data.schema.json -d output/lotwDxcc.json",
-    "test": "jest",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
     "lint": "eslint lib/ bin/ index.js",
     "format": "prettier --write .",
     "prepublishOnly": "npm run lint && npm run test",
