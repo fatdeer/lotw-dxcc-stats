@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 import { updateDXCCData } from "../lib/update-strategy.js";
+import { saveAccountSummary } from "../lib/account-summary.js";
 import { createConfigContext } from "../index.js";
 import { program } from "commander";
 import dotenv from "dotenv";
@@ -163,6 +164,15 @@ program
           } else {
             console.log(`${item.callsign}: FAILED — ${item.error}`);
           }
+        }
+
+        if (!hadFailure) {
+          const rootConfigContext = await createConfigContext(cliOverrides);
+          const accountSummary = saveAccountSummary(
+            summary.map((item) => item.result?.data || item.result),
+            rootConfigContext.getPath("json"),
+          );
+          printStats(accountSummary, "LoTW Account");
         }
       }
 
