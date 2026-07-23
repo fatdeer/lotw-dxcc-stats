@@ -9,6 +9,8 @@ on:
       - main
     paths:
       - "lib/adif-processor.js"
+      - "lib/account-summary.js"
+      - "bin/update-stats"
   schedule:
    - cron: '0 2 * * *' # Execute daily at UTC 02:00 AM
   workflow_dispatch: # Support manual trigger

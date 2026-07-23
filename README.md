@@ -138,6 +138,8 @@ local-data/
 
 Each callsign maintains its own incremental-update timestamps, so QSO/QSL counts and DXCC totals are tracked independently. Failures on one callsign do not block updates for the others.
 
+After every successful multi-callsign run, the tool also writes an account-level `lotwDxcc.json` in the root output directory. Its QSO/QSL totals are the sum of all configured callsigns, while `dxcc_confirmed` is the union of confirmed entities. This keeps a stable root URL available for account-level Shields.io badges.
+
 > **Path-unsafe characters in callsigns**: callsigns containing `/`, `\`, `:`, `*`, `?`, `"`, `<`, `>`, or `|` (e.g. `BD4VOJ/QRP`) are still queried verbatim from LoTW, but the directory name is sanitized by replacing those characters with `_`. So `BD4VOJ/QRP` lives under `local-data/BD4VOJ_QRP/`.
 
 You can also restrict a single run to one callsign with the CLI flag:
