@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" width="900" height="440" role="img" aria-label="DXCC Confirmed Entities Growth - BD4VOJ/QRP" style="background:#fff;font-family:Arial,sans-serif">
+  <rect width="900" height="440" fill="white"/>
+  <text x="450" y="25" text-anchor="middle" font-size="16" font-weight="bold" fill="#333">DXCC Confirmed Entities Growth - BD4VOJ/QRP</text>
+  <line x1="60" y1="380" x2="780" y2="380" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="52" y="384" text-anchor="end" font-size="11" fill="#666">0</text>
+  <line x1="60" y1="325" x2="780" y2="325" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="52" y="329" text-anchor="end" font-size="11" fill="#666">25</text>
+  <line x1="60" y1="270" x2="780" y2="270" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="52" y="274" text-anchor="end" font-size="11" fill="#666">50</text>
+  <line x1="60" y1="215" x2="780" y2="215" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="52" y="219" text-anchor="end" font-size="11" fill="#666">75</text>
+  <line x1="60" y1="160" x2="780" y2="160" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="52" y="164" text-anchor="end" font-size="11" fill="#666">100</text>
+  <line x1="60" y1="105" x2="780" y2="105" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="52" y="109" text-anchor="end" font-size="11" fill="#666">125</text>
+  <line x1="60" y1="50" x2="780" y2="50" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="52" y="54" text-anchor="end" font-size="11" fill="#666">150</text>
+  <line x1="60" y1="380" x2="780" y2="380" stroke="#999" stroke-width="1"/>
+  <line x1="135.78947368421052" y1="380" x2="135.78947368421052" y2="385" stroke="#999" stroke-width="1"/>
+  <text x="135.78947368421052" y="400" text-anchor="middle" font-size="10" fill="#666">2023-12</text>
+  <line x1="249.4736842105263" y1="380" x2="249.4736842105263" y2="385" stroke="#999" stroke-width="1"/>
+  <text x="249.4736842105263" y="400" text-anchor="middle" font-size="10" fill="#666">2024-06</text>
+  <line x1="363.1578947368421" y1="380" x2="363.1578947368421" y2="385" stroke="#999" stroke-width="1"/>
+  <text x="363.1578947368421" y="400" text-anchor="middle" font-size="10" fill="#666">2024-12</text>
+  <line x1="476.84210526315786" y1="380" x2="476.84210526315786" y2="385" stroke="#999" stroke-width="1"/>
+  <text x="476.84210526315786" y="400" text-anchor="middle" font-size="10" fill="#666">2025-06</text>
+  <line x1="590.5263157894736" y1="380" x2="590.5263157894736" y2="385" stroke="#999" stroke-width="1"/>
+  <text x="590.5263157894736" y="400" text-anchor="middle" font-size="10" fill="#666">2025-12</text>
+  <line x1="704.2105263157894" y1="380" x2="704.2105263157894" y2="385" stroke="#999" stroke-width="1"/>
+  <text x="704.2105263157894" y="400" text-anchor="middle" font-size="10" fill="#666">2026-06</text>
+  <line x1="60" y1="50" x2="60" y2="380" stroke="#999" stroke-width="1"/>
+  <path d="M 60.0 340.4 C 66.3 316.2, 72.6 292.0, 78.9 292.0 C 85.3 292.0, 91.6 292.0, 97.9 292.0 C 104.2 292.0, 110.5 288.5, 116.8 285.4 C 123.2 282.3, 129.5 274.3, 135.8 270.0 C 142.1 265.7, 148.4 261.1, 154.7 259.0 C 161.1 256.9, 167.4 255.6, 173.7 254.6 C 180.0 253.6, 186.3 253.6, 192.6 252.4 C 198.9 251.2, 205.3 243.6, 211.6 243.6 C 217.9 243.6, 224.2 243.6, 230.5 243.6 C 236.8 243.6, 243.2 243.6, 249.5 243.6 C 255.8 243.6, 262.1 238.8, 268.4 237.0 C 274.7 235.2, 281.1 232.6, 287.4 232.6 C 293.7 232.6, 300.0 232.6, 306.3 232.6 C 312.6 232.6, 318.9 210.9, 325.3 208.4 C 331.6 205.9, 337.9 205.8, 344.2 204.0 C 350.5 202.2, 356.8 199.2, 363.2 197.4 C 369.5 195.6, 375.8 194.0, 382.1 193.0 C 388.4 192.0, 394.7 190.8, 401.1 190.8 C 407.4 190.8, 413.7 190.8, 420.0 190.8 C 426.3 190.8, 432.6 188.6, 438.9 188.6 C 445.3 188.6, 451.6 188.6, 457.9 188.6 C 464.2 188.6, 470.5 188.6, 476.8 188.6 C 483.2 188.6, 489.5 186.4, 495.8 186.4 C 502.1 186.4, 508.4 186.4, 514.7 186.4 C 521.1 186.4, 527.4 182.7, 533.7 179.8 C 540.0 176.9, 546.3 167.9, 552.6 166.6 C 558.9 165.3, 565.3 165.5, 571.6 164.4 C 577.9 163.3, 584.2 158.9, 590.5 157.8 C 596.8 156.7, 603.2 156.3, 609.5 155.6 C 615.8 154.9, 622.1 154.1, 628.4 153.4 C 634.7 152.7, 641.1 151.2, 647.4 151.2 C 653.7 151.2, 660.0 151.2, 666.3 151.2 C 672.6 151.2, 678.9 151.2, 685.3 151.2 C 691.6 151.2, 697.9 151.2, 704.2 151.2 C 710.5 151.2, 716.8 151.2, 723.2 151.2 C 729.5 151.2, 735.8 151.2, 742.1 151.2 C 748.4 151.2, 754.7 149.7, 761.1 149.0 C 767.4 148.3, 773.7 147.5, 780.0 146.8" fill="none" stroke="#3b82f6" stroke-width="2.25" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M 60.0 380.0 C 66.3 380.0, 72.6 380.0, 78.9 380.0 C 85.3 380.0, 91.6 380.0, 97.9 380.0 C 104.2 380.0, 110.5 380.0, 116.8 380.0 C 123.2 380.0, 129.5 380.0, 135.8 380.0 C 142.1 380.0, 148.4 380.0, 154.7 380.0 C 161.1 380.0, 167.4 380.0, 173.7 380.0 C 180.0 380.0, 186.3 380.0, 192.6 380.0 C 198.9 380.0, 205.3 380.0, 211.6 380.0 C 217.9 380.0, 224.2 380.0, 230.5 380.0 C 236.8 380.0, 243.2 380.0, 249.5 380.0 C 255.8 380.0, 262.1 380.0, 268.4 380.0 C 274.7 380.0, 281.1 380.0, 287.4 380.0 C 293.7 380.0, 300.0 380.0, 306.3 380.0 C 312.6 380.0, 318.9 380.0, 325.3 380.0 C 331.6 380.0, 337.9 380.0, 344.2 380.0 C 350.5 380.0, 356.8 380.0, 363.2 380.0 C 369.5 380.0, 375.8 380.0, 382.1 380.0 C 388.4 380.0, 394.7 380.0, 401.1 380.0 C 407.4 380.0, 413.7 380.0, 420.0 380.0 C 426.3 380.0, 432.6 380.0, 438.9 380.0 C 445.3 380.0, 451.6 380.0, 457.9 380.0 C 464.2 380.0, 470.5 380.0, 476.8 380.0 C 483.2 380.0, 489.5 380.0, 495.8 380.0 C 502.1 380.0, 508.4 380.0, 514.7 380.0 C 521.1 380.0, 527.4 380.0, 533.7 380.0 C 540.0 380.0, 546.3 380.0, 552.6 380.0 C 558.9 380.0, 565.3 380.0, 571.6 380.0 C 577.9 380.0, 584.2 380.0, 590.5 380.0 C 596.8 380.0, 603.2 380.0, 609.5 380.0 C 615.8 380.0, 622.1 380.0, 628.4 380.0 C 634.7 380.0, 641.1 380.0, 647.4 380.0 C 653.7 380.0, 660.0 380.0, 666.3 380.0 C 672.6 380.0, 678.9 380.0, 685.3 380.0 C 691.6 380.0, 697.9 380.0, 704.2 380.0 C 710.5 380.0, 716.8 380.0, 723.2 380.0 C 729.5 380.0, 735.8 380.0, 742.1 380.0 C 748.4 380.0, 754.7 380.0, 761.1 380.0 C 767.4 380.0, 773.7 380.0, 780.0 380.0" fill="none" stroke="#22c55e" stroke-width="2.25" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M 60.0 380.0 C 66.3 380.0, 72.6 380.0, 78.9 380.0 C 85.3 380.0, 91.6 380.0, 97.9 380.0 C 104.2 380.0, 110.5 380.0, 116.8 380.0 C 123.2 380.0, 129.5 380.0, 135.8 380.0 C 142.1 380.0, 148.4 380.0, 154.7 380.0 C 161.1 380.0, 167.4 380.0, 173.7 380.0 C 180.0 380.0, 186.3 380.0, 192.6 380.0 C 198.9 380.0, 205.3 380.0, 211.6 380.0 C 217.9 380.0, 224.2 380.0, 230.5 380.0 C 236.8 380.0, 243.2 380.0, 249.5 380.0 C 255.8 380.0, 262.1 380.0, 268.4 380.0 C 274.7 380.0, 281.1 380.0, 287.4 380.0 C 293.7 380.0, 300.0 380.0, 306.3 380.0 C 312.6 380.0, 318.9 380.0, 325.3 380.0 C 331.6 380.0, 337.9 380.0, 344.2 380.0 C 350.5 380.0, 356.8 380.0, 363.2 380.0 C 369.5 380.0, 375.8 380.0, 382.1 380.0 C 388.4 380.0, 394.7 380.0, 401.1 380.0 C 407.4 380.0, 413.7 380.0, 420.0 380.0 C 426.3 380.0, 432.6 380.0, 438.9 380.0 C 445.3 380.0, 451.6 380.0, 457.9 380.0 C 464.2 380.0, 470.5 380.0, 476.8 380.0 C 483.2 380.0, 489.5 380.0, 495.8 380.0 C 502.1 380.0, 508.4 380.0, 514.7 380.0 C 521.1 380.0, 527.4 380.0, 533.7 380.0 C 540.0 380.0, 546.3 380.0, 552.6 380.0 C 558.9 380.0, 565.3 380.0, 571.6 380.0 C 577.9 380.0, 584.2 380.0, 590.5 380.0 C 596.8 380.0, 603.2 380.0, 609.5 380.0 C 615.8 380.0, 622.1 380.0, 628.4 380.0 C 634.7 380.0, 641.1 380.0, 647.4 380.0 C 653.7 380.0, 660.0 380.0, 666.3 380.0 C 672.6 380.0, 678.9 380.0, 685.3 380.0 C 691.6 380.0, 697.9 380.0, 704.2 380.0 C 710.5 380.0, 716.8 380.0, 723.2 380.0 C 729.5 380.0, 735.8 380.0, 742.1 380.0 C 748.4 380.0, 754.7 380.0, 761.1 380.0 C 767.4 380.0, 773.7 380.0, 780.0 380.0" fill="none" stroke="#f97316" stroke-width="2.25" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M 60.0 340.4 C 66.3 316.2, 72.6 292.0, 78.9 292.0 C 85.3 292.0, 91.6 292.0, 97.9 292.0 C 104.2 292.0, 110.5 288.5, 116.8 285.4 C 123.2 282.3, 129.5 274.3, 135.8 270.0 C 142.1 265.7, 148.4 261.1, 154.7 259.0 C 161.1 256.9, 167.4 255.6, 173.7 254.6 C 180.0 253.6, 186.3 253.6, 192.6 252.4 C 198.9 251.2, 205.3 243.6, 211.6 243.6 C 217.9 243.6, 224.2 243.6, 230.5 243.6 C 236.8 243.6, 243.2 243.6, 249.5 243.6 C 255.8 243.6, 262.1 238.8, 268.4 237.0 C 274.7 235.2, 281.1 232.6, 287.4 232.6 C 293.7 232.6, 300.0 232.6, 306.3 232.6 C 312.6 232.6, 318.9 210.9, 325.3 208.4 C 331.6 205.9, 337.9 205.8, 344.2 204.0 C 350.5 202.2, 356.8 199.2, 363.2 197.4 C 369.5 195.6, 375.8 194.0, 382.1 193.0 C 388.4 192.0, 394.7 190.8, 401.1 190.8 C 407.4 190.8, 413.7 190.8, 420.0 190.8 C 426.3 190.8, 432.6 188.6, 438.9 188.6 C 445.3 188.6, 451.6 188.6, 457.9 188.6 C 464.2 188.6, 470.5 188.6, 476.8 188.6 C 483.2 188.6, 489.5 186.4, 495.8 186.4 C 502.1 186.4, 508.4 186.4, 514.7 186.4 C 521.1 186.4, 527.4 182.7, 533.7 179.8 C 540.0 176.9, 546.3 167.9, 552.6 166.6 C 558.9 165.3, 565.3 165.5, 571.6 164.4 C 577.9 163.3, 584.2 158.9, 590.5 157.8 C 596.8 156.7, 603.2 156.3, 609.5 155.6 C 615.8 154.9, 622.1 154.1, 628.4 153.4 C 634.7 152.7, 641.1 151.2, 647.4 151.2 C 653.7 151.2, 660.0 151.2, 666.3 151.2 C 672.6 151.2, 678.9 151.2, 685.3 151.2 C 691.6 151.2, 697.9 151.2, 704.2 151.2 C 710.5 151.2, 716.8 151.2, 723.2 151.2 C 729.5 151.2, 735.8 151.2, 742.1 151.2 C 748.4 151.2, 754.7 149.7, 761.1 149.0 C 767.4 148.3, 773.7 147.5, 780.0 146.8" fill="none" stroke="#a855f7" stroke-width="2.25" stroke-linejoin="round" stroke-linecap="round"/>
+  <line x1="135.8" y1="270.0" x2="135.8" y2="258.0" stroke="#3b82f6" stroke-width="1" stroke-opacity="0.55"/>
+  <circle cx="135.8" cy="270.0" r="3" fill="white" stroke="#3b82f6" stroke-width="2"><title>2023-12 · Mixed: 50</title></circle>
+  <text x="135.8" y="262.0" text-anchor="middle" font-size="10" font-weight="600" fill="#3b82f6" stroke="white" stroke-width="3" paint-order="stroke">50</text>
+  <line x1="135.8" y1="270.0" x2="135.8" y2="274.0" stroke="#a855f7" stroke-width="1" stroke-opacity="0.55"/>
+  <circle cx="135.8" cy="270.0" r="3" fill="white" stroke="#a855f7" stroke-width="2"><title>2023-12 · Digital: 50</title></circle>
+  <text x="135.8" y="278.0" text-anchor="middle" font-size="10" font-weight="600" fill="#a855f7" stroke="white" stroke-width="3" paint-order="stroke">50</text>
+  <line x1="249.5" y1="243.6" x2="249.5" y2="231.6" stroke="#3b82f6" stroke-width="1" stroke-opacity="0.55"/>
+  <circle cx="249.5" cy="243.6" r="3" fill="white" stroke="#3b82f6" stroke-width="2"><title>2024-06 · Mixed: 62</title></circle>
+  <text x="249.5" y="235.6" text-anchor="middle" font-size="10" font-weight="600" fill="#3b82f6" stroke="white" stroke-width="3" paint-order="stroke">62</text>
+  <line x1="249.5" y1="243.6" x2="249.5" y2="247.6" stroke="#a855f7" stroke-width="1" stroke-opacity="0.55"/>
+  <circle cx="249.5" cy="243.6" r="3" fill="white" stroke="#a855f7" stroke-width="2"><title>2024-06 · Digital: 62</title></circle>
+  <text x="249.5" y="251.6" text-anchor="middle" font-size="10" font-weight="600" fill="#a855f7" stroke="white" stroke-width="3" paint-order="stroke">62</text>
+  <line x1="363.2" y1="197.4" x2="363.2" y2="185.4" stroke="#3b82f6" stroke-width="1" stroke-opacity="0.55"/>
+  <circle cx="363.2" cy="197.4" r="3" fill="white" stroke="#3b82f6" stroke-width="2"><title>2024-12 · Mixed: 83</title></circle>
+  <text x="363.2" y="189.4" text-anchor="middle" font-size="10" font-weight="600" fill="#3b82f6" stroke="white" stroke-width="3" paint-order="stroke">83</text>
+  <line x1="363.2" y1="197.4" x2="363.2" y2="201.4" stroke="#a855f7" stroke-width="1" stroke-opacity="0.55"/>
+  <circle cx="363.2" cy="197.4" r="3" fill="white" stroke="#a855f7" stroke-width="2"><title>2024-12 · Digital: 83</title></circle>
+  <text x="363.2" y="205.4" text-anchor="middle" font-size="10" font-weight="600" fill="#a855f7" stroke="white" stroke-width="3" paint-order="stroke">83</text>
+  <line x1="476.8" y1="188.6" x2="476.8" y2="176.6" stroke="#3b82f6" stroke-width="1" stroke-opacity="0.55"/>
+  <circle cx="476.8" cy="188.6" r="3" fill="white" stroke="#3b82f6" stroke-width="2"><title>2025-06 · Mixed: 87</title></circle>
+  <text x="476.8" y="180.6" text-anchor="middle" font-size="10" font-weight="600" fill="#3b82f6" stroke="white" stroke-width="3" paint-order="stroke">87</text>
+  <line x1="476.8" y1="188.6" x2="476.8" y2="192.6" stroke="#a855f7" stroke-width="1" stroke-opacity="0.55"/>
+  <circle cx="476.8" cy="188.6" r="3" fill="white" stroke="#a855f7" stroke-width="2"><title>2025-06 · Digital: 87</title></circle>
+  <text x="476.8" y="196.6" text-anchor="middle" font-size="10" font-weight="600" fill="#a855f7" stroke="white" stroke-width="3" paint-order="stroke">87</text>
+  <line x1="590.5" y1="157.8" x2="590.5" y2="145.8" stroke="#3b82f6" stroke-width="1" stroke-opacity="0.55"/>
+  <circle cx="590.5" cy="157.8" r="3" fill="white" stroke="#3b82f6" stroke-width="2"><title>2025-12 · Mixed: 101</title></circle>
+  <text x="590.5" y="149.8" text-anchor="middle" font-size="10" font-weight="600" fill="#3b82f6" stroke="white" stroke-width="3" paint-order="stroke">101</text>
+  <line x1="590.5" y1="157.8" x2="590.5" y2="161.8" stroke="#a855f7" stroke-width="1" stroke-opacity="0.55"/>
+  <circle cx="590.5" cy="157.8" r="3" fill="white" stroke="#a855f7" stroke-width="2"><title>2025-12 · Digital: 101</title></circle>
+  <text x="590.5" y="165.8" text-anchor="middle" font-size="10" font-weight="600" fill="#a855f7" stroke="white" stroke-width="3" paint-order="stroke">101</text>
+  <line x1="704.2" y1="151.2" x2="704.2" y2="139.2" stroke="#3b82f6" stroke-width="1" stroke-opacity="0.55"/>
+  <circle cx="704.2" cy="151.2" r="3" fill="white" stroke="#3b82f6" stroke-width="2"><title>2026-06 · Mixed: 104</title></circle>
+  <text x="704.2" y="143.2" text-anchor="middle" font-size="10" font-weight="600" fill="#3b82f6" stroke="white" stroke-width="3" paint-order="stroke">104</text>
+  <line x1="704.2" y1="151.2" x2="704.2" y2="155.2" stroke="#a855f7" stroke-width="1" stroke-opacity="0.55"/>
+  <circle cx="704.2" cy="151.2" r="3" fill="white" stroke="#a855f7" stroke-width="2"><title>2026-06 · Digital: 104</title></circle>
+  <text x="704.2" y="159.2" text-anchor="middle" font-size="10" font-weight="600" fill="#a855f7" stroke="white" stroke-width="3" paint-order="stroke">104</text>
+  <line x1="780.0" y1="146.8" x2="789.0" y2="134.8" stroke="#3b82f6" stroke-width="1" stroke-opacity="0.55"/>
+  <circle cx="780.0" cy="146.8" r="3" fill="white" stroke="#3b82f6" stroke-width="2"><title>2026-10 · Mixed: 106</title></circle>
+  <text x="789.0" y="138.8" text-anchor="start" font-size="10" font-weight="600" fill="#3b82f6" stroke="white" stroke-width="3" paint-order="stroke">Mixed 106</text>
+  <line x1="780.0" y1="146.8" x2="789.0" y2="150.8" stroke="#a855f7" stroke-width="1" stroke-opacity="0.55"/>
+  <circle cx="780.0" cy="146.8" r="3" fill="white" stroke="#a855f7" stroke-width="2"><title>2026-10 · Digital: 106</title></circle>
+  <text x="789.0" y="154.8" text-anchor="start" font-size="10" font-weight="600" fill="#a855f7" stroke="white" stroke-width="3" paint-order="stroke">Digital 106</text>
+  <line x1="780.0" y1="380.0" x2="789.0" y2="354.0" stroke="#22c55e" stroke-width="1" stroke-opacity="0.55"/>
+  <circle cx="780.0" cy="380.0" r="3" fill="white" stroke="#22c55e" stroke-width="2"><title>2026-10 · Phone: 0</title></circle>
+  <text x="789.0" y="358.0" text-anchor="start" font-size="10" font-weight="600" fill="#22c55e" stroke="white" stroke-width="3" paint-order="stroke">Phone 0</text>
+  <line x1="780.0" y1="380.0" x2="789.0" y2="370.0" stroke="#f97316" stroke-width="1" stroke-opacity="0.55"/>
+  <circle cx="780.0" cy="380.0" r="3" fill="white" stroke="#f97316" stroke-width="2"><title>2026-10 · CW: 0</title></circle>
+  <text x="789.0" y="374.0" text-anchor="start" font-size="10" font-weight="600" fill="#f97316" stroke="white" stroke-width="3" paint-order="stroke">CW 0</text>
+  <rect x="62" y="53" width="185" height="88" rx="4" fill="white" fill-opacity="0.9" stroke="#ddd" stroke-width="1"/>
+  <line x1="70" y1="65" x2="90" y2="65" stroke="#3b82f6" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="80" cy="65" r="3" fill="#3b82f6"/>
+  <text x="96" y="69" font-size="10" fill="#333">Mixed (all modes)</text>
+  <line x1="70" y1="85" x2="90" y2="85" stroke="#22c55e" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="80" cy="85" r="3" fill="#22c55e"/>
+  <text x="96" y="89" font-size="10" fill="#333">Phone (SSB/FM)</text>
+  <line x1="70" y1="105" x2="90" y2="105" stroke="#f97316" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="80" cy="105" r="3" fill="#f97316"/>
+  <text x="96" y="109" font-size="10" fill="#333">CW</text>
+  <line x1="70" y1="125" x2="90" y2="125" stroke="#a855f7" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="80" cy="125" r="3" fill="#a855f7"/>
+  <text x="96" y="129" font-size="10" fill="#333">Digital (FT8/RTTY/...)</text>
+</svg>
